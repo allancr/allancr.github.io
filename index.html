@@ -78,13 +78,14 @@
       const typeClass = item.tipo === 'EX-COMPANHEIRO(A)' ? 'ex-companion' : '';
 
       // Convertendo URL apenas se "completo" for true
-      const photoUrl = item.urlFotoLocal || iimg/tem.urlFoto || 'pessoa.png';
+      const photoUrl = item.urlFotoLocal || 'pessoa.png';
 
       const nodeContent = `
         <div class="node ${nodeClass} ${typeClass}">
           ${photoUrl ? `<img src="${photoUrl}" alt="${item.nome}" onerror="this.onerror=null; this.src='img/pessoa.png'">` : ''}
           <div>
-            <strong>${item.nome}</strong> (${item.tipo})<br>
+            <i>${item.tipo}<i><br>
+            <strong>${item.nome}</strong><br>
             <small>${item.dataNascimento}</small>
           </div>
         </div>

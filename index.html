@@ -24,7 +24,7 @@
       padding: 0;
     }
     ul.tree li {
-      margin: 0 0 10px 20px;
+      margin: 0 0 10px 30px;
       position: relative;
     }
     ul.tree li:before {
@@ -71,6 +71,9 @@
     .node.ex-companion {
       opacity: 0.6;
     }
+    .node.da-familia div small:first-child {
+      display: none;
+    }
   </style>
 </head>
 <body>
@@ -82,7 +85,7 @@
     function createNode(item) {
       const li = document.createElement('li');
       const nodeClass = item.completo ? '' : 'incomplete';
-      const typeClass = item.tipo === 'EX-COMPANHEIRO(A)' ? 'ex-companion' : '';
+      const typeClass = item.tipo === 'EX-COMPANHEIRO(A)' ? 'ex-companion' : (item.tipo === 'FILHO(A)' ? 'da-familia' : '');
       const genderClass = item.sexo === 'M' ? 'male' : item.sexo === 'F' ? 'female' : '';
 
       const photoUrl = item.urlFotoLocal || 'pessoa.png';
@@ -91,7 +94,7 @@
         <div class="node ${nodeClass} ${typeClass} ${genderClass}">
           ${photoUrl ? `<img src="${photoUrl}" alt="${item.nome}" onerror="this.onerror=null; this.src='img/pessoa.png'">` : ''}
           <div>
-            <i>${item.tipo}<i><br>
+            <small><i>${item.tipo}<i><br></small>
             <strong>${item.nome}</strong><br>
             <small>${item.dataNascimento}</small>
           </div>

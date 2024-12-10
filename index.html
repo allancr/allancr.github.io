@@ -236,7 +236,13 @@
     // Função para converter links do Google Drive em URLs diretas
     function convertGoogleDriveUrl(url) {
       const match = url.match(/\/d\/([^/]+)\//);
-      return match ? `https://drive.google.com/uc?export=view&id=${match[1]}` : url;
+      if (match) {
+        const id = match[1];
+        console.log(`Convertendo URL: ${url} para https://drive.google.com/uc?export=view&id=${id}`);
+        return `https://drive.google.com/uc?export=view&id=${id}`;
+      }
+      console.warn(`URL inválida: ${url}`);
+      return url;
     }
 
     function createNode(item) {
@@ -248,7 +254,7 @@
 
       const nodeContent = `
         <div class="node ${nodeClass} ${typeClass}">
-          ${photoUrl ? `<img src="${photoUrl}" alt="${item.nome}">` : ''}
+          ${photoUrl ? `<img src="${photoUrl}" alt="${item.nome}" onerror="this.onerror=null; this.src='https://via.placeholder.com/50?text=Erro'">` : ''}
           <div>
             <strong>${item.nome}</strong> (${item.tipo})<br>
             <small>${item.dataNascimento}</small>

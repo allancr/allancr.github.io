@@ -45,12 +45,12 @@
     }
     .node {
       padding: 10px;
-      background: #fff;
       border: 1px solid #ccc;
       border-radius: 5px;
       display: flex;
       align-items: center;
       gap: 10px;
+      background: #fff;
     }
     .node img {
       width: 50px;
@@ -58,8 +58,15 @@
       border-radius: 50%;
       object-fit: cover;
     }
+    .node.male {
+      background-color: #d9fdda;
+    }
+    .node.female {
+      background-color: #fff5aa;
+    }
     .node.incomplete {
       color: red;
+      background-color: #ffa52c;
     }
     .node.ex-companion {
       opacity: 0.6;
@@ -76,12 +83,12 @@
       const li = document.createElement('li');
       const nodeClass = item.completo ? '' : 'incomplete';
       const typeClass = item.tipo === 'EX-COMPANHEIRO(A)' ? 'ex-companion' : '';
+      const genderClass = item.sexo === 'M' ? 'male' : item.sexo === 'F' ? 'female' : '';
 
-      // Convertendo URL apenas se "completo" for true
       const photoUrl = item.urlFotoLocal || 'pessoa.png';
 
       const nodeContent = `
-        <div class="node ${nodeClass} ${typeClass}">
+        <div class="node ${nodeClass} ${typeClass} ${genderClass}">
           ${photoUrl ? `<img src="${photoUrl}" alt="${item.nome}" onerror="this.onerror=null; this.src='img/pessoa.png'">` : ''}
           <div>
             <i>${item.tipo}<i><br>
@@ -110,7 +117,6 @@
       treeContainer.appendChild(createNode(data));
     }
 
-    // Função para carregar dados do arquivo JSON
     async function loadFamilyData() {
       try {
         const response = await fetch('familia.json');
@@ -118,7 +124,7 @@
           throw new Error(`Erro ao carregar o arquivo: ${response.status}`);
         }
         const data = await response.json();
-        buildTree(data); // Constrói a árvore genealógica com os dados carregados
+        buildTree(data);
       } catch (error) {
         console.error('Erro ao carregar os dados da família:', error);
       }

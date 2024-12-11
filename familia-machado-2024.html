@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Árvore Genealógica</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .tree-container {
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    ul.tree {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul.tree li {
+      margin: 0 0 10px 30px;
+      position: relative;
+    }
+    ul.tree li:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -10px;
+      border-left: 2px solid #ccc;
+      border-bottom: 2px solid #ccc;
+      width: 10px;
+      height: 20px;
+    }
+    ul.tree li:first-child:before {
+      border-top: none;
+    }
+    ul.tree li:last-child:before {
+      height: 10px;
+    }
+    .node {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #fff;
+    }
+    .node img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .node.male {
+      background-color: #d9fdda;
+    }
+    .node.female {
+      background-color: #fff5aa;
+    }
+    .node.incomplete {
+      color: red;
+      background-color: #ffa52c;
+    }
+    .node.ex-companion {
+      opacity: 0.6;
+/*      display: none;*/
+    }
+    .node.da-familia div small:first-child {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="tree-container">
+    <ul id="genealogyTree" class="tree"></ul>
+  </div>
+
+  <script>
+    function createNode(item) {
+      const li = document.createElement('li');
+      const nodeClass = item.completo ? '' : 'incomplete';
+      const typeClass = item.tipo === 'EX-COMPANHEIRO(A)' ? 'ex-companion' : (item.tipo === 'FILHO(A)' ? 'da-familia' : '');
+      const genderClass = item.sexo === 'M' ? 'male' : item.sexo === 'F' ? 'female' : '';
+
+      const photoUrl = item.urlFotoLocal || 'pessoa.png';
+
+      const nodeContent = `
+        <div class="node ${nodeClass} ${typeClass} ${genderClass}">
+          ${photoUrl ? `<img src="${photoUrl}" alt="${item.nome}" onerror="this.onerror=null; this.src='img/pessoa.png'">` : ''}
+          <div>
+            <small><i>${item.tipo}<i><br></small>
+            <strong>${item.nome}</strong><br>
+            <small>${item.dataNascimento}</small>
+          </div>
+        </div>
+      `;
+
+      li.innerHTML = nodeContent;
+
+      if (item.dependentes && item.dependentes.length) {
+        const ul = document.createElement('ul');
+        ul.classList.add('tree');
+        item.dependentes.forEach(dep => {
+          if (dep.ativo) {
+            ul.appendChild(createNode(dep));
+          }
+        });
+        li.appendChild(ul);
+      }
+
+      return li;
+    }
+
+    function buildTree(data) {
+      const treeContainer = document.getElementById('genealogyTree');
+      treeContainer.appendChild(createNode(data));
+    }
+
+    async function loadFamilyData() {
+      try {
+        const response = await fetch('familia.json');
+        if (!response.ok) {
+          throw new Error(`Erro ao carregar o arquivo: ${response.status}`);
+        }
+        const data = await response.json();
+        buildTree(data);
+      } catch (error) {
+        console.error('Erro ao carregar os dados da família:', error);
+      }
+    }
+
+    loadFamilyData();
+  </script>
+</body>
+</html>

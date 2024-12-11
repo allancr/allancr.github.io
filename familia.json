@@ -110,7 +110,7 @@
     {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Rosana de Lourdes Caixeta", "dataNascimento": "02/03/1989", "urlFotoLocal": "img/Rosana_de_Lourdes_Caixeta_-_02-03-1989.jpeg", "dependentes": [
       {"completo": true, "ativo": true, "sexo": "M", "tipo": "COMPANHEIRO(A)", "nome": "Luis Antônio de Sousa", "dataNascimento": "05/01/1991", "urlFotoLocal": "img/Luis_Antônio_de_Sousa_-_05-01-1991.jpeg"}
     ]},
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Wallace Evaristo Caixêta", "dataNascimento": "26/10/1990", "urlFotoLocal": "img/Wallace_Evaristo_Caixêta_-_26-10-1990.jpeg", "dependentes": [
+    {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Wallace Evaristo Machado Caixêta", "dataNascimento": "26/10/1990", "urlFotoLocal": "img/Wallace_Evaristo_Machado_Caixêta-_26-10-1990.jpeg", "dependentes": [
       {"completo": true, "ativo": true, "sexo": "F", "tipo": "COMPANHEIRO(A)", "nome": "Fernanda Pereira Canedo Caixêta", "dataNascimento": "11/07/1991", "urlFotoLocal": "img/Fernanda_Pereira_Canedo_Caixêta_-_11-07-1991.jpeg"},
       {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Liz Canedo Caixêta", "dataNascimento": "19/12/2023", "urlFotoLocal": "img/Liz_Canedo_Caixêta_-_19-12-2023.jpeg"}
     ]},

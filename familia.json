@@ -121,8 +121,8 @@
   ]},
   {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Jose Giovanne Machado", "dataNascimento": "27/02/1969", "urlFotoLocal": "img/Jose_Giovanne_Machado_-_27-02-1969.jpeg", "dependentes": [
     {"completo": true, "ativo": true, "sexo": "F", "tipo": "COMPANHEIRO(A)", "nome": "Maria Helena de Castro Machado", "dataNascimento": "21/04/1963", "urlFotoLocal": "img/Maria_Helena_de_Castro_Machado_-_21-04-1963.jpeg"},
-    {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "José Augusto de Castro Machado", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/José_Augusto_de_Castro_Machado_-_99/99/9999.jpeg", "dependentes": [
-      {"completo": false, "ativo": true, "sexo": "F", "tipo": "COMPANHEIRO(A)", "nome": "Fabiane Aparecida Saavedra Caixeta", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/Fabiane_Aparecida_Saavedra_Caixeta_-_99/99/9999.jpeg"},
+    {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "José Augusto de Castro Machado", "dataNascimento": "19/05/1995", "urlFotoLocal": "img/José_Augusto_de_Castro_Machado_-_19-05-1995.jpeg", "dependentes": [
+      {"completo": true, "ativo": true, "sexo": "F", "tipo": "COMPANHEIRO(A)", "nome": "Fabiane Aparecida Saavedra Caixeta", "dataNascimento": "04/07/2004", "urlFotoLocal": "img/Fabiane_Aparecida_Saavedra_Caixeta_-_04-07-2004.jpeg"},
         {"completo": false, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Jade Saavedra de Castro", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/Jade_Saavedra_de_Castro_-_99/99/9999.jpeg"}
     ]}, 
     {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Erica de Castro Machado", "dataNascimento": "15/10/1997", "urlFotoLocal": "img/Erica_de_Castro_Machado_-_15-10-1997.jpeg", "dependentes": [

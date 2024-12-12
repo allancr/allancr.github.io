@@ -57,6 +57,7 @@
       height: 50px;
       border-radius: 50%;
       object-fit: cover;
+      cursor: pointer;
     }
     .node.male {
       background-color: #d9fdda;
@@ -64,16 +65,42 @@
     .node.female {
       background-color: #fff5aa;
     }
-    .node.incomplete {
-      color: red;
-      background-color: #ffa52c;
-    }
-    .node.ex-companion {
-      opacity: 0.6;
-/*      display: none;*/
-    }
-    .node.da-familia div small:first-child {
+    .modal {
       display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+    }
+    .modal img {
+      max-width: 90%;
+      max-height: 90%;
+    }
+    .modal .close {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+    }
+    .modal .nav {
+      position: absolute;
+      top: 50%;
+      font-size: 40px;
+      color: white;
+      cursor: pointer;
+      transform: translateY(-50%);
+    }
+    .modal .prev {
+      left: 20px;
+    }
+    .modal .next {
+      right: 20px;
     }
   </style>
 </head>
@@ -82,22 +109,79 @@
     <ul id="genealogyTree" class="tree"></ul>
   </div>
 
+  <div id="imageModal" class="modal" onclick="handleModalClick(event)">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <span class="nav prev" onclick="navigateImage(-1)">&#10094;</span>
+    <span class="nav next" onclick="navigateImage(1)">&#10095;</span>
+    <img id="modalImage" src="" alt="">
+  </div>
+
   <script>
-    function createNode(item) {
+    let currentImageIndex = 0;
+    const imageUrls = [];
+
+    function openModal(index) {
+      currentImageIndex = index;
+      const modal = document.getElementById('imageModal');
+      const modalImage = document.getElementById('modalImage');
+      modalImage.src = imageUrls[index];
+      modal.style.display = 'flex';
+    }
+
+    function closeModal() {
+      const modal = document.getElementById('imageModal');
+      modal.style.display = 'none';
+    }
+
+    function navigateImage(direction) {
+      currentImageIndex = (currentImageIndex + direction + imageUrls.length) % imageUrls.length;
+      const modalImage = document.getElementById('modalImage');
+      modalImage.src = imageUrls[currentImageIndex];
+    }
+
+    function handleModalClick(event) {
+      if (event.target === document.getElementById('imageModal')) {
+        closeModal();
+      }
+    }
+
+    document.addEventListener('keydown', (event) => {
+      const modal = document.getElementById('imageModal');
+      if (modal.style.display === 'flex') {
+        switch (event.key) {
+          case 'Escape':
+            closeModal();
+            break;
+          case 'ArrowRight':
+          case 'ArrowUp':
+          case 'Enter':
+          case ' ': // Spacebar
+            navigateImage(1);
+            break;
+          case 'ArrowLeft':
+          case 'ArrowDown':
+            navigateImage(-1);
+            break;
+        }
+      }
+    });
+
+    function createNode(item, index) {
       const li = document.createElement('li');
       const nodeClass = item.completo ? '' : 'incomplete';
       const typeClass = item.tipo === 'EX-COMPANHEIRO(A)' ? 'ex-companion' : (item.tipo === 'FILHO(A)' ? 'da-familia' : '');
       const genderClass = item.sexo === 'M' ? 'male' : item.sexo === 'F' ? 'female' : '';
 
       const photoUrl = item.urlFotoLocal || 'pessoa.png';
+      imageUrls.push(photoUrl);
 
       const nodeContent = `
         <div class="node ${nodeClass} ${typeClass} ${genderClass}">
-          ${photoUrl ? `<img src="${photoUrl}" alt="${item.nome}" onerror="this.onerror=null; this.src='img/pessoa.png'">` : ''}
+          ${photoUrl ? `<img src="${photoUrl}" alt="${item.nome}" onclick="openModal(${index})">` : ''}
           <div>
             <small><i>${item.tipo}<i><br></small>
             <strong>${item.nome}</strong><br>
-            <small>${item.dataNascimento}</small>
+            <small>${item.dataNascimento || '-'}</small>
           </div>
         </div>
       `;
@@ -107,9 +191,9 @@
       if (item.dependentes && item.dependentes.length) {
         const ul = document.createElement('ul');
         ul.classList.add('tree');
-        item.dependentes.forEach(dep => {
+        item.dependentes.forEach((dep, i) => {
           if (dep.ativo) {
-            ul.appendChild(createNode(dep));
+            ul.appendChild(createNode(dep, imageUrls.length));
           }
         });
         li.appendChild(ul);
@@ -120,7 +204,7 @@
 
     function buildTree(data) {
       const treeContainer = document.getElementById('genealogyTree');
-      treeContainer.appendChild(createNode(data));
+      treeContainer.appendChild(createNode(data, 0));
     }
 
     async function loadFamilyData() {

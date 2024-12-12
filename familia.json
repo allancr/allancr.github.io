@@ -84,7 +84,7 @@
       {"completo": true, "ativo": true, "sexo": "F", "tipo": "COMPANHEIRO(A)", "nome": "Maria das Graças Soares de Abreu", "dataNascimento": "30/03", "urlFotoLocal": "img/Maria_das_Graças_Soares_de_Abreu_-_99-99-9999.jpeg"}
     ]},
     {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Roberto Rosa Caixeta", "dataNascimento": "06/06/1985", "urlFotoLocal": "img/Roberto_Rosa_Caixeta_-_06-06-1985.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "COMPANHEIRO(A)", "nome": "Mila Ribeiro", "dataNascimento": "07/10/89", "urlFotoLocal": "img/Mila_Ribeiro_-_07-10-1989.jpeg"},
+      {"completo": true, "ativo": true, "sexo": "F", "tipo": "COMPANHEIRO(A)", "nome": "Mila Ribeiro", "dataNascimento": "07/10/1989", "urlFotoLocal": "img/Mila_Ribeiro_-_07-10-1989.jpeg"},
       {"completo": true, "ativo": false, "sexo": "F", "tipo": "EX-COMPANHEIRO(A)", "nome": "Danubia Rodrigues de Freitas", "dataNascimento": "23/06/1991", "urlFotoLocal": "img/ex.png"},
       {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Amanda de Freitas Caixeta", "dataNascimento": "26/12/2008", "urlFotoLocal": "img/Amanda_de_Freitas_Caixeta_-_26-12-2008.jpeg"},
       {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Roberta de Freitas Caixeta", "dataNascimento": "25/09/2014", "urlFotoLocal": "img/Roberta_de_Freitas_Caixeta_-_25-09-2014.jpeg"}

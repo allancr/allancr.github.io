@@ -11,31 +11,35 @@
       color: #333;
       margin: 0;
       padding: 0;
+      line-height: 1.5;
       background-color: #fff; /* Fundo branco */
       background-image: 
         radial-gradient(circle, rgba(34, 139, 34, 0.3) 20%, transparent 20%), /* Folhas */
         linear-gradient(to right, rgba(139, 69, 19, 0.2) 20%, transparent 20%); /* Galhos */
       background-size: 200px 200px, 400px 400px; /* Ajusta o tamanho das repetições */
       background-repeat: repeat; /* Repetir o padrão */
-      margin: 0;
-      padding: 0;
-      height: 100vh; /* Garante que o fundo cubra toda a altura da tela */
     }
+
     .tree-container {
       padding: 20px;
       display: flex;
-      justify-content: center;
-      align-items: center;
       flex-direction: column;
+      align-items: center;
     }
+
     ul.tree {
       list-style-type: none;
       padding: 0;
+      margin: 0 auto;
+      max-width: 100%;
+      overflow-x: auto;
     }
+
     ul.tree li {
       margin: 0 0 10px 30px;
       position: relative;
     }
+
     ul.tree li:before {
       content: "";
       position: absolute;
@@ -46,12 +50,15 @@
       width: 10px;
       height: 20px;
     }
+
     ul.tree li:first-child:before {
       border-top: none;
     }
+
     ul.tree li:last-child:before {
       height: 10px;
     }
+
     .node {
       padding: 10px;
       border: 1px solid #ccc;
@@ -60,7 +67,9 @@
       align-items: center;
       gap: 10px;
       background: #fff;
+      max-width: 300px;
     }
+
     .node img {
       width: 50px;
       height: 50px;
@@ -68,12 +77,15 @@
       object-fit: cover;
       cursor: pointer;
     }
+
     .node.male {
       background-color: #d9fdda;
     }
+
     .node.female {
       background-color: #fff5aa;
     }
+
     .modal {
       display: none;
       position: fixed;
@@ -85,10 +97,12 @@
       justify-content: center;
       align-items: center;
     }
+
     .modal img {
       max-width: 90%;
       max-height: 90%;
     }
+
     .modal .close {
       position: absolute;
       top: 10px;
@@ -97,6 +111,7 @@
       color: white;
       cursor: pointer;
     }
+
     .modal .nav {
       position: absolute;
       top: 50%;
@@ -105,32 +120,15 @@
       cursor: pointer;
       transform: translateY(-50%);
     }
+
     .modal .prev {
       left: 20px;
     }
+
     .modal .next {
       right: 20px;
     }
-    .tree-container {
-        /* Center the tree horizontally */
-        text-align: center;
-    }
-    .tree {
-        /* Ensure proper spacing for the tree structure */
-        margin: 0 auto;
-    }
-    .tree li {
-        /* Adjust margins for better visual separation */
-        margin: 15px 0;
-    }
 
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
-      margin: 0;
-      padding: 0;
-    }
     .audio-container {
       z-index: 50;
       position: fixed;
@@ -143,12 +141,14 @@
       align-items: center;
       justify-content: center;
       box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
-      display: none; /* Inicialmente escondido */
+      display: none;
     }
+
     .audio-container audio {
       width: 100%;
       max-width: 600px;
     }
+
     .confirm-overlay {
       position: fixed;
       top: 0;
@@ -164,6 +164,7 @@
       font-size: 18px;
       z-index: 1000;
     }
+
     .confirm-overlay button {
       margin: 10px;
       padding: 10px 20px;
@@ -172,13 +173,55 @@
       border: none;
       border-radius: 5px;
     }
+
     .confirm-overlay .yes {
       background-color: #4CAF50;
       color: white;
     }
+
     .confirm-overlay .no {
       background-color: #f44336;
       color: white;
+    }
+
+    @media (max-width: 768px) {
+      .node {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .node img {
+        width: 40px;
+        height: 40px;
+      }
+
+      ul.tree li {
+        margin-left: 10px;
+      }
+
+      .audio-container audio {
+        width: 90%;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .node {
+        padding: 5px;
+      }
+
+      .node img {
+        width: 30px;
+        height: 30px;
+      }
+
+      .confirm-overlay {
+        font-size: 16px;
+      }
+
+      .confirm-overlay button {
+        font-size: 14px;
+        padding: 8px 16px;
+      }
     }
   </style>
 </head>

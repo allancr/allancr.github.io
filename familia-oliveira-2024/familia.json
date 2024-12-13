@@ -1,0 +1,29 @@
+{"completo": false, "ativo": true, "sexo": "M", "tipo": "PATRIARCA", "nome": "Hélio", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png", "dependentes": [
+  {"completo": false, "ativo": true, "sexo": "F", "tipo": "MATRIARCA", "nome": "Fiica", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"},
+  {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Maria Inês de Oliveira Ramalho", "dataNascimento": "11/10/1959", "urlFotoLocal": "img/pessoa.png", "dependentes": [
+    {"completo": true, "ativo": true, "sexo": "M", "tipo": "COMPANHEIRO(A)", "nome": "Carlos Ramalho Soares", "dataNascimento": "06/07/1959", "urlFotoLocal": "img/pessoa.png"},
+    {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Allan Carlos Ramalho", "dataNascimento": "03/08/1985", "urlFotoLocal": "img/Allan_Carlos_Ramalho_-_03-08-1985.jpeg", "dependentes": [
+      {"completo": true, "ativo": true, "sexo": "F", "tipo": "COMPANHEIRO(A)", "nome": "Karla Machado Palhares Ramalho", "dataNascimento": "29/07/1984", "urlFotoLocal": "img/Karla_Machado_Palhares_Ramalho_-_29-07-1984.jpeg"},
+      {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Lara Palhares Ramalho", "dataNascimento": "08/10/2016", "urlFotoLocal": "img/Lara_Palhares_Ramalho_-_08-10-2016.jpeg"},
+      {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Ian Palhares Ramalho", "dataNascimento": "22/10/2024", "urlFotoLocal": "img/Ian_Palhares_Ramalho_-_22-10-2024.jpeg"}
+    ]},
+    {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Dayse", "dataNascimento": "21/10/1985", "urlFotoLocal": "img/pessoa.png", "dependentes": [
+      {"completo": true, "ativo": true, "sexo": "M", "tipo": "COMPANHEIRO(A)", "nome": "Gustavo", "dataNascimento": "28/01/1988", "urlFotoLocal": "img/pessoa.png"},
+        {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Yuri", "dataNascimento": "13/04/2018", "urlFotoLocal": "img/pessoa.png"},
+        {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Raquel", "dataNascimento": "20/02/2023", "urlFotoLocal": "img/pessoa.png"}
+    ]},
+    {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Pollyana Karla Ramalho", "dataNascimento": "06/05/1989", "urlFotoLocal": "img/pessoa.png"}
+  ]},
+  {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Eliane", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png", "dependentes": [
+    {"completo": true, "ativo": true, "sexo": "M", "tipo": "COMPANHEIRO(A)", "nome": "JC", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"},
+    {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Andreya", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png", "dependentes": [
+      {"completo": true, "ativo": true, "sexo": "M", "tipo": "COMPANHEIRO(A)", "nome": "Pereirinha", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"},
+      {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Thomaz", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"},
+      {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Ananda", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"},
+      {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Bruno", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}
+    ]},
+    {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Rafhael", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png", "dependentes": [
+      {"completo": true, "ativo": true, "sexo": "F", "tipo": "COMPANHEIRO(A)", "nome": "Thayse", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}
+    ]}
+  ]}
+]}

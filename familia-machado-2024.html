@@ -27,6 +27,21 @@
       align-items: center;
     }
 
+    .tree-container > ul > li > ul > li:not(:only-child, :first-child)
+    , div.tree-container > ul > li {
+      background-color: #db862e3d;
+      border-radius: 5px;
+      padding: 15px;
+    }
+
+    div.tree-container > ul > li > ul > li:not(:only-child, :first-child):nth-child(odd) {
+      background-color: #369b2a33;
+    }
+
+    div.tree-container > ul > li {
+      background-color: #3988ff3d;
+    }
+
     ul.tree {
       list-style-type: none;
       padding: 0;
@@ -365,7 +380,7 @@
             }
 
             // Apply indentation based on the level
-            li.style.marginLeft = level * 30 + 'px'; // Adjust indentation value as needed
+            li.style.marginLeft = level * 10 + 'px'; // Adjust indentation value as needed
 
             return li;
         }

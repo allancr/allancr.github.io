@@ -285,6 +285,7 @@
         confirmOverlay.style.display = 'none'; // Esconde o overlay
         audioContainer.style.display = 'flex'; // Exibe o player de áudio
         id.style['margin-top'] = '100px';
+        audioElement.volume = 0.5;
         audioElement.play().catch(error => {
           console.error('Erro ao iniciar a reprodução de áudio:', error);
         });

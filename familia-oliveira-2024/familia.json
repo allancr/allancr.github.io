@@ -15,7 +15,7 @@
     {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Pollyana Karla Ramalho", "dataNascimento": "06/05/1989", "urlFotoLocal": "img/pessoa.png"}
   ]},
   {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Eliane", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png", "dependentes": [
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "COMPANHEIRO(A)", "nome": "JC", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"},
+    {"completo": true, "ativo": true, "sexo": "M", "tipo": "COMPANHEIRO(A)", "nome": "JC", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/jc.jpg"},
     {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Andreya", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png", "dependentes": [
       {"completo": true, "ativo": true, "sexo": "M", "tipo": "COMPANHEIRO(A)", "nome": "Pereirinha", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"},
       {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Thomaz", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"},

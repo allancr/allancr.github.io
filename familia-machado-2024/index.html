@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Família Machado 2024</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      line-height: 1.5;
+      background-color: #fff; /* Fundo branco */
+      background-image: 
+        radial-gradient(circle, rgba(34, 139, 34, 0.3) 20%, transparent 20%), /* Folhas */
+        linear-gradient(to right, rgba(139, 69, 19, 0.2) 20%, transparent 20%); /* Galhos */
+      background-size: 200px 200px, 400px 400px; /* Ajusta o tamanho das repetições */
+      background-repeat: repeat; /* Repetir o padrão */
+    }
+
+    .tree-container {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .tree-container > ul > li > ul > li:not(:only-child, :first-child)
+    , div.tree-container > ul > li {
+      background-color: #db862e33;
+      border-radius: 5px;
+      padding: 15px;
+    }
+
+    div.tree-container > ul > li > ul > li:not(:only-child, :first-child):nth-child(odd) {
+      background-color: #ff000021;
+    }
+
+    div.tree-container > ul > li {
+      background-color: #3988ff26;
+    }
+
+    ul.tree {
+      list-style-type: none;
+      padding: 0;
+      margin: 0 auto;
+      max-width: 100%;
+      overflow-x: auto;
+    }
+
+    ul.tree li {
+      margin: 0 0 10px 30px;
+      position: relative;
+    }
+
+    ul.tree li:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -10px;
+      border-left: 2px solid #ccc;
+      border-bottom: 2px solid #ccc;
+      width: 10px;
+      height: 20px;
+    }
+
+    ul.tree li:first-child:before {
+      border-top: none;
+    }
+
+    ul.tree li:last-child:before {
+      height: 10px;
+    }
+
+    .node {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #fff;
+      max-width: 300px;
+    }
+
+    .node img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+      cursor: pointer;
+    }
+
+    .node.male {
+      background-color: #d9fdda;
+    }
+
+    .node.female {
+      background-color: #fff5aa;
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal img {
+      max-width: 90%;
+      max-height: 90%;
+    }
+
+    .modal .close {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+    }
+
+    .modal .nav {
+      position: absolute;
+      top: 50%;
+      font-size: 40px;
+      color: white;
+      cursor: pointer;
+      transform: translateY(-50%);
+    }
+
+    .modal .prev {
+      left: 20px;
+    }
+
+    .modal .next {
+      right: 20px;
+    }
+
+    .audio-container {
+      z-index: 50;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+      display: none;
+    }
+
+    .audio-container audio {
+      width: 100%;
+      max-width: 600px;
+    }
+
+    .confirm-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 18px;
+      z-index: 1000;
+    }
+
+    .confirm-overlay button {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .confirm-overlay .yes {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    .confirm-overlay .no {
+      background-color: #f44336;
+      color: white;
+    }
+
+    @media (max-width: 768px) {
+      .node {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .node img {
+        width: 40px;
+        height: 40px;
+      }
+
+      ul.tree li {
+        margin-left: 10px;
+      }
+
+      .audio-container audio {
+        width: 90%;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .node {
+        padding: 5px;
+      }
+
+      .node img {
+        width: 30px;
+        height: 30px;
+      }
+
+      .confirm-overlay {
+        font-size: 16px;
+      }
+
+      .confirm-overlay button {
+        font-size: 14px;
+        padding: 8px 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="confirm-overlay" id="confirmOverlay">
+    <p>Deseja ouvir música enquanto navega pela página?</p>
+    <button class="yes" id="confirmYes">Sim</button>
+    <button class="no" id="confirmNo">Não</button>
+  </div>
+
+  <div class="audio-container" id="audioContainer">
+    <audio id="musica" controls loop preload="auto">
+      <source src="audio/como_se_fosse_otem_-_vitor_kley.mp3" type="audio/mpeg">
+      Seu navegador não suporta o elemento de áudio.
+    </audio>
+  </div>
+
+  <center>
+    <h1 id="titulo">Família Machado</h1>
+    <h2>Árvore Genealógica</h2>
+    <h3>Dezembro de 2024</h3>
+  </center>
+
+  <div class="tree-container">
+    <ul id="genealogyTree" class="tree"></ul>
+  </div>
+
+  <div id="imageModal" class="modal" onclick="handleModalClick(event)">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <span class="nav prev" onclick="navigateImage(-1)">&#10094;</span>
+    <span class="nav next" onclick="navigateImage(1)">&#10095;</span>
+    <img id="modalImage" src="" alt="">
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const confirmOverlay = document.getElementById('confirmOverlay');
+      const audioContainer = document.getElementById('audioContainer');
+      const audioElement = document.getElementById('musica');
+      const confirmYes = document.getElementById('confirmYes');
+      const confirmNo = document.getElementById('confirmNo');
+      const id = document.getElementById('titulo');
+
+      // Ação para o botão "Sim"
+      confirmYes.addEventListener('click', () => {
+        confirmOverlay.style.display = 'none'; // Esconde o overlay
+        audioContainer.style.display = 'flex'; // Exibe o player de áudio
+        id.style['margin-top'] = '100px';
+        audioElement.volume = 0.5;
+        audioElement.play().catch(error => {
+          console.error('Erro ao iniciar a reprodução de áudio:', error);
+        });
+      });
+
+      // Ação para o botão "Não"
+      confirmNo.addEventListener('click', () => {
+        confirmOverlay.style.display = 'none'; // Esconde o overlay
+        audioContainer.style.display = 'none'; // Mantém o player escondido
+      });
+    });
+
+        let currentImageIndex = 0;
+    const imageUrls = [];
+
+    function openModal(index) {
+      currentImageIndex = index;
+      const modal = document.getElementById('imageModal');
+      const modalImage = document.getElementById('modalImage');
+      modalImage.src = imageUrls[index];
+      modal.style.display = 'flex';
+    }
+
+    function closeModal() {
+      const modal = document.getElementById('imageModal');
+      modal.style.display = 'none';
+    }
+
+    function navigateImage(direction) {
+      currentImageIndex = (currentImageIndex + direction + imageUrls.length) % imageUrls.length;
+      const modalImage = document.getElementById('modalImage');
+      modalImage.src = imageUrls[currentImageIndex];
+    }
+
+    function handleModalClick(event) {
+      if (event.target === document.getElementById('imageModal')) {
+        closeModal();
+      }
+    }
+
+    document.addEventListener('keydown', (event) => {
+      const modal = document.getElementById('imageModal');
+      if (modal.style.display === 'flex') {
+        switch (event.key) {
+          case 'Escape':
+            closeModal();
+            break;
+          case 'ArrowRight':
+          case 'ArrowUp':
+          case 'Enter':
+          case ' ': // Spacebar
+            navigateImage(1);
+            break;
+          case 'ArrowLeft':
+          case 'ArrowDown':
+            navigateImage(-1);
+            break;
+        }
+      }
+    });
+
+    function createNode(item, index, level = 0) {
+            const li = document.createElement('li');
+            const nodeClass = item.completo ? '' : 'incomplete';
+            const typeClass = item.tipo === 'EX-COMPANHEIRO(A)' ? 'ex-companion' : (item.tipo === 'FILHO(A)' ? 'da-familia' : '');
+            const genderClass = item.sexo === 'M' ? 'male' : item.sexo === 'F' ? 'female' : '';
+
+            const photoUrl = item.urlFotoLocal || 'pessoa.png';
+            imageUrls.push(photoUrl);
+
+            const nodeContent = `
+                <div class="node ${nodeClass} ${typeClass} ${genderClass}">
+                    ${photoUrl ? `<img src="${photoUrl}" alt="${item.nome}" onclick="openModal(${index})">` : ''}
+                    <div>
+                        <small><i>${item.tipo}<i><br></small>
+                        <strong>${item.nome}</strong><br>
+                        <small>${item.dataNascimento || '-'}</small>
+                    </div>
+                </div>
+            `;
+
+            li.innerHTML = nodeContent;
+
+            if (item.dependentes && item.dependentes.length) {
+                const ul = document.createElement('ul');
+                ul.classList.add('tree');
+                item.dependentes.forEach((dep, i) => {
+                    if (dep.ativo) {
+                        ul.appendChild(createNode(dep, imageUrls.length, level + 1));
+                    }
+                });
+                li.appendChild(ul);
+            }
+
+            // Apply indentation based on the level
+            li.style.marginLeft = level * 10 + 'px'; // Adjust indentation value as needed
+
+            return li;
+        }
+
+    function buildTree(data) {
+      const treeContainer = document.getElementById('genealogyTree');
+      treeContainer.appendChild(createNode(data, 0));
+    }
+
+    async function loadFamilyData() {
+      try {
+        const response = await fetch('familia.json');
+        if (!response.ok) {
+          throw new Error(`Erro ao carregar o arquivo: ${response.status}`);
+        }
+        const data = await response.json();
+        buildTree(data);
+      } catch (error) {
+        console.error('Erro ao carregar os dados da família:', error);
+      }
+    }
+
+    loadFamilyData();
+  </script>
+</body>
+</html>

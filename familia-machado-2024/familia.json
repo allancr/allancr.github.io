@@ -115,7 +115,7 @@
       {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Liz Canedo Caixêta", "dataNascimento": "19/12/2023", "urlFotoLocal": "img/Liz_Canedo_Caixêta_-_19-12-2023.jpeg"}
     ]},
     {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Valéria Cristina Caixeta Gomes", "dataNascimento": "19/08/1995", "urlFotoLocal": "img/Valéria_Cristina_Caixeta_Gomes_-_19-08-1995.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "COMPANHEIRO(A)", "nome": "Lucas Vieira Gomes", "dataNascimento": "18/18/1988", "urlFotoLocal": "img/Lucas_Vieira_Gomes_-_18-18-1988.jpeg"},
+      {"completo": true, "ativo": true, "sexo": "M", "tipo": "COMPANHEIRO(A)", "nome": "Lucas Vieira Gomes", "dataNascimento": "18/08/1988", "urlFotoLocal": "img/Lucas_Vieira_Gomes_-_18-18-1988.jpeg"},
       {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Rafael Caixeta Gomes", "dataNascimento": "11/11/2023", "urlFotoLocal": "img/Rafael_Caixeta_Gomes_-_11-11-2023.jpeg"}
     ]}
   ]},
@@ -123,7 +123,7 @@
     {"completo": true, "ativo": true, "sexo": "F", "tipo": "COMPANHEIRO(A)", "nome": "Maria Helena de Castro Machado", "dataNascimento": "21/04/1963", "urlFotoLocal": "img/Maria_Helena_de_Castro_Machado_-_21-04-1963.jpeg"},
     {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "José Augusto de Castro Machado", "dataNascimento": "19/05/1995", "urlFotoLocal": "img/José_Augusto_de_Castro_Machado_-_19-05-1995.jpeg", "dependentes": [
       {"completo": true, "ativo": true, "sexo": "F", "tipo": "COMPANHEIRO(A)", "nome": "Fabiane Aparecida Saavedra Caixeta", "dataNascimento": "04/07/2004", "urlFotoLocal": "img/Fabiane_Aparecida_Saavedra_Caixeta_-_04-07-2004.jpeg"},
-        {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Jade Saavedra de Castro", "dataNascimento": "25/07/22", "urlFotoLocal": "img/Jade_Saavedra_de_Castro_-_25-07-22.jpeg"}
+        {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Jade Saavedra de Castro", "dataNascimento": "25/07/2022", "urlFotoLocal": "img/Jade_Saavedra_de_Castro_-_25-07-22.jpeg"}
     ]}, 
     {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Erica de Castro Machado", "dataNascimento": "15/10/1997", "urlFotoLocal": "img/Erica_de_Castro_Machado_-_15-10-1997.jpeg", "dependentes": [
       {"completo": true, "ativo": true, "sexo": "M", "tipo": "COMPANHEIRO(A)", "nome": "Daniel José Gonçalves", "dataNascimento": "25/09/1997", "urlFotoLocal": "img/Daniel_José_Gonçalves_-_25-09-1997.jpeg"}

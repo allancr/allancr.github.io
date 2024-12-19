@@ -24,7 +24,9 @@
       background-size: 200px 200px, 400px 400px; /* Ajusta o tamanho das repetições */
       background-repeat: repeat; /* Repetir o padrão */
     }
-
+    img.ref {
+      max-width: 100%;
+    }
     .tree-container {
       padding: 20px;
       display: flex;
@@ -276,7 +278,7 @@
     <img id="modalImage" src="" alt="">
   </div>
 
-  <center><img src="img/ref.jpeg" alt="Imagem de referência do vovô e da vovó." /></center>
+  <center><img class="ref" src="img/ref.jpeg" alt="Imagem de referência do vovô e da vovó." /></center>
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {

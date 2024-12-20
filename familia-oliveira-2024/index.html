@@ -295,6 +295,7 @@
     <div class="info-overlay">
       <h2 id="modalName" style="margin: 0;"></h2>
       <p id="modalDate" style="margin: 0;"></p>
+      <p id="modalTipo" style="margin: 0;"></p>
     </div>
   </div>
 
@@ -337,12 +338,14 @@
       const modalImage = document.getElementById('modalImage');
       const modalName = document.getElementById('modalName');
       const modalDate = document.getElementById('modalDate');
+      const modalTipo = document.getElementById('modalTipo');      
 
       modalImage.src = imageUrls[index];
       modalName.textContent = imageData[index]?.nome || 'Nome não disponível';
       modalDate.textContent = imageData[index]?.dataNascimento
         ? `Nascimento: ${imageData[index].dataNascimento}`
         : 'Data não disponível';
+      modalTipo.textContent = imageData[index]?.tipo || 'Relação não disponível';
 
       modal.style.display = 'flex';
     }
@@ -387,7 +390,7 @@
     function createNode(item, index, level = 0) {
       const li = document.createElement('li');
       const nodeClass = item.completo ? '' : 'incomplete';
-      const typeClass = item.tipo === 'EX-COMPANHEIRO(A)' ? 'ex-companion' : (item.tipo === 'FILHO(A)' ? 'da-familia' : '');
+      const typeClass = item.tipo === 'EX-COMPANHEIRO(A)' ? 'ex-companion' : (['FILHO', 'FILHA', 'NETO', 'NETA', 'BISNETO', 'BISNETA'].includes(item.tipo) ? 'da-familia' : '');
       const genderClass = item.sexo === 'M' ? 'male' : item.sexo === 'F' ? 'female' : '';
 
       const photoUrl = item.urlFotoLocal || 'pessoa.png';

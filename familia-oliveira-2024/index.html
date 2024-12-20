@@ -100,6 +100,7 @@
       border-radius: 50%;
       object-fit: cover;
       cursor: pointer;
+      border: double 7px chocolate;
     }
 
     .node.male {
@@ -125,6 +126,7 @@
     .modal img {
       max-width: 90%;
       max-height: 90%;
+      border: double 7px chocolate;
     }
 
     .modal .close {
@@ -151,6 +153,18 @@
 
     .modal .next {
       right: 20px;
+    }
+
+    .modal .info-overlay {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      background-color: rgba(255, 255, 255, 0.35);
+      color: #333;
+      padding: 10px;
+      border-radius: 5px;
+      font-size: 14px;
+      text-align: right;
     }
 
     .audio-container {
@@ -250,7 +264,6 @@
   </style>
 </head>
 <body>
-  <img src="img/ref.jpg" alt="Imagem de referência do vovô e da vovó." style="display: none;" />
   <div class="confirm-overlay" id="confirmOverlay">
     <p>Deseja ouvir música enquanto navega pela página?</p>
     <button class="yes" id="confirmYes">Sim</button>
@@ -265,7 +278,7 @@
   </div>
 
   <center>
-    <h1 id="titulo">Família Oliveira Fernandes</h1>
+    <h1 id="titulo">Família Machado</h1>
     <h2>Árvore Genealógica</h2>
     <h3>Dezembro de 2024</h3>
   </center>
@@ -279,6 +292,10 @@
     <span class="nav prev" onclick="navigateImage(-1)">&#10094;</span>
     <span class="nav next" onclick="navigateImage(1)">&#10095;</span>
     <img id="modalImage" src="" alt="">
+    <div class="info-overlay">
+      <h2 id="modalName" style="margin: 0;"></h2>
+      <p id="modalDate" style="margin: 0;"></p>
+    </div>
   </div>
 
   <center><img class="ref" src="img/ref.jpeg" alt="Imagem de referência do vovô e da vovó." /></center>
@@ -310,14 +327,23 @@
       });
     });
 
-        let currentImageIndex = 0;
+    let currentImageIndex = 0;
     const imageUrls = [];
+    const imageData = [];
 
     function openModal(index) {
       currentImageIndex = index;
       const modal = document.getElementById('imageModal');
       const modalImage = document.getElementById('modalImage');
+      const modalName = document.getElementById('modalName');
+      const modalDate = document.getElementById('modalDate');
+
       modalImage.src = imageUrls[index];
+      modalName.textContent = imageData[index]?.nome || 'Nome não disponível';
+      modalDate.textContent = imageData[index]?.dataNascimento
+        ? `Nascimento: ${imageData[index].dataNascimento}`
+        : 'Data não disponível';
+
       modal.style.display = 'flex';
     }
 
@@ -328,8 +354,7 @@
 
     function navigateImage(direction) {
       currentImageIndex = (currentImageIndex + direction + imageUrls.length) % imageUrls.length;
-      const modalImage = document.getElementById('modalImage');
-      modalImage.src = imageUrls[currentImageIndex];
+      openModal(currentImageIndex);
     }
 
     function handleModalClick(event) {
@@ -360,43 +385,49 @@
     });
 
     function createNode(item, index, level = 0) {
-            const li = document.createElement('li');
-            const nodeClass = item.completo ? '' : 'incomplete';
-            const typeClass = item.tipo === 'EX-COMPANHEIRO(A)' ? 'ex-companion' : (item.tipo === 'FILHO(A)' ? 'da-familia' : '');
-            const genderClass = item.sexo === 'M' ? 'male' : item.sexo === 'F' ? 'female' : '';
+      const li = document.createElement('li');
+      const nodeClass = item.completo ? '' : 'incomplete';
+      const typeClass = item.tipo === 'EX-COMPANHEIRO(A)' ? 'ex-companion' : (item.tipo === 'FILHO(A)' ? 'da-familia' : '');
+      const genderClass = item.sexo === 'M' ? 'male' : item.sexo === 'F' ? 'female' : '';
 
-            const photoUrl = item.urlFotoLocal || 'pessoa.png';
-            imageUrls.push(photoUrl);
+      const photoUrl = item.urlFotoLocal || 'pessoa.png';
+      imageUrls.push(photoUrl);
 
-            const nodeContent = `
-                <div class="node ${nodeClass} ${typeClass} ${genderClass}">
-                    ${photoUrl ? `<img src="${photoUrl}" alt="${item.nome}" onclick="openModal(${index})">` : ''}
-                    <div>
-                        <small><i>${item.tipo}<i><br></small>
-                        <strong>${item.nome}</strong><br>
-                        <small>${item.dataNascimento || '-'}</small>
-                    </div>
-                </div>
-            `;
+      // Adicionar os dados associados à imagem para exibição na modal
+      imageData.push({
+        nome: item.nome,
+        dataNascimento: item.dataNascimento,
+        tipo: item.tipo
+      });
 
-            li.innerHTML = nodeContent;
+      const nodeContent = `
+          <div class="node ${nodeClass} ${typeClass} ${genderClass}">
+              ${photoUrl ? `<img src="${photoUrl}" alt="${item.nome}" onclick="openModal(${index})">` : ''}
+              <div>
+                  <small><i>${item.tipo}<i><br></small>
+                  <strong>${item.nome}</strong><br>
+                  <small>${item.dataNascimento || '-'}</small>
+              </div>
+          </div>
+      `;
 
-            if (item.dependentes && item.dependentes.length) {
-                const ul = document.createElement('ul');
-                ul.classList.add('tree');
-                item.dependentes.forEach((dep, i) => {
-                    if (dep.ativo) {
-                        ul.appendChild(createNode(dep, imageUrls.length, level + 1));
-                    }
-                });
-                li.appendChild(ul);
-            }
+      li.innerHTML = nodeContent;
 
-            // Apply indentation based on the level
-            li.style.marginLeft = level * 10 + 'px'; // Adjust indentation value as needed
+      if (item.dependentes && item.dependentes.length) {
+        const ul = document.createElement('ul');
+        ul.classList.add('tree');
+        item.dependentes.forEach((dep, i) => {
+          if (dep.ativo) {
+            ul.appendChild(createNode(dep, imageUrls.length, level + 1));
+          }
+        });
+        li.appendChild(ul);
+      }
 
-            return li;
-        }
+      li.style.marginLeft = level * 10 + 'px';
+      return li;
+    }
+
 
     function buildTree(data) {
       const treeContainer = document.getElementById('genealogyTree');

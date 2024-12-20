@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Árvore Genealógica</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .tree-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .tree-card {
+            display: inline-block;
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 150px;
+            text-align: center;
+            margin: 10px;
+            font-size: 14px;
+        }
+        .tree-card img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .tree-card .name {
+            font-weight: bold;
+        }
+        .tree-card .relation {
+            font-style: italic;
+            font-size: 12px;
+        }
+        .tree-card .dob {
+            font-size: 12px;
+            color: #777;
+        }
+        .tree-row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+        }
+        .child-row {
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+
+<div class="tree-container" id="tree-container"></div>
+
+<script>
+    const familyData = {
+        "sexo": "M",
+        "tipo": "PATRIARCA",
+        "nome": "Jovando Vieira Machado",
+        "dataNascimento": "25/07/1930",
+        "urlFotoLocal": "img/Jovando_Vieira_Machado_-_25-07-1930.png",
+        "dependentes": [
+            {
+                "sexo": "F",
+                "tipo": "MATRIARCA",
+                "nome": "Teresinha Abadia Pereira Machado",
+                "dataNascimento": "07/11/1938",
+                "urlFotoLocal": "img/Terezinha_Abadia_Pereira_Machado_-_07-11-1938.png"
+            },
+            {
+                "sexo": "F",
+                "tipo": "FILHA",
+                "nome": "Maria Claret Machado e Silva",
+                "dataNascimento": "06/11/1957",
+                "urlFotoLocal": "img/Maria_Claret_Machado_e_Silva_-_06-11-1957.jpeg",
+                "dependentes": [
+                    {
+                        "sexo": "M",
+                        "tipo": "GENRO",
+                        "nome": "Ivan da Silva Gregório",
+                        "dataNascimento": "15/08/1955",
+                        "urlFotoLocal": "img/Ivan_da_Silva_Gregório_-_15-08-1955.jpeg"
+                    },
+                    {
+                        "sexo": "F",
+                        "tipo": "NETA",
+                        "nome": "Silvana Maria da Silva",
+                        "dataNascimento": "17/10/1983",
+                        "urlFotoLocal": "img/Silvana_Maria_da_Silva_-_17-10-1983.jpeg",
+                        "dependentes": [
+                            {
+                                "sexo": "M",
+                                "tipo": "GENRO",
+                                "nome": "Cleomar Divino Vieira",
+                                "dataNascimento": "28/11/1982",
+                                "urlFotoLocal": "img/Cleomar_Divino_Vieira_-_28-11-1982.jpeg"
+                            },
+                            {
+                                "sexo": "M",
+                                "tipo": "BISNETO",
+                                "nome": "Fillipe Pereira Silva",
+                                "dataNascimento": "22/12/2006",
+                                "urlFotoLocal": "img/Fillipe_Pereira_Silva_-_22-12-2006.jpeg"
+                            }
+                        ]
+                    },
+                    {
+                        "sexo": "M",
+                        "tipo": "NETO",
+                        "nome": "Guilherme Machado e Silva",
+                        "dataNascimento": "11/03/1985",
+                        "urlFotoLocal": "img/Guilherme_Machado_e_Silva_-_11-03-1985.jpeg"
+                    }
+                ]
+            }
+        ]
+    };
+
+    function renderFamilyTree(person) {
+        const container = document.createElement('div');
+        container.classList.add('tree-row');
+        
+        const card = document.createElement('div');
+        card.classList.add('tree-card');
+        card.innerHTML = `
+            <img src="${person.urlFotoLocal}" alt="${person.nome}">
+            <div class="name">${person.nome}</div>
+            <div class="relation">${person.tipo}</div>
+            <div class="dob">${person.dataNascimento}</div>
+        `;
+        
+        container.appendChild(card);
+
+        if (person.dependentes && person.dependentes.length > 0) {
+            const childRow = document.createElement('div');
+            childRow.classList.add('child-row');
+            person.dependentes.forEach(child => {
+                childRow.appendChild(renderFamilyTree(child));
+            });
+            container.appendChild(childRow);
+        }
+
+        return container;
+    }
+
+    const treeContainer = document.getElementById('tree-container');
+    treeContainer.appendChild(renderFamilyTree(familyData));
+</script>
+
+</body>
+</html>

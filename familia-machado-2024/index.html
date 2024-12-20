@@ -69,28 +69,26 @@
     }
 
     ul.tree li {
-      margin: 0 0 10px 30px;
-      position: relative;
-    }
+  position: absolute;
+  list-style-type: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #db862e33;
+  transform-style: preserve-3d;  /* Important for Z-axis positioning */
+}
 
-    ul.tree li:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: -10px;
-      border-left: 2px solid #ccc;
-      border-bottom: 2px solid #ccc;
-      width: 10px;
-      height: 20px;
-    }
+ul.tree li:nth-child(odd) {
+  transform: rotateZ(calc(360deg / (number of siblings))) translateZ(50px); /* Adjust angle and distance based on number of siblings and desired layout */
+}
 
-    ul.tree li:first-child:before {
-      border-top: none;
-    }
+ul.tree li:nth-child(even) {
+  transform: rotateZ(calc(-360deg / (number of siblings))) translateZ(50px); /* Adjust angle and distance based on number of siblings and desired layout */
+}
 
-    ul.tree li:last-child:before {
-      height: 10px;
-    }
+ul.tree li:nth-child(n+3) {  /* Adjust selector for deeper levels */
+  transform: rotate(calc(45deg * (index - 2))) translateZ(70px); /* Rotate and move further out for deeper levels */
+}
+
 
     .node {
       padding: 10px;

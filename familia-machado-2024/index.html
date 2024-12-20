@@ -310,6 +310,7 @@
       <p id="modalDate" style="margin: 0;"></p>
       <p id="modalTipo" style="margin: 0;"></p>
     </div>
+    <button id="drawButton" onclick="startDraw()" style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); padding: 10px 20px; font-size: 16px; cursor: pointer;">Sortear</button>
   </div>
 
   <center><img class="ref" src="img/ref.jpeg" alt="Imagem de referência do vovô e da vovó." /></center>
@@ -479,6 +480,34 @@
         console.error('Erro ao carregar os dados da família:', error);
       }
     }
+
+    function startDraw() {
+      const modalImage = document.getElementById('modalImage');
+      const modalName = document.getElementById('modalName');
+      const modalDate = document.getElementById('modalDate');
+      const modalTipo = document.getElementById('modalTipo');
+
+      let drawIndex = 0;
+      const totalImages = imageUrls.length;
+
+      // Efeito de roleta
+      const interval = setInterval(() => {
+        drawIndex = Math.floor(Math.random() * totalImages);
+        modalImage.src = imageUrls[drawIndex];
+        modalName.textContent = imageData[drawIndex]?.nome || 'Nome não disponível';
+        modalDate.textContent = imageData[drawIndex]?.dataNascimento
+          ? `Nascimento: ${imageData[drawIndex].dataNascimento}`
+          : 'Data não disponível';
+        modalTipo.textContent = imageData[drawIndex]?.tipo || 'Relação não disponível';
+      }, 100);
+
+      // Parar a roleta após um tempo
+      setTimeout(() => {
+        clearInterval(interval);
+        currentImageIndex = drawIndex; // Atualizar o índice atual
+      }, 3000); // Duração da roleta (3 segundos)
+    }
+
 
     loadFamilyData();
   </script>

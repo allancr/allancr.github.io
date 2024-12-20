@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="manifest" href="manifest.json">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:image" content="img/ref.jpeg">
@@ -316,6 +317,16 @@
   <center><img class="ref" src="img/ref.jpeg" alt="Imagem de referência do vovô e da vovó." /></center>
 
   <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js')
+        .then((registration) => {
+          console.log('Service Worker registrado com sucesso:', registration);
+        })
+        .catch((error) => {
+          console.error('Falha ao registrar o Service Worker:', error);
+        });
+    }
+    
     document.addEventListener('DOMContentLoaded', () => {
       const confirmOverlay = document.getElementById('confirmOverlay');
       const audioContainer = document.getElementById('audioContainer');

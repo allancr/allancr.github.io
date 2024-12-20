@@ -156,6 +156,7 @@
   ]},
   {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Gilvana Maria Machado", "dataNascimento": "21/05/1981", "urlFotoLocal": "img/Gilvana_Maria_Machado_-_21-05-1981.jpeg", "dependentes": [
     {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO", "nome": "Gildeon Alves Pereira", "dataNascimento": "25/01/1983", "urlFotoLocal": "img/Gildeon_Alves_Pereira_-_25-01-1983.jpeg"},
+    {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Danilo Alves Araújo", "dataNascimento": "26/11/2019", "urlFotoLocal": "img/Danilo_Alves_Araújo_-_26-11-2019.jpeg"},
     {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Sávio Alves Machado", "dataNascimento": "19/08/2023", "urlFotoLocal": "img/Sávio_Alves_Machado_-_19-08-2023.jpeg"}
   ]}
 ]}

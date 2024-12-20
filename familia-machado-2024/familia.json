@@ -19,8 +19,8 @@
     ]},
     {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Giovanny Machado e Silva", "dataNascimento": "23/05/1994", "urlFotoLocal": "img/Giovanny_Machado_e_Silva_-_23-05-1994.jpeg", "dependentes": [
       {"completo": true, "ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Érika Faleiro Fernandes Machado", "dataNascimento": "20/01/1992", "urlFotoLocal": "img/Érika_Faleiro_Fernandes_Machado_-_20-01-1992.jpeg"},
-        {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO", "nome": "Ravi Faleiro Fernandes Machado", "dataNascimento": "15/10/2021", "urlFotoLocal": "img/Ravi_Faleiro_Fernandes_Machado_-_15-10-2021.jpeg"},
-        {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Cleo Faleiro Machado", "dataNascimento": "11/06/2023", "urlFotoLocal": "img/Cleo_Faleiro_Machado_-_11-06-2023.jpeg"}
+        {"completo": true, "ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Ravi Faleiro Fernandes Machado", "dataNascimento": "15/10/2021", "urlFotoLocal": "img/Ravi_Faleiro_Fernandes_Machado_-_15-10-2021.jpeg"},
+        {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Cleo Faleiro Machado", "dataNascimento": "11/06/2023", "urlFotoLocal": "img/Cleo_Faleiro_Machado_-_11-06-2023.jpeg"}
      ]}
   ]},
   {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Aparecida Donizete Machado", "dataNascimento": "11/10/1959", "urlFotoLocal": "img/Aparecida_Donizete_Machado_Palhares_-_11-10-1959.jpeg", "dependentes": [
@@ -33,8 +33,8 @@
     ]},
     {"completo": true, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Kamilla Machado Palhares", "dataNascimento": "21/10/1985", "urlFotoLocal": "img/Kamilla_Machado_Palhares_-_21-10-1985.jpeg", "dependentes": [
       {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Yuri Flores Albuquerque", "dataNascimento": "28/01/1988", "urlFotoLocal": "img/Yuri_Flores_Albuquerque_-_28-01-1988.jpeg"},
-        {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Teresa Machado Albuquerque", "dataNascimento": "13/04/2018", "urlFotoLocal": "img/Teresa_Machado_Albuquerque_-_13-04-2018.jpeg"},
-        {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Luísa Machado Albuquerque", "dataNascimento": "20/02/2023", "urlFotoLocal": "img/Luísa_Machado_Albuquerque_-_20-02-2023.jpeg"}
+        {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Teresa Machado Albuquerque", "dataNascimento": "13/04/2018", "urlFotoLocal": "img/Teresa_Machado_Albuquerque_-_13-04-2018.jpeg"},
+        {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Luísa Machado Albuquerque", "dataNascimento": "20/02/2023", "urlFotoLocal": "img/Luísa_Machado_Albuquerque_-_20-02-2023.jpeg"}
      ]}
   ]},
   {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Maria Elizabeth Machado Caixeta", "dataNascimento": "02/08/1961", "urlFotoLocal": "img/Maria_Elizabeth_Machado_Caixeta_-_02-08-1961.jpeg", "dependentes": [
@@ -53,7 +53,7 @@
     {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Reinaldo Machado caixeta", "dataNascimento": "23/04/1992", "urlFotoLocal": "img/Reinaldo_Machado_caixeta_-_23-04-1992.jpeg"}
   ]},
   {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Prudenciana Lisete Machado Alves", "dataNascimento": "05/12/1962", "urlFotoLocal": "img/Prudenciana_Lisete_Machado_Alves_-_05-12-1962.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Luiz Alves Ferreira", "dataNascimento": "02/03/1958", "urlFotoLocal": "img/Luiz_Alves_Ferreira_-_02-03-1958.jpeg"},
+      {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO", "nome": "Luiz Alves Ferreira", "dataNascimento": "02/03/1958", "urlFotoLocal": "img/Luiz_Alves_Ferreira_-_02-03-1958.jpeg"},
     {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Luciano Alves Ferreira", "dataNascimento": "14/06/1981", "urlFotoLocal": "img/Luciano_Alves_Ferreira_-_14-06-1981.jpeg", "dependentes": [
       {"completo": true, "ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Aline Aparecida dos Santos", "dataNascimento": "26/09/1985", "urlFotoLocal": "img/Aline_Aparecida_dos_Santos_-_26-09-1985.jpeg"},
       {"completo": true, "ativo": false, "sexo": "F", "tipo": "EX-COMPANHEIRO(A)", "nome": "Laurisangela Maria da Silva Mendes", "dataNascimento": "20/11/1982", "urlFotoLocal": "img/ex.png"},
@@ -123,7 +123,7 @@
     {"completo": true, "ativo": true, "sexo": "F", "tipo": "NORA", "nome": "Maria Helena de Castro Machado", "dataNascimento": "21/04/1963", "urlFotoLocal": "img/Maria_Helena_de_Castro_Machado_-_21-04-1963.jpeg"},
     {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "José Augusto de Castro Machado", "dataNascimento": "19/05/1995", "urlFotoLocal": "img/José_Augusto_de_Castro_Machado_-_19-05-1995.jpeg", "dependentes": [
       {"completo": true, "ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Fabiane Aparecida Saavedra Caixeta", "dataNascimento": "04/07/2004", "urlFotoLocal": "img/Fabiane_Aparecida_Saavedra_Caixeta_-_04-07-2004.jpeg"},
-        {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Jade Saavedra de Castro", "dataNascimento": "25/07/2022", "urlFotoLocal": "img/Jade_Saavedra_de_Castro_-_25-07-22.jpeg"}
+        {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Jade Saavedra de Castro", "dataNascimento": "25/07/2022", "urlFotoLocal": "img/Jade_Saavedra_de_Castro_-_25-07-22.jpeg"}
     ]}, 
     {"completo": true, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Erica de Castro Machado", "dataNascimento": "15/10/1997", "urlFotoLocal": "img/Erica_de_Castro_Machado_-_15-10-1997.jpeg", "dependentes": [
       {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Daniel José Gonçalves", "dataNascimento": "25/09/1997", "urlFotoLocal": "img/Daniel_José_Gonçalves_-_25-09-1997.jpeg"}

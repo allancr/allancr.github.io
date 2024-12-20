@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="manifest" href="manifest.json">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:image" content="img/ref.jpeg">
   <meta property="og:image:type" content="image/jpeg">
   <meta property="og:image:width" content="700">
   <meta property="og:image:height" content="700">
-  <title>Família Oliveira Fernandes2024</title>
+  <title>Família Oliveira Fernandes 2024</title>
   <link rel="icon" type="image/x-icon" href="img/favicon.png">
   <style>
     body {
@@ -17,22 +18,20 @@
       margin: 0;
       padding: 0;
       line-height: 1.5;
-      background-color: #fff; /* Fundo branco */
-      background-image: 
-        radial-gradient(circle, rgba(34, 139, 34, 0.3) 20%, transparent 20%), /* Folhas */
-        linear-gradient(to right, rgba(139, 69, 19, 0.2) 20%, transparent 20%); /* Galhos */
-      background-size: 200px 200px, 400px 400px; /* Ajusta o tamanho das repetições */
-      background-repeat: repeat; /* Repetir o padrão */
+      background-color: rgba(255, 255, 255, 0.6);
+      background-image: radial-gradient(circle, rgba(34, 139, 34, 0.3) 20%, transparent 20%), linear-gradient(to right, rgba(139, 69, 19, 0.2) 20%, transparent 20%);
+      background-size: 200px 200px, 400px 400px;
+      background-repeat: repeat;
     }
 
     .background-overlay {
-      position: fixed; /* Fixa a posição no viewport */
+      position: fixed;
       top: 0;
       left: 0;
-      width: 100%; /* Ocupa toda a largura */
-      height: 100%; /* Ocupa toda a altura */
-      z-index: -1; /* Garante que fique atrás de todo o conteúdo */
-      background: rgba(0, 0, 0, 0.5); /* Cor e opacidade da camada */
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: rgb(116 82 53 / 30%);
     }
 
     img.ref {
@@ -271,6 +270,10 @@
         padding: 8px 16px;
       }
     }
+
+    body > center {
+      background: navajowhite;
+    }
   </style>
 </head>
 <body>
@@ -308,11 +311,22 @@
       <p id="modalDate" style="margin: 0;"></p>
       <p id="modalTipo" style="margin: 0;"></p>
     </div>
+    <button id="drawButton" onclick="startDraw()" style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); padding: 10px 20px; font-size: 16px; cursor: pointer;">Sortear</button>
   </div>
 
   <center><img class="ref" src="img/ref.jpeg" alt="Imagem de referência do vovô e da vovó." /></center>
 
   <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js')
+        .then((registration) => {
+          console.log('Service Worker registrado com sucesso:', registration);
+        })
+        .catch((error) => {
+          console.error('Falha ao registrar o Service Worker:', error);
+        });
+    }
+    
     document.addEventListener('DOMContentLoaded', () => {
       const confirmOverlay = document.getElementById('confirmOverlay');
       const audioContainer = document.getElementById('audioContainer');
@@ -338,6 +352,23 @@
         audioContainer.style.display = 'none'; // Mantém o player escondido
       });
     });
+
+    const bgUrls = [null];
+    let currentBgIndex = 0;
+
+    const bgOriginal = {};
+    bgOriginal.backgroundImage = document.body.style.backgroundImage;
+    bgOriginal.backgroundSize = document.body.style.backgroundSize;
+
+    function changeBackground() {
+      const bg = bgUrls[currentBgIndex];
+      document.body.style.backgroundImage = bg ? `url(${bg})` : bgOriginal.backgroundImage;
+      document.body.style.backgroundSize  = bg ? 'cover' : bgOriginal.backgroundSize;
+      document.body.style.backgroundPosition  = bg ? 'center' : null;
+      document.body.style.height = bg ? '100vh' : null;
+      if (++currentBgIndex > bgUrls.length - 1) currentBgIndex = 0;
+    }
+    setInterval(changeBackground, 2720);
 
     let currentImageIndex = 0;
     const imageUrls = [];
@@ -460,6 +491,34 @@
         console.error('Erro ao carregar os dados da família:', error);
       }
     }
+
+    function startDraw() {
+      const modalImage = document.getElementById('modalImage');
+      const modalName = document.getElementById('modalName');
+      const modalDate = document.getElementById('modalDate');
+      const modalTipo = document.getElementById('modalTipo');
+
+      let drawIndex = 0;
+      const totalImages = imageUrls.length;
+
+      // Efeito de roleta
+      const interval = setInterval(() => {
+        drawIndex = Math.floor(Math.random() * totalImages);
+        modalImage.src = imageUrls[drawIndex];
+        modalName.textContent = imageData[drawIndex]?.nome || 'Nome não disponível';
+        modalDate.textContent = imageData[drawIndex]?.dataNascimento
+          ? `Nascimento: ${imageData[drawIndex].dataNascimento}`
+          : 'Data não disponível';
+        modalTipo.textContent = imageData[drawIndex]?.tipo || 'Relação não disponível';
+      }, 100);
+
+      // Parar a roleta após um tempo
+      setTimeout(() => {
+        clearInterval(interval);
+        currentImageIndex = drawIndex; // Atualizar o índice atual
+      }, 3000); // Duração da roleta (3 segundos)
+    }
+
 
     loadFamilyData();
   </script>

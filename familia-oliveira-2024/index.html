@@ -25,6 +25,16 @@
       background-repeat: repeat; /* Repetir o padrão */
     }
 
+    .background-overlay {
+      position: fixed; /* Fixa a posição no viewport */
+      top: 0;
+      left: 0;
+      width: 100%; /* Ocupa toda a largura */
+      height: 100%; /* Ocupa toda a altura */
+      z-index: -1; /* Garante que fique atrás de todo o conteúdo */
+      background: rgba(0, 0, 0, 0.5); /* Cor e opacidade da camada */
+    }
+
     img.ref {
       max-width: 100%;
     }
@@ -264,6 +274,7 @@
   </style>
 </head>
 <body>
+  <div class="background-overlay"></div>
   <div class="confirm-overlay" id="confirmOverlay">
     <p>Deseja ouvir música enquanto navega pela página?</p>
     <button class="yes" id="confirmYes">Sim</button>

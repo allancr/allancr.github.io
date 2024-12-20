@@ -1,7 +1,12 @@
 {"completo": true, "ativo": true, "sexo": "M", "tipo": "PATRIARCA", "nome": "Jovando Vieira Machado", "dataNascimento": "25/07/1930", "urlFotoLocal": "img/Jovando_Vieira_Machado_-_25-07-1930.png", "dependentes": [
-  {"completo": true, "ativo": true, "sexo": "F", "tipo": "MATRIARCA", "nome": "Terezinha Abadia Pereira Machado", "dataNascimento": "07/11/1938", "urlFotoLocal": "img/Terezinha_Abadia_Pereira_Machado_-_07-11-1938.png"},
+  {"completo": true, "ativo": true, "sexo": "F", "tipo": "MATRIARCA", "nome": "Teresinha Abadia Pereira Machado", "dataNascimento": "07/11/1938", "urlFotoLocal": "img/Terezinha_Abadia_Pereira_Machado_-_07-11-1938.png"},
   {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Maria Claret Machado e Silva", "dataNascimento": "06/11/1957", "urlFotoLocal": "img/Maria_Claret_Machado_e_Silva_-_06-11-1957.jpeg", "dependentes": [
     {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO", "nome": "Ivan da Silva Gregório", "dataNascimento": "15/08/1955", "urlFotoLocal": "img/Ivan_da_Silva_Gregório_-_15-08-1955.jpeg"},
+    {"completo": true, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Silvana Maria da Silva", "dataNascimento": "17/10/1983", "urlFotoLocal": "img/Silvana_Maria_da_Silva_-_17-10-1983.jpeg", "dependentes": [
+      {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO", "nome": "Cleomar Divino Vieira", "dataNascimento": "28/11/1982", "urlFotoLocal": "img/Cleomar_Divino_Vieira_-_28-11-1982.jpeg"},
+      {"completo": true, "ativo": false, "sexo": "M", "tipo": "EX-COMPANHEIRO(A)", "nome": "Wagmar Pereira da Silva", "dataNascimento": "17/08/1986", "urlFotoLocal": "img/ex.png"},
+      {"completo": true, "ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Fillipe Pereira Silva", "dataNascimento": "22/12/2006", "urlFotoLocal": "img/Fillipe_Pereira_Silva_-_22-12-2006.jpeg"}
+    ]},
     {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Guilherme Machado e Silva", "dataNascimento": "11/03/1985", "urlFotoLocal": "img/Guilherme_Machado_e_Silva_-_11-03-1985.jpeg", "dependentes": [
       {"completo": true, "ativo": true, "sexo": "F", "tipo": "NORA", "nome": "Luciele Martins de Andrade", "dataNascimento": "24/04/1988", "urlFotoLocal": "img/Luciele_Martins_de_Andrade_-_24-04-1988.jpeg"},
       {"completo": true, "ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Cristopher Andrade Machado", "dataNascimento": "07/06/2017", "urlFotoLocal": "img/Cristopher_Andrade_Machado_-_07-06-2017.jpeg"},
@@ -11,11 +16,6 @@
       {"completo": true, "ativo": true, "sexo": "F", "tipo": "NORA", "nome": "Sumaia dos Santos Arruda Machado", "dataNascimento": "08/10/1983", "urlFotoLocal": "img/Sumaia_dos_Santos_Arruda_Machado_-_08-10-1983.jpeg"},
       {"completo": true, "ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Luiz Henrique dos Santos Machado", "dataNascimento": "20/04/2010", "urlFotoLocal": "img/Luiz_Henrique_dos_Santos_Machado_-_20-04-2010.jpeg"},
       {"completo": true, "ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Calebe dos Santos Machado", "dataNascimento": "28/07/2016", "urlFotoLocal": "img/Calebe_dos_Santos_Machado_-_28-07-2016.jpeg"}
-    ]},
-    {"completo": true, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Silvana Maria da Silva", "dataNascimento": "17/10/1983", "urlFotoLocal": "img/Silvana_Maria_da_Silva_-_17-10-1983.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO", "nome": "Cleomar Divino Vieira", "dataNascimento": "28/11/1982", "urlFotoLocal": "img/Cleomar_Divino_Vieira_-_28-11-1982.jpeg"},
-      {"completo": true, "ativo": false, "sexo": "M", "tipo": "EX-COMPANHEIRO(A)", "nome": "Wagmar Pereira da Silva", "dataNascimento": "17/08/1986", "urlFotoLocal": "img/ex.png"},
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Fillipe Pereira Silva", "dataNascimento": "22/12/2006", "urlFotoLocal": "img/Fillipe_Pereira_Silva_-_22-12-2006.jpeg"}
     ]},
     {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Giovanny Machado e Silva", "dataNascimento": "23/05/1994", "urlFotoLocal": "img/Giovanny_Machado_e_Silva_-_23-05-1994.jpeg", "dependentes": [
       {"completo": true, "ativo": true, "sexo": "F", "tipo": "NORA", "nome": "Érika Faleiro Fernandes Machado", "dataNascimento": "20/01/1992", "urlFotoLocal": "img/Érika_Faleiro_Fernandes_Machado_-_20-01-1992.jpeg"},

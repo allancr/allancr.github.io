@@ -6,8 +6,12 @@
   <title id="titulo">Organograma da Família Machado 2024</title>
   <link rel="icon" type="image/x-icon" href="img/favicon.png">
   <style>
+    @media (max-width: 480px) {
+      html {
+        transform: scale(0.5);
+      }
+    }
     html {
-      transform: scale(0.4);
       transform-origin: top left;
     }
     body {
@@ -19,7 +23,7 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      width: 12000px;
+      width: 12500px;
       background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/2053065-arvore-manga-amarela-isolada-sobre-fundo-branco-gratis-vetor.jpg');
     }
     body > center * {
@@ -74,6 +78,11 @@
       display: flex;
       justify-content: space-around;
       width: 100%;
+    }
+
+    html {
+      transform: scale(0.5);
+      transform-origin: top left;
     }
   </style>
 </head>
@@ -168,7 +177,7 @@
 
     document.addEventListener('DOMContentLoaded', () => {
       loadFamilyData();
-      setTimeout(() => window.scrollTo(1800 , 0), 1000);
+      setTimeout(() => window.scrollTo(2300 , 0), 1000);
     });
   </script>
 </body>

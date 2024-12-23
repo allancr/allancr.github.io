@@ -3,9 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Organograma da Família Machado 2024</title>
+  <title id="titulo">Organograma da Família Machado 2024</title>
   <link rel="icon" type="image/x-icon" href="img/favicon.png">
   <style>
+    html {
+      transform: scale(0.4);
+      transform-origin: top left;
+    }
     body {
       font-family: Arial, sans-serif;
       background-color: #f9f9f9;
@@ -154,7 +158,6 @@
         const data = await response.json();
         const organogramaContainer = document.getElementById('organograma');
         createTree(data, organogramaContainer);
-        window.scrollTo(document.body.scrollWidth*0.4 , 0);
       } catch (error) {
         console.error('Erro ao carregar os dados da família:', error);
       }
@@ -162,6 +165,7 @@
 
     document.addEventListener('DOMContentLoaded', () => {
       loadFamilyData();
+      setTimeout(() => window.scrollTo(1800 , 0), 1000);
     });
   </script>
 </body>

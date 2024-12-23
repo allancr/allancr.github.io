@@ -310,6 +310,16 @@
     .close-btn:hover {
       background: #ff3c3c;
     }
+
+    #drawButton {
+      background: none;
+      border: none;
+    }
+    #drawButton img {
+      border-radius: 50%;
+      max-width: 50px;
+      max-height: 50px;
+    }
   </style>
 </head>
 <body>
@@ -348,14 +358,16 @@
       <p id="modalDate" style="margin: 0;"></p>
       <p id="modalTipo" style="margin: 0;"></p>
     </div>
-    <button id="drawButton" onclick="startDraw()" style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); padding: 10px 20px; font-size: 16px; cursor: pointer;">Sortear</button>
+    <button id="drawButton" onclick="startDraw()" style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); padding: 10px 20px; font-size: 16px; cursor: pointer;">
+      <img src="img/curicacao.png" alt="Sortear alguém!">
+    </button>
   </div>
 
   <center><img class="ref" src="img/ref.jpeg" alt="Imagem de referência do vovô e da vovó." /></center>
 
   <div class="overlay" id="overlay">
     <button class="close-btn" onclick="closeOverlay()">X</button>
-    <iframe src="tree.html" id="iframe-content"></iframe>
+    <iframe src="tree.html#titulo" id="iframe-content"></iframe>
   </div>
 
   <script>
@@ -479,8 +491,6 @@
 
       const photoUrl = item.urlFotoLocal || 'pessoa.png';
       imageUrls.push(photoUrl);
-
-      // Adicionar os dados associados à imagem para exibição na modal
       imageData.push({
         nome: item.nome,
         dataNascimento: item.dataNascimento,
@@ -499,10 +509,20 @@
       `;
 
       if (item.par) {
+        const nodeClassPar = item.par.completo ? '' : 'incomplete';
+        const typeClassPar = item.par.tipo === 'EX-COMPANHEIRO(A)' ? 'ex-companion' : (['FILHO', 'FILHA', 'NETO', 'NETA', 'BISNETO', 'BISNETA'].includes(item.par.tipo) ? 'da-familia' : '');
+        const genderClassPar = item.par.sexo === 'M' ? 'male' : item.par.sexo === 'F' ? 'female' : '';
+
         const photoUrlPar = item.par.urlFotoLocal || 'pessoa.png';
         imageUrls.push(photoUrlPar);
+        imageData.push({
+          nome: item.par.nome,
+          dataNascimento: item.par.dataNascimento,
+          tipo: item.par.tipo
+        });
+
         nodeContent +=`
-          <div class="node ${nodeClass} ${typeClass} ${genderClass}">
+          <div class="node ${nodeClassPar} ${typeClassPar} ${genderClassPar}">
               ${photoUrl ? `<img src="${photoUrlPar}" alt="${item.par.nome}" onclick="openModal(${index})">` : ''}
               <div>
                   <small><i>${item.par.tipo}<i><br></small>

@@ -1,0 +1,24 @@
+Name,Manager,Title,Date Hired,Favorite Food,Location, Salary ,Image
+Bugs Bunny,,CEO,10/8/2000,Carrots,"Los Angeles, CA",500000,https://hbomax-images.warnermediacdn.com/2020-05/bugs.png
+Yosemite Sam,Bugs Bunny,VP of Sales,4/5/2004,BBQ,"Houston, TX",250000,https://hbomax-images.warnermediacdn.com/2020-05/yosemite.png
+Wile E Coyote,Bugs Bunny,VP of IT,8/7/2005,Pizza,"Houston, TX",200000,https://hbomax-images.warnermediacdn.com/2020-05/coyote.png
+Elmer Fudd,Bugs Bunny,VP of Customer Relations,8/9/1999,Pot Roast,"Buffalo, NY",175000,https://hbomax-images.warnermediacdn.com/2020-05/elmer.png
+Marvin the Martian,Bugs Bunny,VP of Marketing,8/7/2002,Moonrocks,Space Station,225000,https://hbomax-images.warnermediacdn.com/2020-05/marvin.png
+Sylvester,Marvin the Martian,Marketing Manager,9/15/2000,Mice,"New Orleans, LA",150000,https://hbomax-images.warnermediacdn.com/2020-05/sylvester.png
+Tweety Bird,Yosemite Sam,Sales Manager,1/6/2003,Seeds,"San Diego, CA",125000,https://hbomax-images.warnermediacdn.com/2020-05/tweety.png
+Beaky Buzzard,Wile E Coyote,IT Manager,6/4/2001,Small Birds,"Boston, MA",125000,https://hbomax-images.warnermediacdn.com/2020-05/beaky.png
+Roadrunner,Daffy Duck,CS Asst. Manager,5/25/2000,Chicken,"New York, NY",75000,https://hbomax-images.warnermediacdn.com/2020-05/road-runner.png
+Daffy Duck,Elmer Fudd,Customer Support Manager,5/6/2002,Sweetcorn,"Philadelphia, PA",90000,https://hbomax-images.warnermediacdn.com/2020-05/daffy.png
+Porky Pig,Foghorn Leghorn,Account Executive,1/1/2012,Bacon,"Madison, WI",85000,https://hbomax-images.warnermediacdn.com/2020-05/porky.png
+Foghorn Leghorn,Tweety Bird,Inside Sales Manager,6/1/2013,Fried Chicken,"Washington, DC",85000,https://seeklogo.com/images/F/foghorn-leghorn-loony-tunes-logo-23CCEE20AE-seeklogo.com.png
+Pepe Le Pew,Foghorn Leghorn,Account Executive,1/1/2014,Trash,"Denver, CO",85000,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbzN1nkzTUZasrOysN4VKX5-MK2LA_WjrT4rPIZEYLhhCxNvnJMre2t3ha9He9Q_SRGWI&usqp=CAU
+Speedy Gonzales,Foghorn Leghorn,Account Executive,3/15/2014,Enchiladas,"Seattle, WA",85000,https://th.bing.com/th/id/OIP.al1AcqkYLjM7Vyrdfj7_cQAAAA
+Barnyard Dawg,Foghorn Leghorn,Account Executive,10/30/2015,Kibbles n Bits,"Portland, OR",85000,https://vignette.wikia.nocookie.net/thelooneytunes/images/6/67/BarnyardDawg-1-.gif
+Granny,Foghorn Leghorn,Account Executive,10/30/2015,Hot Dish,"Chicago, IL",85000,https://th.bing.com/th/id/OIP.dJXcZlCI4q2_-GT4f6mcrwAAAA
+Rocky the Flying Squirel,Tweety Bird,SDR Manager,1/31/2016,Nuts,"Cleveland, OH",85000,https://vignette.wikia.nocookie.net/mr-peabody-sherman/images/2/24/Rocky_J._Squirrel.jpg
+Bullwinkle L Moose,Rocky the Flying Squirel,Sales Development Rep,1/1/2016,Vegetation,"Detroit, MI",85000,https://th.bing.com/th/id/OIP.vuvFGrFhSJKaKpT_dCFRpAAAAA
+Sherman J Peabody,Rocky the Flying Squirel,Sales Development Rep,11/2/2017,Cereal,"Atlanta, GA",85000,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTzFBway7-TH2whu_Dhud9e1DwVRyTwAoEsf_aHXNU&s
+Snidely Whiplash,Rocky the Flying Squirel,Sales Development Rep,3/15/2017,French Toast,"Dallas, TX",85000,https://th.bing.com/th/id/R.5cce6f1b876029e286b43d7e7873f846?rik=8w8m%2bYfhzuuuog&riu=http%3a%2f%2fvignette2.wikia.nocookie.net%2fdeathbattlefanon%2fimages%2f4%2f4d%2fSnidely_Whiplash.jpg%2frevision%2flatest%3fcb%3d20170117020409&ehk=chPUj8e1wwwmEXxyoT4QLoadLLDXgIyUhAo5O5UXPEw%3d&risl=&pid=ImgRaw&r=0
+Boris Badenov,Beaky Buzzard,IT Security Analyst,11/30/2018,Borscht,"Nashville, TN",85000,https://th.bing.com/th/id/OIP.TFouvD1hpHprdZ8l_amF3wAAAA
+Natasha Fatale,Beaky Buzzard,IT Security Analyst,12/5/2019,Borscht,"Minneapolis, MN",85000,https://th.bing.com/th/id/OIP.S0i99sc6kq-2hV0KnrGUxgAAAA
+Hector J Peabody,Foghorn Leghorn,Account Executive,1/1/2020,Purina,"San Francisco, CA",85000,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-WuiT4SGTxg4WlOnbooUZw6YeAlv5m5DAurg38lES&s

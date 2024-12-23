@@ -1,0 +1,121 @@
+Name,Manager,Title,Date Hired,Favorite Food,Location, Salary ,Image
+Machado,,FAMÍLIA,25/07/1930,https://allancr.github.io/familia-machado-2024/img/pessoa.png
+Teresinha Abadia Pereira Machado,Machado,MATRIARCA,07/11/1938,https://allancr.github.io/familia-machado-2024/img/Terezinha_Abadia_Pereira_Machado_-_07-11-1938.png
+Jovando Vieira Machado,Machado,PATRIARCA,25/07/1930,https://allancr.github.io/familia-machado-2024/img/Jovando_Vieira_Machado_-_25-07-1930.png
+Ivan da Silva Gregório,Jovando Vieira Machado,GENRO,15/08/1955,https://allancr.github.io/familia-machado-2024/img/Ivan_da_Silva_Gregório_-_15-08-1955.jpeg
+Maria Claret Machado e Silva,Jovando Vieira Machado,FILHA,06/11/1957,https://allancr.github.io/familia-machado-2024/img/Maria_Claret_Machado_e_Silva_-_06-11-1957.jpeg
+Cleomar Divino Vieira,Maria Claret Machado e Silva,GENRO-NETO,28/11/1982,https://allancr.github.io/familia-machado-2024/img/Cleomar_Divino_Vieira_-_28-11-1982.jpeg
+Silvana Maria da Silva,Maria Claret Machado e Silva,NETA,17/10/1983,https://allancr.github.io/familia-machado-2024/img/Silvana_Maria_da_Silva_-_17-10-1983.jpeg
+Fillipe Pereira Silva,Silvana Maria da Silva,BISNETO,22/12/2006,https://allancr.github.io/familia-machado-2024/img/Fillipe_Pereira_Silva_-_22-12-2006.jpeg
+Luciele Martins de Andrade,Maria Claret Machado e Silva,NORA-NETA,24/04/1988,https://allancr.github.io/familia-machado-2024/img/Luciele_Martins_de_Andrade_-_24-04-1988.jpeg
+Guilherme Machado e Silva,Maria Claret Machado e Silva,NETO,11/03/1985,https://allancr.github.io/familia-machado-2024/img/Guilherme_Machado_e_Silva_-_11-03-1985.jpeg
+Cristopher Andrade Machado,Guilherme Machado e Silva,BISNETO,06/07/2017,https://allancr.github.io/familia-machado-2024/img/Cristopher_Andrade_Machado_-_07-06-2017.jpeg
+Cloe Martins Andrade Machado,Guilherme Machado e Silva,BISNETA,15/12/2020,https://allancr.github.io/familia-machado-2024/img/Cloe_Martins_Andrade_Machado_-_15-12-2020.jpeg
+Sumaia dos Santos Arruda Machado,Maria Claret Machado e Silva,NORA-NETA,08/10/1983,https://allancr.github.io/familia-machado-2024/img/Sumaia_dos_Santos_Arruda_Machado_-_08-10-1983.jpeg
+Fernando Machado e Silva,Maria Claret Machado e Silva,NETO,24/04/1987,https://allancr.github.io/familia-machado-2024/img/Fernando_Machado_e_Silva_-_24-04-1987.jpeg
+Luiz Henrique dos Santos Machado,Fernando Machado e Silva,BISNETO,20/04/2010,https://allancr.github.io/familia-machado-2024/img/Luiz_Henrique_dos_Santos_Machado_-_20-04-2010.jpeg
+Calebe dos Santos Machado,Fernando Machado e Silva,BISNETO,28/07/2016,https://allancr.github.io/familia-machado-2024/img/Calebe_dos_Santos_Machado_-_28-07-2016.jpeg
+Érika Faleiro Fernandes Machado,Maria Claret Machado e Silva,NORA-NETA,20/01/1992,https://allancr.github.io/familia-machado-2024/img/Érika_Faleiro_Fernandes_Machado_-_20-01-1992.jpeg
+Giovanny Machado e Silva,Maria Claret Machado e Silva,NETO,23/05/1994,https://allancr.github.io/familia-machado-2024/img/Giovanny_Machado_e_Silva_-_23-05-1994.jpeg
+Ravi Faleiro Fernandes Machado,Giovanny Machado e Silva,BISNETO,15/10/2021,https://allancr.github.io/familia-machado-2024/img/Ravi_Faleiro_Fernandes_Machado_-_15-10-2021.jpeg
+Cleo Faleiro Machado,Giovanny Machado e Silva,BISNETA,11/06/2023,https://allancr.github.io/familia-machado-2024/img/Cleo_Faleiro_Machado_-_11-06-2023.jpeg
+Cairo Fernandes de Castro,Jovando Vieira Machado,GENRO,06/07/1959,https://allancr.github.io/familia-machado-2024/img/Cairo_Fernandes_de_Castro_-_06-07-1959.enc
+Aparecida Donizete Machado,Jovando Vieira Machado,FILHA,11/10/1959,https://allancr.github.io/familia-machado-2024/img/Aparecida_Donizete_Machado_Palhares_-_11-10-1959.jpeg
+Allan Carlos Ramalho,Aparecida Donizete Machado,GENRO-NETO,03/08/1985,https://allancr.github.io/familia-machado-2024/img/Allan_Carlos_Ramalho_-_03-08-1985.jpeg
+Karla Machado Palhares Ramalho,Aparecida Donizete Machado,NETA,29/07/1984,https://allancr.github.io/familia-machado-2024/img/Karla_Machado_Palhares_Ramalho_-_29-07-1984.jpeg
+Lara Palhares Ramalho,Karla Machado Palhares Ramalho,BISNETA,08/10/2016,https://allancr.github.io/familia-machado-2024/img/Lara_Palhares_Ramalho_-_08-10-2016.jpeg
+Ian Palhares Ramalho,Karla Machado Palhares Ramalho,BISNETA,22/10/2024,https://allancr.github.io/familia-machado-2024/img/Ian_Palhares_Ramalho_-_22-10-2024.jpeg
+Yuri Flores Albuquerque,Aparecida Donizete Machado,GENRO-NETO,28/01/1988,https://allancr.github.io/familia-machado-2024/img/Yuri_Flores_Albuquerque_-_28-01-1988.jpeg
+Kamilla Machado Palhares,Aparecida Donizete Machado,NETA,21/10/1985,https://allancr.github.io/familia-machado-2024/img/Kamilla_Machado_Palhares_-_21-10-1985.jpeg
+Teresa Machado Albuquerque,Kamilla Machado Palhares,BISNETA,13/04/2018,https://allancr.github.io/familia-machado-2024/img/Teresa_Machado_Albuquerque_-_13-04-2018.jpeg
+Luísa Machado Albuquerque,Kamilla Machado Palhares,BISNETA,20/02/2023,https://allancr.github.io/familia-machado-2024/img/Luísa_Machado_Albuquerque_-_20-02-2023.jpeg
+Edilson Gonçalves Caixeta,Jovando Vieira Machado,GENRO,18/06/1961,https://allancr.github.io/familia-machado-2024/img/Edilson_Gonçalves_Caixeta_-_18-06-1961.jpeg
+Maria Elizabeth Machado Caixeta,Jovando Vieira Machado,FILHA,02/08/1961,https://allancr.github.io/familia-machado-2024/img/Maria_Elizabeth_Machado_Caixeta_-_02-08-1961.jpeg
+Cícero Rosa Correia,Maria Elizabeth Machado Caixeta,GENRO-NETO,20/02/1980,https://allancr.github.io/familia-machado-2024/img/Cícero_Rosa_Correia_-_20-02-1980.jpeg
+Leidiane Machado Caixêta Correia,Maria Elizabeth Machado Caixeta,NETA,22/02/1987,https://allancr.github.io/familia-machado-2024/img/Leidiane_Machado_Caixêta_Correia_-_22-02-1987.jpeg
+Lívia Machado Correia,Leidiane Machado Caixêta Correia,BISNETA,19/04/2008,https://allancr.github.io/familia-machado-2024/img/Lívia_Machado_Correia_-_19-04-2008.jpeg
+Lucas Gabriel Caixêta Correia,Leidiane Machado Caixêta Correia,BISNETO,16/07/2012,https://allancr.github.io/familia-machado-2024/img/Lucas_Gabriel_Caixêta_Correia_-_16-07-2012.jpeg
+Samuel Machado Caixeta,Maria Elizabeth Machado Caixeta,NETO,01/09/1989,https://allancr.github.io/familia-machado-2024/img/Samuel_Machado_Caixeta_-_01-09-1989.jpeg
+Maísa Vieira Caixeta,Maria Elizabeth Machado Caixeta,NORA-NETA,14/11/1994,https://allancr.github.io/familia-machado-2024/img/Maísa_Vieira_Caixeta_-_14-11-1994.jpeg
+Anselmo Machado Caixeta,Maria Elizabeth Machado Caixeta,NETO,11/03/1991,https://allancr.github.io/familia-machado-2024/img/Anselmo_Machado_Caixeta_-_11-03-1991.jpeg
+Manuella Vieira Caixeta,Anselmo Machado Caixeta,BISNETA,16/05/2022,https://allancr.github.io/familia-machado-2024/img/Manuella_Vieira_Caixeta_-_16-05-2022.jpeg
+Ângelo Vieira Caixeta,Anselmo Machado Caixeta,BISNETO,17/04/2024,https://allancr.github.io/familia-machado-2024/img/Ângelo_Vieira_Caixeta_-_17-04-2024.jpeg
+Reinaldo Machado caixeta,Maria Elizabeth Machado Caixeta,NETO,23/04/1992,https://allancr.github.io/familia-machado-2024/img/Reinaldo_Machado_caixeta_-_23-04-1992.jpeg
+Luiz Alves Ferreira,Jovando Vieira Machado,GENRO,02/03/1958,https://allancr.github.io/familia-machado-2024/img/Luiz_Alves_Ferreira_-_02-03-1958.jpeg
+Prudenciana Lisete Machado Alves,Jovando Vieira Machado,FILHA,05/12/1962,https://allancr.github.io/familia-machado-2024/img/Prudenciana_Lisete_Machado_Alves_-_05-12-1962.jpeg
+Aline Aparecida dos Santos,Prudenciana Lisete Machado Alves,NORA-NETA,26/09/1985,https://allancr.github.io/familia-machado-2024/img/Aline_Aparecida_dos_Santos_-_26-09-1985.jpeg
+Luciano Alves Ferreira,Prudenciana Lisete Machado Alves,NETO,14/06/1981,https://allancr.github.io/familia-machado-2024/img/Luciano_Alves_Ferreira_-_14-06-1981.jpeg
+Luis Gustavo Pereira Santos,Luciano Alves Ferreira,GENRO-BISNETO,09/12/2003,https://allancr.github.io/familia-machado-2024/img/Luis_Gustavo_Pereira_Santos_-_09-12-2003.jpeg
+Sabrina Mendes Ferreira,Luciano Alves Ferreira,BISNETA,30/03/2004,https://allancr.github.io/familia-machado-2024/img/Sabrina_Mendes_Ferreira_-_30-03-2004.jpeg
+Nathally Vitória Mendes Ferreira,Luciano Alves Ferreira,BISNETA,10/10/2009,https://allancr.github.io/familia-machado-2024/img/Nathally_Vitória_Mendes_Ferreira_-_10-10-2009.jpeg
+Aleandro Reis Rodrigues,Prudenciana Lisete Machado Alves,GENRO-NETO,28/11/1974,https://allancr.github.io/familia-machado-2024/img/Aleandro_Reis_Rodrigues_-_28-11-1974.jpeg
+Ivonete Maria Alves Reis,Prudenciana Lisete Machado Alves,NETA,21/11/1982,https://allancr.github.io/familia-machado-2024/img/Ivonete_Maria_Alves_Reis_-_21-11-1982.jpeg
+Gustavo Alves Reis,Ivonete Maria Alves Reis,BISNETO,24/08/2014,https://allancr.github.io/familia-machado-2024/img/Gustavo_Alves_Reis_-_24-08-2014.jpeg
+Théo Alves Reis,Ivonete Maria Alves Reis,BISNETO,30/03/2021,https://allancr.github.io/familia-machado-2024/img/Théo_Alves_Reis_-_30-03-2021.jpeg
+Istael de Almeida Barbosa,Prudenciana Lisete Machado Alves,GENRO-NETO,04/01/1984,https://allancr.github.io/familia-machado-2024/img/Istael_de_Almeida_Barbosa_-_04-01-1984.jpeg
+Ivonice Maria Alves de Almeida,Prudenciana Lisete Machado Alves,NETA,30/06/1986,https://allancr.github.io/familia-machado-2024/img/Ivonice_Maria_Alves_de_Almeida_-_30-06-1986.jpeg
+Jhonatan Alves de Almeida,Ivonice Maria Alves de Almeida,BISNETO,14/02/2014,https://allancr.github.io/familia-machado-2024/img/Jhonatan_Alves_de_Almeida_-_14-02-2014.jpeg
+José Luiz Alves de Almeida,Ivonice Maria Alves de Almeida,BISNETO,21/10/2016,https://allancr.github.io/familia-machado-2024/img/José_Luiz_Alves_de_Almeida_-_21-10-2016.jpeg
+Luciana de Sousa Gomes,Prudenciana Lisete Machado Alves,NORA-NETA,14/01/1990,https://allancr.github.io/familia-machado-2024/img/Luciana_de_Sousa_Gomes_-_14-01-1990.jpeg
+Luis Fernando Alves,Prudenciana Lisete Machado Alves,NETO,15/08/1988,https://allancr.github.io/familia-machado-2024/img/Luis_Fernando_Alves_-_15-08-1988.jpeg
+Henrique de Sousa Alves,Luis Fernando Alves,BISNETO,08/01/2020,https://allancr.github.io/familia-machado-2024/img/Henrique_de_Sousa_Alves_-_08-01-2020.jpeg
+Heloíse de Sousa Alves,Luis Fernando Alves,BISNETA,20/05/2024,https://allancr.github.io/familia-machado-2024/img/Heloíse_de_Sousa_Alves_-_20-05-2024.jpeg
+Edilberto Gonçalves Caixeta,Jovando Vieira Machado,GENRO,03/02/1960,https://allancr.github.io/familia-machado-2024/img/Edilberto_Gonçalves_Caixeta_-_03-02-1960.jpeg
+Joana Rosa Machado Caixeta,Jovando Vieira Machado,FILHA,30/08/1964,https://allancr.github.io/familia-machado-2024/img/Joana_Rosa_Machado_Caixeta_-_30-08-1964.jpeg
+Maria das Graças Soares de Abreu,Joana Rosa Machado Caixeta,NORA-NETA,30/03,https://allancr.github.io/familia-machado-2024/img/Maria_das_Graças_Soares_de_Abreu_-_99-99-9999.jpeg
+Nei Rosa Caixeta,Joana Rosa Machado Caixeta,NETO,07/07/1983,https://allancr.github.io/familia-machado-2024/img/Nei_Rosa_Caixeta_-_07-07-1983.jpeg
+Mila Ribeiro,Joana Rosa Machado Caixeta,NORA-NETA,07/10/1989,https://allancr.github.io/familia-machado-2024/img/Mila_Ribeiro_-_07-10-1989.jpeg
+Roberto Rosa Caixeta,Joana Rosa Machado Caixeta,NETO,06/06/1985,https://allancr.github.io/familia-machado-2024/img/Roberto_Rosa_Caixeta_-_06-06-1985.jpeg
+Amanda de Freitas Caixeta,Roberto Rosa Caixeta,BISNETA,26/12/2008,https://allancr.github.io/familia-machado-2024/img/Amanda_de_Freitas_Caixeta_-_26-12-2008.jpeg
+Roberta de Freitas Caixeta,Roberto Rosa Caixeta,BISNETA,25/09/2014,https://allancr.github.io/familia-machado-2024/img/Roberta_de_Freitas_Caixeta_-_25-09-2014.jpeg
+Rosinara Maria Caixeta,Joana Rosa Machado Caixeta,NETA,28/01/1987,https://allancr.github.io/familia-machado-2024/img/Rosinara_Maria_Caixeta_-_28-01-1987.jpeg
+João Paulo Caixeta Santos,Rosinara Maria Caixeta,BISNETO,26/02/2009,https://allancr.github.io/familia-machado-2024/img/João_Paulo_Caixeta_Santos_-_26-02-2009.jpeg
+Nicolas Junio Caixeta,Rosinara Maria Caixeta,BISNETO,19/06/2015,https://allancr.github.io/familia-machado-2024/img/Nicolas_Junio_Caixeta_-_19-06-2015.jpeg
+Édna de Cassia Pinheiro Caixeta,Joana Rosa Machado Caixeta,NORA-NETA,01/05/1989,https://allancr.github.io/familia-machado-2024/img/Édna_de_Cassia_Pinheiro_Caixeta_-_01-05-1989.jpeg
+Rodrigo Rosa Caixeta,Joana Rosa Machado Caixeta,NETO,16/04/1988,https://allancr.github.io/familia-machado-2024/img/Rodrigo_Rosa_Caixeta_-_16-04-1988.jpeg
+Sarah Lopes Caixeta,Rodrigo Rosa Caixeta,BISNETA,03/05/2011,https://allancr.github.io/familia-machado-2024/img/Sarah_Lopes_Caixeta_-_03-05-2011.jpeg
+Ana Clara Lopes Caixeta,Rodrigo Rosa Caixeta,BISNETA,16/03/2015,https://allancr.github.io/familia-machado-2024/img/Ana_Clara_Lopes_Caixeta_-_16-03-2015.jpeg
+João Cesar Caixeta,Jovando Vieira Machado,GENRO,07/10/1960,https://allancr.github.io/familia-machado-2024/img/João_Cesar_Caixeta_-_07-10-1960.jpeg
+Bernadete de Lourdes Machado Caixeta,Jovando Vieira Machado,FILHA,06/03/1967,https://allancr.github.io/familia-machado-2024/img/Bernadete_de_Lourdes_Machado_Caixeta_-_06-03-1967.jpeg
+Reinaldo Ubiratan Antônio Pereira,Bernadete de Lourdes Machado Caixeta,GENRO-NETO,26/03/1981,https://allancr.github.io/familia-machado-2024/img/Reinaldo_Ubiratan_Antônio_Pereira_-_26-03-1981.jpeg
+Lana Vanessa Caixeta Pereira,Bernadete de Lourdes Machado Caixeta,NETA,21/04/1987,https://allancr.github.io/familia-machado-2024/img/Lana_Vanessa_Caixeta_Pereira_-_21-04-1987.jpeg
+João Pedro Caixeta Pereira,Lana Vanessa Caixeta Pereira,BISNETO,20/10/2011,https://allancr.github.io/familia-machado-2024/img/João_Pedro_Caixeta_Pereira_-_20-10-2011.jpeg
+Laura Caixeta Pereira,Lana Vanessa Caixeta Pereira,BISNETA,10/01/2017,https://allancr.github.io/familia-machado-2024/img/Laura_Caixeta_Pereira_-_10-01-2017.jpeg
+Luis Antônio de Sousa,Bernadete de Lourdes Machado Caixeta,GENRO-NETO,05/01/1991,https://allancr.github.io/familia-machado-2024/img/Luis_Antônio_de_Sousa_-_05-01-1991.jpeg
+Rosana de Lourdes Caixeta,Bernadete de Lourdes Machado Caixeta,NETA,02/03/1989,https://allancr.github.io/familia-machado-2024/img/Rosana_de_Lourdes_Caixeta_-_02-03-1989.jpeg
+Fernanda Pereira Canedo Caixêta,Bernadete de Lourdes Machado Caixeta,NORA-NETA,11/07/1991,https://allancr.github.io/familia-machado-2024/img/Fernanda_Pereira_Canedo_Caixêta_-_11-07-1991.jpeg
+Wallace Evaristo Machado Caixêta,Bernadete de Lourdes Machado Caixeta,NETO,26/10/1990,https://allancr.github.io/familia-machado-2024/img/Wallace_Evaristo_Machado_Caixêta-_26-10-1990.jpeg
+Liz Canedo Caixêta,Wallace Evaristo Machado Caixêta,BISNETA,19/12/2023,https://allancr.github.io/familia-machado-2024/img/Liz_Canedo_Caixêta_-_19-12-2023.jpeg
+Lucas Vieira Gomes,Bernadete de Lourdes Machado Caixeta,GENRO-NETO,18/08/1988,https://allancr.github.io/familia-machado-2024/img/Lucas_Vieira_Gomes_-_18-18-1988.jpeg
+Valéria Cristina Caixeta Gomes,Bernadete de Lourdes Machado Caixeta,NETA,19/08/1995,https://allancr.github.io/familia-machado-2024/img/Valéria_Cristina_Caixeta_Gomes_-_19-08-1995.jpeg
+Rafael Caixeta Gomes,Valéria Cristina Caixeta Gomes,BISNETO,11/11/2023,https://allancr.github.io/familia-machado-2024/img/Rafael_Caixeta_Gomes_-_11-11-2023.jpeg
+Maria Helena de Castro Machado,Jovando Vieira Machado,NORA,21/04/1963,https://allancr.github.io/familia-machado-2024/img/Maria_Helena_de_Castro_Machado_-_21-04-1963.jpeg
+Jose Giovanne Machado,Jovando Vieira Machado,FILHO,27/02/1969,https://allancr.github.io/familia-machado-2024/img/Jose_Giovanne_Machado_-_27-02-1969.jpeg
+Fabiane Aparecida Saavedra Caixeta,Jose Giovanne Machado,NORA-NETA,04/07/2004,https://allancr.github.io/familia-machado-2024/img/Fabiane_Aparecida_Saavedra_Caixeta_-_04-07-2004.jpeg
+José Augusto de Castro Machado,Jose Giovanne Machado,NETO,19/05/1995,https://allancr.github.io/familia-machado-2024/img/José_Augusto_de_Castro_Machado_-_19-05-1995.jpeg
+Jade Saavedra de Castro,José Augusto de Castro Machado,BISNETA,25/07/2022,https://allancr.github.io/familia-machado-2024/img/Jade_Saavedra_de_Castro_-_25-07-22.jpeg
+Daniel José Gonçalves,Jose Giovanne Machado,GENRO-NETO,25/09/1997,https://allancr.github.io/familia-machado-2024/img/Daniel_José_Gonçalves_-_25-09-1997.jpeg
+Erica de Castro Machado,Jose Giovanne Machado,NETA,15/10/1997,https://allancr.github.io/familia-machado-2024/img/Erica_de_Castro_Machado_-_15-10-1997.jpeg
+Laércio Diniz de Sousa,Jovando Vieira Machado,GENRO,06/12/1971,https://allancr.github.io/familia-machado-2024/img/Laércio_Diniz_de_Sousa_-_06-12-1971.jpeg
+Marisete Beatriz Machado Sousa,Jovando Vieira Machado,FILHA,22/06/1970,https://allancr.github.io/familia-machado-2024/img/Marisete_Beatriz_Machado_Sousa_-_22-06-1970.jpeg
+Flávio Diniz de Sousa,Marisete Beatriz Machado Sousa,NETO,25/09/2003,https://allancr.github.io/familia-machado-2024/img/Flávio_Diniz_de_Sousa_-_25-09-2003.jpeg
+Layne Beatriz de Sousa,Marisete Beatriz Machado Sousa,NETA,06/09/2005,https://allancr.github.io/familia-machado-2024/img/Layne_Beatriz_de_Sousa_-_06-09-2005.jpeg
+Cleidina Maria da Rocha Machado,Jovando Vieira Machado,NORA,20/02/1976,https://allancr.github.io/familia-machado-2024/img/Cleidina_Maria_da_Rocha_Machado_-_20-02-1976.jpeg
+Pedro Jovando Machado,Jovando Vieira Machado,FILHO,28/09/1972,https://allancr.github.io/familia-machado-2024/img/Pedro_Jovando_Machado_-_28-09-1972.jpeg
+Lucilene de Freitas Rosa Machado,Pedro Jovando Machado,NORA-NETA,18/04/1991,https://allancr.github.io/familia-machado-2024/img/Lucilene_de_Freitas_Rosa_Machado_-_18-04-1991.jpeg
+Diego Rocha Machado,Pedro Jovando Machado,NETO,12/07/1994,https://allancr.github.io/familia-machado-2024/img/Diego_Rocha_Machado_-_12-07-1994.jpeg
+Diana Rosa Machado,Diego Rocha Machado,BISNETA,22/05/2017,https://allancr.github.io/familia-machado-2024/img/Diana_Rosa_Machado_-_22-05-2017.jpeg
+Kiara Rosa Machado,Diego Rocha Machado,BISNETA,04/06/2019,https://allancr.github.io/familia-machado-2024/img/Kiara_Rosa_Machado_-_04-06-2019.jpeg
+Bianca Rosa Machado,Diego Rocha Machado,BISNETA,04/12/2024,https://allancr.github.io/familia-machado-2024/img/Bianca_Rosa_Machado_-_04-12-2024.jpeg
+Emílio Corrêa Tiago,Pedro Jovando Machado,GENRO-NETO,22/03/1985,https://allancr.github.io/familia-machado-2024/img/Emílio_Corrêa_Tiago_-_22-03-1985.jpeg
+Lorena Avelina Machado,Pedro Jovando Machado,NETA,18/09/1995,https://allancr.github.io/familia-machado-2024/img/Lorena_Avelina_Machado_-_18-09-1995.jpeg
+Renes Aparecida Cassimiro,Jovando Vieira Machado,NORA,11/11/1983,https://allancr.github.io/familia-machado-2024/img/Renes_Aparecida_Cassimiro_-_11-11-1983.jpeg
+Paulo César Machado,Jovando Vieira Machado,FILHO,18/04/1974,https://allancr.github.io/familia-machado-2024/img/Paulo_César_Machado_-_18-04-1974.jpeg
+Cléber José dos Santos,Paulo César Machado,GENRO-NETO,21/03/1998,https://allancr.github.io/familia-machado-2024/img/Cléber_José_dos_Santos_-_21-03-1998.jpeg
+Layane Paula Machado,Paulo César Machado,NETA,23/10/2003,https://allancr.github.io/familia-machado-2024/img/Layane_Paula_Machado_-_23-10-2003.jpeg
+Luis Gustavo Machado,Paulo César Machado,NETO,30/10/2007,https://allancr.github.io/familia-machado-2024/img/Luis_Gustavo_Machado_-_30-10-2007.jpeg
+Luara Aparecida Cassimiro Machado,Paulo César Machado,NETA,25/06/2020,https://allancr.github.io/familia-machado-2024/img/Luara_Aparecida_Cassimiro_Machado_-_25-06-2020.jpeg
+Gildeon Alves Pereira,Jovando Vieira Machado,GENRO,25/01/1983,https://allancr.github.io/familia-machado-2024/img/Gildeon_Alves_Pereira_-_25-01-1983.jpeg
+Gilvana Maria Machado,Jovando Vieira Machado,FILHA,21/05/1981,https://allancr.github.io/familia-machado-2024/img/Gilvana_Maria_Machado_-_21-05-1981.jpeg
+Danilo Alves Araújo,Gilvana Maria Machado,NETO,26/11/2019,https://allancr.github.io/familia-machado-2024/img/Danilo_Alves_Araújo_-_26-11-2019.jpeg
+Sávio Alves Machado,Gilvana Maria Machado,NETO,19/08/2023,https://allancr.github.io/familia-machado-2024/img/Sávio_Alves_Machado_-_19-08-2023.jpeg

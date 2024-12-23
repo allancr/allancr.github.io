@@ -1,162 +1,157 @@
-{"completo": true, "ativo": true, "sexo": "M", "tipo": "PATRIARCA", "nome": "Jovando Vieira Machado", "dataNascimento": "25/07/1930", "urlFotoLocal": "img/Jovando_Vieira_Machado_-_25-07-1930.png", "dependentes": [
-  {"completo": true, "ativo": true, "sexo": "F", "tipo": "MATRIARCA", "nome": "Teresinha Abadia Pereira Machado", "dataNascimento": "07/11/1938", "urlFotoLocal": "img/Terezinha_Abadia_Pereira_Machado_-_07-11-1938.png"},
-  {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Maria Claret Machado e Silva", "dataNascimento": "06/11/1957", "urlFotoLocal": "img/Maria_Claret_Machado_e_Silva_-_06-11-1957.jpeg", "dependentes": [
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO", "nome": "Ivan da Silva Gregório", "dataNascimento": "15/08/1955", "urlFotoLocal": "img/Ivan_da_Silva_Gregório_-_15-08-1955.jpeg"},
-    {"completo": true, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Silvana Maria da Silva", "dataNascimento": "17/10/1983", "urlFotoLocal": "img/Silvana_Maria_da_Silva_-_17-10-1983.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Cleomar Divino Vieira", "dataNascimento": "28/11/1982", "urlFotoLocal": "img/Cleomar_Divino_Vieira_-_28-11-1982.jpeg"},
-      {"completo": true, "ativo": false, "sexo": "M", "tipo": "EX-COMPANHEIRO(A)", "nome": "Wagmar Pereira da Silva", "dataNascimento": "17/08/1986", "urlFotoLocal": "img/ex.png"},
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Fillipe Pereira Silva", "dataNascimento": "22/12/2006", "urlFotoLocal": "img/Fillipe_Pereira_Silva_-_22-12-2006.jpeg"}
+{"ativo": true, "sexo": "M", "tipo": "PATRIARCA", "nome": "Jovando Vieira Machado", "dataNascimento": "25/07/1930", "urlFotoLocal": "img/Jovando_Vieira_Machado_-_25-07-1930.png", 
+  "par": {"ativo": true, "sexo": "F", "tipo": "MATRIARCA", "nome": "Teresinha Abadia Pereira Machado", "dataNascimento": "07/11/1938", "urlFotoLocal": "img/Terezinha_Abadia_Pereira_Machado_-_07-11-1938.png"}, "dependentes": [
+  {"ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Maria Claret Machado e Silva", "dataNascimento": "06/11/1957", "urlFotoLocal": "img/Maria_Claret_Machado_e_Silva_-_06-11-1957.jpeg", 
+    "par": {"ativo": true, "sexo": "M", "tipo": "GENRO", "nome": "Ivan da Silva Gregório", "dataNascimento": "15/08/1955", "urlFotoLocal": "img/Ivan_da_Silva_Gregório_-_15-08-1955.jpeg"}, "dependentes": [
+    {"ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Silvana Maria da Silva", "dataNascimento": "17/10/1983", "urlFotoLocal": "img/Silvana_Maria_da_Silva_-_17-10-1983.jpeg", 
+      "par": {"ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Cleomar Divino Vieira", "dataNascimento": "28/11/1982", "urlFotoLocal": "img/Cleomar_Divino_Vieira_-_28-11-1982.jpeg"}, "dependentes": [
+      {"ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Fillipe Pereira Silva", "dataNascimento": "22/12/2006", "urlFotoLocal": "img/Fillipe_Pereira_Silva_-_22-12-2006.jpeg"}
     ]},
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Guilherme Machado e Silva", "dataNascimento": "11/03/1985", "urlFotoLocal": "img/Guilherme_Machado_e_Silva_-_11-03-1985.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Luciele Martins de Andrade", "dataNascimento": "24/04/1988", "urlFotoLocal": "img/Luciele_Martins_de_Andrade_-_24-04-1988.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Cristopher Andrade Machado", "dataNascimento": "06/07/2017", "urlFotoLocal": "img/Cristopher_Andrade_Machado_-_07-06-2017.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Cloe Martins Andrade Machado", "dataNascimento": "15/12/2020", "urlFotoLocal": "img/Cloe_Martins_Andrade_Machado_-_15-12-2020.jpeg"}
+    {"ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Guilherme Machado e Silva", "dataNascimento": "11/03/1985", "urlFotoLocal": "img/Guilherme_Machado_e_Silva_-_11-03-1985.jpeg",
+      "par": {"ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Luciele Martins de Andrade", "dataNascimento": "24/04/1988", "urlFotoLocal": "img/Luciele_Martins_de_Andrade_-_24-04-1988.jpeg"}, "dependentes": [
+      {"ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Cristopher Andrade Machado", "dataNascimento": "06/07/2017", "urlFotoLocal": "img/Cristopher_Andrade_Machado_-_07-06-2017.jpeg"},
+      {"ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Cloe Martins Andrade Machado", "dataNascimento": "15/12/2020", "urlFotoLocal": "img/Cloe_Martins_Andrade_Machado_-_15-12-2020.jpeg"}
     ]},
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Fernando Machado e Silva", "dataNascimento": "24/04/1987", "urlFotoLocal": "img/Fernando_Machado_e_Silva_-_24-04-1987.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Sumaia dos Santos Arruda Machado", "dataNascimento": "08/10/1983", "urlFotoLocal": "img/Sumaia_dos_Santos_Arruda_Machado_-_08-10-1983.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Luiz Henrique dos Santos Machado", "dataNascimento": "20/04/2010", "urlFotoLocal": "img/Luiz_Henrique_dos_Santos_Machado_-_20-04-2010.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Calebe dos Santos Machado", "dataNascimento": "28/07/2016", "urlFotoLocal": "img/Calebe_dos_Santos_Machado_-_28-07-2016.jpeg"}
+    {"ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Fernando Machado e Silva", "dataNascimento": "24/04/1987", "urlFotoLocal": "img/Fernando_Machado_e_Silva_-_24-04-1987.jpeg",
+      "par": {"ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Sumaia dos Santos Arruda Machado", "dataNascimento": "08/10/1983", "urlFotoLocal": "img/Sumaia_dos_Santos_Arruda_Machado_-_08-10-1983.jpeg"}, "dependentes": [
+      {"ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Luiz Henrique dos Santos Machado", "dataNascimento": "20/04/2010", "urlFotoLocal": "img/Luiz_Henrique_dos_Santos_Machado_-_20-04-2010.jpeg"},
+      {"ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Calebe dos Santos Machado", "dataNascimento": "28/07/2016", "urlFotoLocal": "img/Calebe_dos_Santos_Machado_-_28-07-2016.jpeg"}
     ]},
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Giovanny Machado e Silva", "dataNascimento": "23/05/1994", "urlFotoLocal": "img/Giovanny_Machado_e_Silva_-_23-05-1994.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Érika Faleiro Fernandes Machado", "dataNascimento": "20/01/1992", "urlFotoLocal": "img/Érika_Faleiro_Fernandes_Machado_-_20-01-1992.jpeg"},
-        {"completo": true, "ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Ravi Faleiro Fernandes Machado", "dataNascimento": "15/10/2021", "urlFotoLocal": "img/Ravi_Faleiro_Fernandes_Machado_-_15-10-2021.jpeg"},
-        {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Cleo Faleiro Machado", "dataNascimento": "11/06/2023", "urlFotoLocal": "img/Cleo_Faleiro_Machado_-_11-06-2023.jpeg"}
+    {"ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Giovanny Machado e Silva", "dataNascimento": "23/05/1994", "urlFotoLocal": "img/Giovanny_Machado_e_Silva_-_23-05-1994.jpeg",
+      "par": {"ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Érika Faleiro Fernandes Machado", "dataNascimento": "20/01/1992", "urlFotoLocal": "img/Érika_Faleiro_Fernandes_Machado_-_20-01-1992.jpeg"}, "dependentes": [
+        {"ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Ravi Faleiro Fernandes Machado", "dataNascimento": "15/10/2021", "urlFotoLocal": "img/Ravi_Faleiro_Fernandes_Machado_-_15-10-2021.jpeg"},
+        {"ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Cleo Faleiro Machado", "dataNascimento": "11/06/2023", "urlFotoLocal": "img/Cleo_Faleiro_Machado_-_11-06-2023.jpeg"}
      ]}
   ]},
-  {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Aparecida Donizete Machado", "dataNascimento": "11/10/1959", "urlFotoLocal": "img/Aparecida_Donizete_Machado_Palhares_-_11-10-1959.jpeg", "dependentes": [
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO", "nome": "Cairo Fernandes de Castro", "dataNascimento": "06/07/1959", "urlFotoLocal": "img/Cairo_Fernandes_de_Castro_-_06-07-1959.enc"},
-    {"completo": true, "ativo": false, "sexo": "M", "tipo": "EX-COMPANHEIRO(A)", "nome": "Carlos Humberto Palhares", "dataNascimento": "01/10/1956", "urlFotoLocal": "img/ex.png"},
-    {"completo": true, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Karla Machado Palhares Ramalho", "dataNascimento": "29/07/1984", "urlFotoLocal": "img/Karla_Machado_Palhares_Ramalho_-_29-07-1984.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Allan Carlos Ramalho", "dataNascimento": "03/08/1985", "urlFotoLocal": "img/Allan_Carlos_Ramalho_-_03-08-1985.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Lara Palhares Ramalho", "dataNascimento": "08/10/2016", "urlFotoLocal": "img/Lara_Palhares_Ramalho_-_08-10-2016.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Ian Palhares Ramalho", "dataNascimento": "22/10/2024", "urlFotoLocal": "img/Ian_Palhares_Ramalho_-_22-10-2024.jpeg"}
+  {"ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Aparecida Donizete Machado", "dataNascimento": "11/10/1959", "urlFotoLocal": "img/Aparecida_Donizete_Machado_Palhares_-_11-10-1959.jpeg", 
+    "par": {"ativo": true, "sexo": "M", "tipo": "GENRO", "nome": "Cairo Fernandes de Castro", "dataNascimento": "06/07/1959", "urlFotoLocal": "img/Cairo_Fernandes_de_Castro_-_06-07-1959.enc"}, "dependentes": [
+    {"ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Karla Machado Palhares Ramalho", "dataNascimento": "29/07/1984", "urlFotoLocal": "img/Karla_Machado_Palhares_Ramalho_-_29-07-1984.jpeg", 
+      "par": {"ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Allan Carlos Ramalho", "dataNascimento": "03/08/1985", "urlFotoLocal": "img/Allan_Carlos_Ramalho_-_03-08-1985.jpeg"}, "dependentes": [
+      {"ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Lara Palhares Ramalho", "dataNascimento": "08/10/2016", "urlFotoLocal": "img/Lara_Palhares_Ramalho_-_08-10-2016.jpeg"},
+      {"ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Ian Palhares Ramalho", "dataNascimento": "22/10/2024", "urlFotoLocal": "img/Ian_Palhares_Ramalho_-_22-10-2024.jpeg"}
     ]},
-    {"completo": true, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Kamilla Machado Palhares", "dataNascimento": "21/10/1985", "urlFotoLocal": "img/Kamilla_Machado_Palhares_-_21-10-1985.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Yuri Flores Albuquerque", "dataNascimento": "28/01/1988", "urlFotoLocal": "img/Yuri_Flores_Albuquerque_-_28-01-1988.jpeg"},
-        {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Teresa Machado Albuquerque", "dataNascimento": "13/04/2018", "urlFotoLocal": "img/Teresa_Machado_Albuquerque_-_13-04-2018.jpeg"},
-        {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Luísa Machado Albuquerque", "dataNascimento": "20/02/2023", "urlFotoLocal": "img/Luísa_Machado_Albuquerque_-_20-02-2023.jpeg"}
+    {"ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Kamilla Machado Palhares", "dataNascimento": "21/10/1985", "urlFotoLocal": "img/Kamilla_Machado_Palhares_-_21-10-1985.jpeg", 
+      "par": {"ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Yuri Flores Albuquerque", "dataNascimento": "28/01/1988", "urlFotoLocal": "img/Yuri_Flores_Albuquerque_-_28-01-1988.jpeg"}, "dependentes": [
+        {"ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Teresa Machado Albuquerque", "dataNascimento": "13/04/2018", "urlFotoLocal": "img/Teresa_Machado_Albuquerque_-_13-04-2018.jpeg"},
+        {"ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Luísa Machado Albuquerque", "dataNascimento": "20/02/2023", "urlFotoLocal": "img/Luísa_Machado_Albuquerque_-_20-02-2023.jpeg"}
      ]}
   ]},
-  {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Maria Elizabeth Machado Caixeta", "dataNascimento": "02/08/1961", "urlFotoLocal": "img/Maria_Elizabeth_Machado_Caixeta_-_02-08-1961.jpeg", "dependentes": [
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO", "nome": "Edilson Gonçalves Caixeta", "dataNascimento": "18/06/1961", "urlFotoLocal": "img/Edilson_Gonçalves_Caixeta_-_18-06-1961.jpeg"},
-    {"completo": true, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Leidiane Machado Caixêta Correia", "dataNascimento": "22/02/1987", "urlFotoLocal": "img/Leidiane_Machado_Caixêta_Correia_-_22-02-1987.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Cícero Rosa Correia", "dataNascimento": "20/02/1980", "urlFotoLocal": "img/Cícero_Rosa_Correia_-_20-02-1980.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Lívia Machado Correia", "dataNascimento": "19/04/2008", "urlFotoLocal": "img/Lívia_Machado_Correia_-_19-04-2008.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Lucas Gabriel Caixêta Correia", "dataNascimento": "16/07/2012", "urlFotoLocal": "img/Lucas_Gabriel_Caixêta_Correia_-_16-07-2012.jpeg"}
+  {"ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Maria Elizabeth Machado Caixeta", "dataNascimento": "02/08/1961", "urlFotoLocal": "img/Maria_Elizabeth_Machado_Caixeta_-_02-08-1961.jpeg", 
+    "par": {"ativo": true, "sexo": "M", "tipo": "GENRO", "nome": "Edilson Gonçalves Caixeta", "dataNascimento": "18/06/1961", "urlFotoLocal": "img/Edilson_Gonçalves_Caixeta_-_18-06-1961.jpeg"}, "dependentes": [
+    {"ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Leidiane Machado Caixêta Correia", "dataNascimento": "22/02/1987", "urlFotoLocal": "img/Leidiane_Machado_Caixêta_Correia_-_22-02-1987.jpeg", 
+      "par": {"ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Cícero Rosa Correia", "dataNascimento": "20/02/1980", "urlFotoLocal": "img/Cícero_Rosa_Correia_-_20-02-1980.jpeg"}, "dependentes": [
+      {"ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Lívia Machado Correia", "dataNascimento": "19/04/2008", "urlFotoLocal": "img/Lívia_Machado_Correia_-_19-04-2008.jpeg"},
+      {"ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Lucas Gabriel Caixêta Correia", "dataNascimento": "16/07/2012", "urlFotoLocal": "img/Lucas_Gabriel_Caixêta_Correia_-_16-07-2012.jpeg"}
     ]},
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Samuel Machado Caixeta", "dataNascimento": "01/09/1989", "urlFotoLocal": "img/Samuel_Machado_Caixeta_-_01-09-1989.jpeg"},
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Anselmo Machado Caixeta", "dataNascimento": "11/03/1991", "urlFotoLocal": "img/Anselmo_Machado_Caixeta_-_11-03-1991.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Maísa Vieira Caixeta", "dataNascimento": "14/11/1994", "urlFotoLocal": "img/Maísa_Vieira_Caixeta_-_14-11-1994.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Manuella Vieira Caixeta", "dataNascimento": "16/05/2022", "urlFotoLocal": "img/Manuella_Vieira_Caixeta_-_16-05-2022.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Ângelo Vieira Caixeta", "dataNascimento": "17/04/2024", "urlFotoLocal": "img/Ângelo_Vieira_Caixeta_-_17-04-2024.jpeg"}
+    {"ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Samuel Machado Caixeta", "dataNascimento": "01/09/1989", "urlFotoLocal": "img/Samuel_Machado_Caixeta_-_01-09-1989.jpeg"},
+    {"ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Anselmo Machado Caixeta", "dataNascimento": "11/03/1991", "urlFotoLocal": "img/Anselmo_Machado_Caixeta_-_11-03-1991.jpeg",
+      "par": {"ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Maísa Vieira Caixeta", "dataNascimento": "14/11/1994", "urlFotoLocal": "img/Maísa_Vieira_Caixeta_-_14-11-1994.jpeg"}, "dependentes": [
+      {"ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Manuella Vieira Caixeta", "dataNascimento": "16/05/2022", "urlFotoLocal": "img/Manuella_Vieira_Caixeta_-_16-05-2022.jpeg"},
+      {"ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Ângelo Vieira Caixeta", "dataNascimento": "17/04/2024", "urlFotoLocal": "img/Ângelo_Vieira_Caixeta_-_17-04-2024.jpeg"}
     ]},
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Reinaldo Machado caixeta", "dataNascimento": "23/04/1992", "urlFotoLocal": "img/Reinaldo_Machado_caixeta_-_23-04-1992.jpeg"}
+    {"ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Reinaldo Machado caixeta", "dataNascimento": "23/04/1992", "urlFotoLocal": "img/Reinaldo_Machado_caixeta_-_23-04-1992.jpeg"}
   ]},
-  {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Prudenciana Lisete Machado Alves", "dataNascimento": "05/12/1962", "urlFotoLocal": "img/Prudenciana_Lisete_Machado_Alves_-_05-12-1962.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO", "nome": "Luiz Alves Ferreira", "dataNascimento": "02/03/1958", "urlFotoLocal": "img/Luiz_Alves_Ferreira_-_02-03-1958.jpeg"},
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Luciano Alves Ferreira", "dataNascimento": "14/06/1981", "urlFotoLocal": "img/Luciano_Alves_Ferreira_-_14-06-1981.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Aline Aparecida dos Santos", "dataNascimento": "26/09/1985", "urlFotoLocal": "img/Aline_Aparecida_dos_Santos_-_26-09-1985.jpeg"},
-      {"completo": true, "ativo": false, "sexo": "F", "tipo": "EX-COMPANHEIRO(A)", "nome": "Laurisangela Maria da Silva Mendes", "dataNascimento": "20/11/1982", "urlFotoLocal": "img/ex.png"},
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Sabrina Mendes Ferreira", "dataNascimento": "30/03/2004", "urlFotoLocal": "img/Sabrina_Mendes_Ferreira_-_30-03-2004.jpeg", "dependentes": [
-          {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO-BISNETO", "nome": "Luis Gustavo Pereira Santos", "dataNascimento": "09/12/2003", "urlFotoLocal": "img/Luis_Gustavo_Pereira_Santos_-_09-12-2003.jpeg"}
+  {"ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Prudenciana Lisete Machado Alves", "dataNascimento": "05/12/1962", "urlFotoLocal": "img/Prudenciana_Lisete_Machado_Alves_-_05-12-1962.jpeg", 
+    "par": {"ativo": true, "sexo": "M", "tipo": "GENRO", "nome": "Luiz Alves Ferreira", "dataNascimento": "02/03/1958", "urlFotoLocal": "img/Luiz_Alves_Ferreira_-_02-03-1958.jpeg"}, "dependentes": [
+    {"ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Luciano Alves Ferreira", "dataNascimento": "14/06/1981", "urlFotoLocal": "img/Luciano_Alves_Ferreira_-_14-06-1981.jpeg",
+      "par": {"ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Aline Aparecida dos Santos", "dataNascimento": "26/09/1985", "urlFotoLocal": "img/Aline_Aparecida_dos_Santos_-_26-09-1985.jpeg"}, "dependentes": [
+      {"ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Sabrina Mendes Ferreira", "dataNascimento": "30/03/2004", "urlFotoLocal": "img/Sabrina_Mendes_Ferreira_-_30-03-2004.jpeg", 
+        "par": {"ativo": true, "sexo": "M", "tipo": "GENRO-BISNETO", "nome": "Luis Gustavo Pereira Santos", "dataNascimento": "09/12/2003", "urlFotoLocal": "img/Luis_Gustavo_Pereira_Santos_-_09-12-2003.jpeg"}, "dependentes": [
       ]},
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Nathally Vitória Mendes Ferreira", "dataNascimento": "10/10/2009", "urlFotoLocal": "img/Nathally_Vitória_Mendes_Ferreira_-_10-10-2009.jpeg"}
+      {"ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Nathally Vitória Mendes Ferreira", "dataNascimento": "10/10/2009", "urlFotoLocal": "img/Nathally_Vitória_Mendes_Ferreira_-_10-10-2009.jpeg"}
     ]},
-    {"completo": true, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Ivonete Maria Alves Reis", "dataNascimento": "21/11/1982", "urlFotoLocal": "img/Ivonete_Maria_Alves_Reis_-_21-11-1982.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Aleandro Reis Rodrigues", "dataNascimento": "28/11/1974", "urlFotoLocal": "img/Aleandro_Reis_Rodrigues_-_28-11-1974.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Gustavo Alves Reis", "dataNascimento": "24/08/2014", "urlFotoLocal": "img/Gustavo_Alves_Reis_-_24-08-2014.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Théo Alves Reis", "dataNascimento": "30/03/2021", "urlFotoLocal": "img/Théo_Alves_Reis_-_30-03-2021.jpeg"}
+    {"ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Ivonete Maria Alves Reis", "dataNascimento": "21/11/1982", "urlFotoLocal": "img/Ivonete_Maria_Alves_Reis_-_21-11-1982.jpeg", 
+      "par": {"ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Aleandro Reis Rodrigues", "dataNascimento": "28/11/1974", "urlFotoLocal": "img/Aleandro_Reis_Rodrigues_-_28-11-1974.jpeg"}, "dependentes": [
+      {"ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Gustavo Alves Reis", "dataNascimento": "24/08/2014", "urlFotoLocal": "img/Gustavo_Alves_Reis_-_24-08-2014.jpeg"},
+      {"ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Théo Alves Reis", "dataNascimento": "30/03/2021", "urlFotoLocal": "img/Théo_Alves_Reis_-_30-03-2021.jpeg"}
     ]},
-    {"completo": true, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Ivonice Maria Alves de Almeida", "dataNascimento": "30/06/1986", "urlFotoLocal": "img/Ivonice_Maria_Alves_de_Almeida_-_30-06-1986.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Istael de Almeida Barbosa", "dataNascimento": "04/01/1984", "urlFotoLocal": "img/Istael_de_Almeida_Barbosa_-_04-01-1984.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Jhonatan Alves de Almeida", "dataNascimento": "14/02/2014", "urlFotoLocal": "img/Jhonatan_Alves_de_Almeida_-_14-02-2014.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "José Luiz Alves de Almeida", "dataNascimento": "21/10/2016", "urlFotoLocal": "img/José_Luiz_Alves_de_Almeida_-_21-10-2016.jpeg"}
+    {"ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Ivonice Maria Alves de Almeida", "dataNascimento": "30/06/1986", "urlFotoLocal": "img/Ivonice_Maria_Alves_de_Almeida_-_30-06-1986.jpeg", 
+      "par": {"ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Istael de Almeida Barbosa", "dataNascimento": "04/01/1984", "urlFotoLocal": "img/Istael_de_Almeida_Barbosa_-_04-01-1984.jpeg"}, "dependentes": [
+      {"ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Jhonatan Alves de Almeida", "dataNascimento": "14/02/2014", "urlFotoLocal": "img/Jhonatan_Alves_de_Almeida_-_14-02-2014.jpeg"},
+      {"ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "José Luiz Alves de Almeida", "dataNascimento": "21/10/2016", "urlFotoLocal": "img/José_Luiz_Alves_de_Almeida_-_21-10-2016.jpeg"}
     ]},
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Luis Fernando Alves", "dataNascimento": "15/08/1988", "urlFotoLocal": "img/Luis_Fernando_Alves_-_15-08-1988.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Luciana de Sousa Gomes", "dataNascimento": "14/01/1990", "urlFotoLocal": "img/Luciana_de_Sousa_Gomes_-_14-01-1990.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Henrique de Sousa Alves", "dataNascimento": "08/01/2020", "urlFotoLocal": "img/Henrique_de_Sousa_Alves_-_08-01-2020.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Heloíse de Sousa Alves", "dataNascimento": "20/05/2024", "urlFotoLocal": "img/Heloíse_de_Sousa_Alves_-_20-05-2024.jpeg"}
+    {"ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Luis Fernando Alves", "dataNascimento": "15/08/1988", "urlFotoLocal": "img/Luis_Fernando_Alves_-_15-08-1988.jpeg",
+      "par": {"ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Luciana de Sousa Gomes", "dataNascimento": "14/01/1990", "urlFotoLocal": "img/Luciana_de_Sousa_Gomes_-_14-01-1990.jpeg"}, "dependentes": [
+      {"ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Henrique de Sousa Alves", "dataNascimento": "08/01/2020", "urlFotoLocal": "img/Henrique_de_Sousa_Alves_-_08-01-2020.jpeg"},
+      {"ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Heloíse de Sousa Alves", "dataNascimento": "20/05/2024", "urlFotoLocal": "img/Heloíse_de_Sousa_Alves_-_20-05-2024.jpeg"}
      ]}
   ]},
-  {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Joana Rosa Machado Caixeta", "dataNascimento": "30/08/1964", "urlFotoLocal": "img/Joana_Rosa_Machado_Caixeta_-_30-08-1964.jpeg", "dependentes": [
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO", "nome": "Edilberto Gonçalves Caixeta", "dataNascimento": "03/02/1960", "urlFotoLocal": "img/Edilberto_Gonçalves_Caixeta_-_03-02-1960.jpeg"},
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Nei Rosa Caixeta", "dataNascimento": "07/07/1983", "urlFotoLocal": "img/Nei_Rosa_Caixeta_-_07-07-1983.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Maria das Graças Soares de Abreu", "dataNascimento": "30/03", "urlFotoLocal": "img/Maria_das_Graças_Soares_de_Abreu_-_99-99-9999.jpeg"}
+  {"ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Joana Rosa Machado Caixeta", "dataNascimento": "30/08/1964", "urlFotoLocal": "img/Joana_Rosa_Machado_Caixeta_-_30-08-1964.jpeg", 
+    "par": {"ativo": true, "sexo": "M", "tipo": "GENRO", "nome": "Edilberto Gonçalves Caixeta", "dataNascimento": "03/02/1960", "urlFotoLocal": "img/Edilberto_Gonçalves_Caixeta_-_03-02-1960.jpeg"}, "dependentes": [
+    {"ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Nei Rosa Caixeta", "dataNascimento": "07/07/1983", "urlFotoLocal": "img/Nei_Rosa_Caixeta_-_07-07-1983.jpeg",
+      "par": {"ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Maria das Graças Soares de Abreu", "dataNascimento": "30/03", "urlFotoLocal": "img/Maria_das_Graças_Soares_de_Abreu_-_99-99-9999.jpeg"}, "dependentes": [
     ]},
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Roberto Rosa Caixeta", "dataNascimento": "06/06/1985", "urlFotoLocal": "img/Roberto_Rosa_Caixeta_-_06-06-1985.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Mila Ribeiro", "dataNascimento": "07/10/1989", "urlFotoLocal": "img/Mila_Ribeiro_-_07-10-1989.jpeg"},
-      {"completo": true, "ativo": false, "sexo": "F", "tipo": "EX-COMPANHEIRO(A)", "nome": "Danubia Rodrigues de Freitas", "dataNascimento": "23/06/1991", "urlFotoLocal": "img/ex.png"},
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Amanda de Freitas Caixeta", "dataNascimento": "26/12/2008", "urlFotoLocal": "img/Amanda_de_Freitas_Caixeta_-_26-12-2008.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Roberta de Freitas Caixeta", "dataNascimento": "25/09/2014", "urlFotoLocal": "img/Roberta_de_Freitas_Caixeta_-_25-09-2014.jpeg"}
+    {"ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Roberto Rosa Caixeta", "dataNascimento": "06/06/1985", "urlFotoLocal": "img/Roberto_Rosa_Caixeta_-_06-06-1985.jpeg",
+      "par": {"ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Mila Ribeiro", "dataNascimento": "07/10/1989", "urlFotoLocal": "img/Mila_Ribeiro_-_07-10-1989.jpeg"}, "dependentes": [
+      {"ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Amanda de Freitas Caixeta", "dataNascimento": "26/12/2008", "urlFotoLocal": "img/Amanda_de_Freitas_Caixeta_-_26-12-2008.jpeg"},
+      {"ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Roberta de Freitas Caixeta", "dataNascimento": "25/09/2014", "urlFotoLocal": "img/Roberta_de_Freitas_Caixeta_-_25-09-2014.jpeg"}
     ]},
-    {"completo": true, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Rosinara Maria Caixeta", "dataNascimento": "28/01/1987", "urlFotoLocal": "img/Rosinara_Maria_Caixeta_-_28-01-1987.jpeg", "dependentes": [
-      {"completo": false, "ativo": false, "sexo": "M", "tipo": "EX-COMPANHEIRO(A)", "nome": "Renato", "dataNascimento": "", "urlFotoLocal": "img/ex.png"},
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "João Paulo Caixeta Santos", "dataNascimento": "26/02/2009", "urlFotoLocal": "img/João_Paulo_Caixeta_Santos_-_26-02-2009.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Nicolas Junio Caixeta", "dataNascimento": "19/06/2015", "urlFotoLocal": "img/Nicolas_Junio_Caixeta_-_19-06-2015.jpeg"}
+    {"ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Rosinara Maria Caixeta", "dataNascimento": "28/01/1987", "urlFotoLocal": "img/Rosinara_Maria_Caixeta_-_28-01-1987.jpeg", "dependentes": [
+      {"ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "João Paulo Caixeta Santos", "dataNascimento": "26/02/2009", "urlFotoLocal": "img/João_Paulo_Caixeta_Santos_-_26-02-2009.jpeg"},
+      {"ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Nicolas Junio Caixeta", "dataNascimento": "19/06/2015", "urlFotoLocal": "img/Nicolas_Junio_Caixeta_-_19-06-2015.jpeg"}
     ]},
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Rodrigo Rosa Caixeta", "dataNascimento": "16/04/1988", "urlFotoLocal": "img/Rodrigo_Rosa_Caixeta_-_16-04-1988.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Édna de Cassia Pinheiro Caixeta", "dataNascimento": "01/05/1989", "urlFotoLocal": "img/Édna_de_Cassia_Pinheiro_Caixeta_-_01-05-1989.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Sarah Lopes Caixeta", "dataNascimento": "03/05/2011", "urlFotoLocal": "img/Sarah_Lopes_Caixeta_-_03-05-2011.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Ana Clara Lopes Caixeta", "dataNascimento": "16/03/2015", "urlFotoLocal": "img/Ana_Clara_Lopes_Caixeta_-_16-03-2015.jpeg"}
+    {"ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Rodrigo Rosa Caixeta", "dataNascimento": "16/04/1988", "urlFotoLocal": "img/Rodrigo_Rosa_Caixeta_-_16-04-1988.jpeg",
+      "par": {"ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Édna de Cassia Pinheiro Caixeta", "dataNascimento": "01/05/1989", "urlFotoLocal": "img/Édna_de_Cassia_Pinheiro_Caixeta_-_01-05-1989.jpeg"}, "dependentes": [
+      {"ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Sarah Lopes Caixeta", "dataNascimento": "03/05/2011", "urlFotoLocal": "img/Sarah_Lopes_Caixeta_-_03-05-2011.jpeg"},
+      {"ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Ana Clara Lopes Caixeta", "dataNascimento": "16/03/2015", "urlFotoLocal": "img/Ana_Clara_Lopes_Caixeta_-_16-03-2015.jpeg"}
     ]}
   ]},
-  {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Bernadete de Lourdes Machado Caixeta", "dataNascimento": "06/03/1967", "urlFotoLocal": "img/Bernadete_de_Lourdes_Machado_Caixeta_-_06-03-1967.jpeg", "dependentes": [
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO", "nome": "João Cesar Caixeta", "dataNascimento": "07/10/1960", "urlFotoLocal": "img/João_Cesar_Caixeta_-_07-10-1960.jpeg"},
-    {"completo": true, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Lana Vanessa Caixeta Pereira", "dataNascimento": "21/04/1987", "urlFotoLocal": "img/Lana_Vanessa_Caixeta_Pereira_-_21-04-1987.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Reinaldo Ubiratan Antônio Pereira", "dataNascimento": "26/03/1981", "urlFotoLocal": "img/Reinaldo_Ubiratan_Antônio_Pereira_-_26-03-1981.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "João Pedro Caixeta Pereira", "dataNascimento": "20/10/2011", "urlFotoLocal": "img/João_Pedro_Caixeta_Pereira_-_20-10-2011.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Laura Caixeta Pereira", "dataNascimento": "10/01/2017", "urlFotoLocal": "img/Laura_Caixeta_Pereira_-_10-01-2017.jpeg"}
+  {"ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Bernadete de Lourdes Machado Caixeta", "dataNascimento": "06/03/1967", "urlFotoLocal": "img/Bernadete_de_Lourdes_Machado_Caixeta_-_06-03-1967.jpeg", 
+    "par": {"ativo": true, "sexo": "M", "tipo": "GENRO", "nome": "João Cesar Caixeta", "dataNascimento": "07/10/1960", "urlFotoLocal": "img/João_Cesar_Caixeta_-_07-10-1960.jpeg"}, "dependentes": [
+    {"ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Lana Vanessa Caixeta Pereira", "dataNascimento": "21/04/1987", "urlFotoLocal": "img/Lana_Vanessa_Caixeta_Pereira_-_21-04-1987.jpeg", 
+      "par": {"ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Reinaldo Ubiratan Antônio Pereira", "dataNascimento": "26/03/1981", "urlFotoLocal": "img/Reinaldo_Ubiratan_Antônio_Pereira_-_26-03-1981.jpeg"}, "dependentes": [
+      {"ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "João Pedro Caixeta Pereira", "dataNascimento": "20/10/2011", "urlFotoLocal": "img/João_Pedro_Caixeta_Pereira_-_20-10-2011.jpeg"},
+      {"ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Laura Caixeta Pereira", "dataNascimento": "10/01/2017", "urlFotoLocal": "img/Laura_Caixeta_Pereira_-_10-01-2017.jpeg"}
     ]},
-    {"completo": true, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Rosana de Lourdes Caixeta", "dataNascimento": "02/03/1989", "urlFotoLocal": "img/Rosana_de_Lourdes_Caixeta_-_02-03-1989.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Luis Antônio de Sousa", "dataNascimento": "05/01/1991", "urlFotoLocal": "img/Luis_Antônio_de_Sousa_-_05-01-1991.jpeg"}
+    {"ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Rosana de Lourdes Caixeta", "dataNascimento": "02/03/1989", "urlFotoLocal": "img/Rosana_de_Lourdes_Caixeta_-_02-03-1989.jpeg", 
+      "par": {"ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Luis Antônio de Sousa", "dataNascimento": "05/01/1991", "urlFotoLocal": "img/Luis_Antônio_de_Sousa_-_05-01-1991.jpeg"}, "dependentes": [
     ]},
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Wallace Evaristo Machado Caixêta", "dataNascimento": "26/10/1990", "urlFotoLocal": "img/Wallace_Evaristo_Machado_Caixêta-_26-10-1990.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Fernanda Pereira Canedo Caixêta", "dataNascimento": "11/07/1991", "urlFotoLocal": "img/Fernanda_Pereira_Canedo_Caixêta_-_11-07-1991.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Liz Canedo Caixêta", "dataNascimento": "19/12/2023", "urlFotoLocal": "img/Liz_Canedo_Caixêta_-_19-12-2023.jpeg"}
+    {"ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Wallace Evaristo Machado Caixêta", "dataNascimento": "26/10/1990", "urlFotoLocal": "img/Wallace_Evaristo_Machado_Caixêta-_26-10-1990.jpeg",
+      "par": {"ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Fernanda Pereira Canedo Caixêta", "dataNascimento": "11/07/1991", "urlFotoLocal": "img/Fernanda_Pereira_Canedo_Caixêta_-_11-07-1991.jpeg"}, "dependentes": [
+      {"ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Liz Canedo Caixêta", "dataNascimento": "19/12/2023", "urlFotoLocal": "img/Liz_Canedo_Caixêta_-_19-12-2023.jpeg"}
     ]},
-    {"completo": true, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Valéria Cristina Caixeta Gomes", "dataNascimento": "19/08/1995", "urlFotoLocal": "img/Valéria_Cristina_Caixeta_Gomes_-_19-08-1995.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Lucas Vieira Gomes", "dataNascimento": "18/08/1988", "urlFotoLocal": "img/Lucas_Vieira_Gomes_-_18-18-1988.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Rafael Caixeta Gomes", "dataNascimento": "11/11/2023", "urlFotoLocal": "img/Rafael_Caixeta_Gomes_-_11-11-2023.jpeg"}
+    {"ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Valéria Cristina Caixeta Gomes", "dataNascimento": "19/08/1995", "urlFotoLocal": "img/Valéria_Cristina_Caixeta_Gomes_-_19-08-1995.jpeg", 
+      "par": {"ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Lucas Vieira Gomes", "dataNascimento": "18/08/1988", "urlFotoLocal": "img/Lucas_Vieira_Gomes_-_18-18-1988.jpeg"}, "dependentes": [
+      {"ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Rafael Caixeta Gomes", "dataNascimento": "11/11/2023", "urlFotoLocal": "img/Rafael_Caixeta_Gomes_-_11-11-2023.jpeg"}
     ]}
   ]},
-  {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO", "nome": "Jose Giovanne Machado", "dataNascimento": "27/02/1969", "urlFotoLocal": "img/Jose_Giovanne_Machado_-_27-02-1969.jpeg", "dependentes": [
-    {"completo": true, "ativo": true, "sexo": "F", "tipo": "NORA", "nome": "Maria Helena de Castro Machado", "dataNascimento": "21/04/1963", "urlFotoLocal": "img/Maria_Helena_de_Castro_Machado_-_21-04-1963.jpeg"},
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "José Augusto de Castro Machado", "dataNascimento": "19/05/1995", "urlFotoLocal": "img/José_Augusto_de_Castro_Machado_-_19-05-1995.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Fabiane Aparecida Saavedra Caixeta", "dataNascimento": "04/07/2004", "urlFotoLocal": "img/Fabiane_Aparecida_Saavedra_Caixeta_-_04-07-2004.jpeg"},
-        {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Jade Saavedra de Castro", "dataNascimento": "25/07/2022", "urlFotoLocal": "img/Jade_Saavedra_de_Castro_-_25-07-22.jpeg"}
+  {"ativo": true, "sexo": "M", "tipo": "FILHO", "nome": "Jose Giovanne Machado", "dataNascimento": "27/02/1969", "urlFotoLocal": "img/Jose_Giovanne_Machado_-_27-02-1969.jpeg",
+    "par": {"ativo": true, "sexo": "F", "tipo": "NORA", "nome": "Maria Helena de Castro Machado", "dataNascimento": "21/04/1963", "urlFotoLocal": "img/Maria_Helena_de_Castro_Machado_-_21-04-1963.jpeg"}, "dependentes": [
+    {"ativo": true, "sexo": "M", "tipo": "NETO", "nome": "José Augusto de Castro Machado", "dataNascimento": "19/05/1995", "urlFotoLocal": "img/José_Augusto_de_Castro_Machado_-_19-05-1995.jpeg",
+      "par": {"ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Fabiane Aparecida Saavedra Caixeta", "dataNascimento": "04/07/2004", "urlFotoLocal": "img/Fabiane_Aparecida_Saavedra_Caixeta_-_04-07-2004.jpeg"}, "dependentes": [
+        {"ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Jade Saavedra de Castro", "dataNascimento": "25/07/2022", "urlFotoLocal": "img/Jade_Saavedra_de_Castro_-_25-07-22.jpeg"}
     ]}, 
-    {"completo": true, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Erica de Castro Machado", "dataNascimento": "15/10/1997", "urlFotoLocal": "img/Erica_de_Castro_Machado_-_15-10-1997.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Daniel José Gonçalves", "dataNascimento": "25/09/1997", "urlFotoLocal": "img/Daniel_José_Gonçalves_-_25-09-1997.jpeg"}
+    {"ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Erica de Castro Machado", "dataNascimento": "15/10/1997", "urlFotoLocal": "img/Erica_de_Castro_Machado_-_15-10-1997.jpeg", 
+      "par": {"ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Daniel José Gonçalves", "dataNascimento": "25/09/1997", "urlFotoLocal": "img/Daniel_José_Gonçalves_-_25-09-1997.jpeg"}, "dependentes": [
     ]}
   ]},
-  {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Marisete Beatriz Machado Sousa", "dataNascimento": "22/06/1970", "urlFotoLocal": "img/Marisete_Beatriz_Machado_Sousa_-_22-06-1970.jpeg", "dependentes": [
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO", "nome": "Laércio Diniz de Sousa", "dataNascimento": "06/12/1971", "urlFotoLocal": "img/Laércio_Diniz_de_Sousa_-_06-12-1971.jpeg"},
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Flávio Diniz de Sousa", "dataNascimento": "25/09/2003", "urlFotoLocal": "img/Flávio_Diniz_de_Sousa_-_25-09-2003.jpeg"},
-    {"completo": true, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Layne Beatriz de Sousa", "dataNascimento": "06/09/2005", "urlFotoLocal": "img/Layne_Beatriz_de_Sousa_-_06-09-2005.jpeg"}
+  {"ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Marisete Beatriz Machado Sousa", "dataNascimento": "22/06/1970", "urlFotoLocal": "img/Marisete_Beatriz_Machado_Sousa_-_22-06-1970.jpeg", 
+    "par": {"ativo": true, "sexo": "M", "tipo": "GENRO", "nome": "Laércio Diniz de Sousa", "dataNascimento": "06/12/1971", "urlFotoLocal": "img/Laércio_Diniz_de_Sousa_-_06-12-1971.jpeg"}, "dependentes": [
+    {"ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Flávio Diniz de Sousa", "dataNascimento": "25/09/2003", "urlFotoLocal": "img/Flávio_Diniz_de_Sousa_-_25-09-2003.jpeg"},
+    {"ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Layne Beatriz de Sousa", "dataNascimento": "06/09/2005", "urlFotoLocal": "img/Layne_Beatriz_de_Sousa_-_06-09-2005.jpeg"}
   ]},
-  {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO", "nome": "Pedro Jovando Machado", "dataNascimento": "28/09/1972", "urlFotoLocal": "img/Pedro_Jovando_Machado_-_28-09-1972.jpeg", "dependentes": [
-    {"completo": true, "ativo": true, "sexo": "F", "tipo": "NORA", "nome": "Cleidina Maria da Rocha Machado", "dataNascimento": "20/02/1976", "urlFotoLocal": "img/Cleidina_Maria_da_Rocha_Machado_-_20-02-1976.jpeg"},
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Diego Rocha Machado", "dataNascimento": "12/07/1994", "urlFotoLocal": "img/Diego_Rocha_Machado_-_12-07-1994.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Lucilene de Freitas Rosa Machado", "dataNascimento": "18/04/1991", "urlFotoLocal": "img/Lucilene_de_Freitas_Rosa_Machado_-_18-04-1991.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Diana Rosa Machado", "dataNascimento": "22/05/2017", "urlFotoLocal": "img/Diana_Rosa_Machado_-_22-05-2017.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Kiara Rosa Machado", "dataNascimento": "04/06/2019", "urlFotoLocal": "img/Kiara_Rosa_Machado_-_04-06-2019.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Bianca Rosa Machado", "dataNascimento": "04/12/2024", "urlFotoLocal": "img/Bianca_Rosa_Machado_-_04-12-2024.jpeg"}
+  {"ativo": true, "sexo": "M", "tipo": "FILHO", "nome": "Pedro Jovando Machado", "dataNascimento": "28/09/1972", "urlFotoLocal": "img/Pedro_Jovando_Machado_-_28-09-1972.jpeg",
+    "par": {"ativo": true, "sexo": "F", "tipo": "NORA", "nome": "Cleidina Maria da Rocha Machado", "dataNascimento": "20/02/1976", "urlFotoLocal": "img/Cleidina_Maria_da_Rocha_Machado_-_20-02-1976.jpeg"}, "dependentes": [
+    {"ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Diego Rocha Machado", "dataNascimento": "12/07/1994", "urlFotoLocal": "img/Diego_Rocha_Machado_-_12-07-1994.jpeg",
+      "par": {"ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Lucilene de Freitas Rosa Machado", "dataNascimento": "18/04/1991", "urlFotoLocal": "img/Lucilene_de_Freitas_Rosa_Machado_-_18-04-1991.jpeg"}, "dependentes": [
+      {"ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Diana Rosa Machado", "dataNascimento": "22/05/2017", "urlFotoLocal": "img/Diana_Rosa_Machado_-_22-05-2017.jpeg"},
+      {"ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Kiara Rosa Machado", "dataNascimento": "04/06/2019", "urlFotoLocal": "img/Kiara_Rosa_Machado_-_04-06-2019.jpeg"},
+      {"ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Bianca Rosa Machado", "dataNascimento": "04/12/2024", "urlFotoLocal": "img/Bianca_Rosa_Machado_-_04-12-2024.jpeg"}
     ]},
-    {"completo": true, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Lorena Avelina Machado", "dataNascimento": "18/09/1995", "urlFotoLocal": "img/Lorena_Avelina_Machado_-_18-09-1995.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Emílio Corrêa Tiago", "dataNascimento": "22/03/1985", "urlFotoLocal": "img/Emílio_Corrêa_Tiago_-_22-03-1985.jpeg"}
+    {"ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Lorena Avelina Machado", "dataNascimento": "18/09/1995", "urlFotoLocal": "img/Lorena_Avelina_Machado_-_18-09-1995.jpeg", 
+      "par": {"ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Emílio Corrêa Tiago", "dataNascimento": "22/03/1985", "urlFotoLocal": "img/Emílio_Corrêa_Tiago_-_22-03-1985.jpeg"}, "dependentes": [
     ]}
   ]},
-  {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO", "nome": "Paulo César Machado", "dataNascimento": "18/04/1974", "urlFotoLocal": "img/Paulo_César_Machado_-_18-04-1974.jpeg", "dependentes": [
-    {"completo": true, "ativo": true, "sexo": "F", "tipo": "NORA", "nome": "Renes Aparecida Cassimiro", "dataNascimento": "11/11/1983", "urlFotoLocal": "img/Renes_Aparecida_Cassimiro_-_11-11-1983.jpeg"},
-    {"completo": true, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Layane Paula Machado", "dataNascimento": "23/10/2003", "urlFotoLocal": "img/Layane_Paula_Machado_-_23-10-2003.jpeg", "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Cléber José dos Santos", "dataNascimento": "21/03/1998", "urlFotoLocal": "img/Cléber_José_dos_Santos_-_21-03-1998.jpeg"}
+  {"ativo": true, "sexo": "M", "tipo": "FILHO", "nome": "Paulo César Machado", "dataNascimento": "18/04/1974", "urlFotoLocal": "img/Paulo_César_Machado_-_18-04-1974.jpeg",
+    "par": {"ativo": true, "sexo": "F", "tipo": "NORA", "nome": "Renes Aparecida Cassimiro", "dataNascimento": "11/11/1983", "urlFotoLocal": "img/Renes_Aparecida_Cassimiro_-_11-11-1983.jpeg"}, "dependentes": [
+    {"ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Layane Paula Machado", "dataNascimento": "23/10/2003", "urlFotoLocal": "img/Layane_Paula_Machado_-_23-10-2003.jpeg", 
+      "par": {"ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Cléber José dos Santos", "dataNascimento": "21/03/1998", "urlFotoLocal": "img/Cléber_José_dos_Santos_-_21-03-1998.jpeg"}, "dependentes": [
     ]},
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Luis Gustavo Machado", "dataNascimento": "30/10/2007", "urlFotoLocal": "img/Luis_Gustavo_Machado_-_30-10-2007.jpeg"},
-    {"completo": true, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Luara Aparecida Cassimiro Machado", "dataNascimento": "25/06/2020", "urlFotoLocal": "img/Luara_Aparecida_Cassimiro_Machado_-_25-06-2020.jpeg"}
+    {"ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Luis Gustavo Machado", "dataNascimento": "30/10/2007", "urlFotoLocal": "img/Luis_Gustavo_Machado_-_30-10-2007.jpeg"},
+    {"ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Luara Aparecida Cassimiro Machado", "dataNascimento": "25/06/2020", "urlFotoLocal": "img/Luara_Aparecida_Cassimiro_Machado_-_25-06-2020.jpeg"}
   ]},
-  {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Gilvana Maria Machado", "dataNascimento": "21/05/1981", "urlFotoLocal": "img/Gilvana_Maria_Machado_-_21-05-1981.jpeg", "dependentes": [
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO", "nome": "Gildeon Alves Pereira", "dataNascimento": "25/01/1983", "urlFotoLocal": "img/Gildeon_Alves_Pereira_-_25-01-1983.jpeg"},
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Danilo Alves Araújo", "dataNascimento": "26/11/2019", "urlFotoLocal": "img/Danilo_Alves_Araújo_-_26-11-2019.jpeg"},
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Sávio Alves Machado", "dataNascimento": "19/08/2023", "urlFotoLocal": "img/Sávio_Alves_Machado_-_19-08-2023.jpeg"}
+  {"ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Gilvana Maria Machado", "dataNascimento": "21/05/1981", "urlFotoLocal": "img/Gilvana_Maria_Machado_-_21-05-1981.jpeg", 
+    "par": {"ativo": true, "sexo": "M", "tipo": "GENRO", "nome": "Gildeon Alves Pereira", "dataNascimento": "25/01/1983", "urlFotoLocal": "img/Gildeon_Alves_Pereira_-_25-01-1983.jpeg"}, "dependentes": [
+    {"ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Danilo Alves Araújo", "dataNascimento": "26/11/2019", "urlFotoLocal": "img/Danilo_Alves_Araújo_-_26-11-2019.jpeg"},
+    {"ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Sávio Alves Machado", "dataNascimento": "19/08/2023", "urlFotoLocal": "img/Sávio_Alves_Machado_-_19-08-2023.jpeg"}
   ]}
 ]}

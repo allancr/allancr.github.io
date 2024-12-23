@@ -1,4 +1,4 @@
-{"ativo": true, "sexo": "M", "tipo": "PATRIARCA", "nome": "Jovando Vieira Machado", "dataNascimento": "25/07/1930", "urlFotoLocal": "img/Jovando_Vieira_Machado_-_25-07-1930.png", 
+{"ativo": true, "sexo": "M", "tipo": "PATRIARCA", "nome": "Jovando Vieira Machado", "dataNascimento": "06/08/1930", "urlFotoLocal": "img/Jovando_Vieira_Machado_-_25-07-1930.png", 
   "par": {"ativo": true, "sexo": "F", "tipo": "MATRIARCA", "nome": "Teresinha Abadia Pereira Machado", "dataNascimento": "07/11/1938", "urlFotoLocal": "img/Terezinha_Abadia_Pereira_Machado_-_07-11-1938.png"}, "dependentes": [
   {"ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Maria Claret Machado e Silva", "dataNascimento": "06/11/1957", "urlFotoLocal": "img/Maria_Claret_Machado_e_Silva_-_06-11-1957.jpeg", 
     "par": {"ativo": true, "sexo": "M", "tipo": "GENRO", "nome": "Ivan da Silva Gregório", "dataNascimento": "15/08/1955", "urlFotoLocal": "img/Ivan_da_Silva_Gregório_-_15-08-1955.jpeg"}, "dependentes": [

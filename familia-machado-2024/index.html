@@ -326,6 +326,11 @@
       width: 70px !important;
       border: none !important;
     }
+
+    button#drawButton img {
+      border: solid white 4px !important;
+      border-radius: 50%;
+    }
   </style>
 </head>
 <body>
@@ -366,7 +371,7 @@
       <p id="modalDate" style="margin: 0;"></p>
       <p id="modalTipo" style="margin: 0;"></p>
     </div>
-    <button id="drawButton" onclick="startDraw()" style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); padding: 10px 20px;">
+    <button id="drawButton" onclick="startDraw()" style="position: absolute; top: 0; right: 0; transform: translateX(-50%); padding: 10px 20px;">
       <img src="img/curicacao.png" alt="Sortear alguém!">
     </button>
   </div>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="titulo">Organograma da Família Fernandes Oliveira 2024</title>
+  <link rel="icon" type="image/x-icon" href="img/favicon.png">
+  <style>
+    @media (max-width: 480px) {
+      html {
+        transform: scale(0.5);
+      }
+    }
+    html {
+      transform-origin: top left;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 12500px;
+      background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/2053065-arvore-manga-amarela-isolada-sobre-fundo-branco-gratis-vetor.jpg');
+    }
+    body > center * {
+      margin: 0;
+    }
+    .organograma {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px;
+    }
+    .node {
+      text-align: center;
+      margin: 10px;
+      text-align: -webkit-center;
+    }
+    .node img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-style: double;
+      border-color: darkgoldenrod;
+}
+    }
+    .node div {
+      margin-top: 5px;
+    }
+    div.person {
+      display: table-cell;
+      padding: 15px;
+    }
+    div > div > div > div > div.child-wrapper {
+      background-color: antiquewhite;
+      margin: 15px;
+    }
+    body > div > div.node > div.person, body > div > div > div > div.node > div.person {
+      background-color: burlywood;
+    }
+    .children {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .connector {
+      width: 2px;
+      background-color: #ccc;
+      height: 20px;
+      margin: auto;
+    }
+    .line {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+    }
+
+    html {
+      transform: scale(0.5);
+      transform-origin: top left;
+    }
+  </style>
+</head>
+<body>
+  <center>
+    <h1 id="titulo">Família Machado</h1>
+    <h2>Árvore Genealógica</h2>
+    <h3>Dezembro de 2024</h3>
+  </center>
+
+  <div id="organograma" class="organograma"></div>
+
+  <script>
+    function createNode(person) {
+      const node = document.createElement('div');
+      node.className = 'node';
+
+      const target = document.createElement('div');
+      target.className = 'person';
+
+      node.appendChild(target);
+
+      const img = document.createElement('img');
+      img.src = person.urlFotoLocal;
+      img.alt = person.nome;
+
+      const info = document.createElement('div');
+      info.innerHTML = `<strong>${person.nome}</strong><br>${person.tipo}<br>${person.dataNascimento}`;
+
+      target.appendChild(img);
+      target.appendChild(info);
+
+      if (person.par) {
+        const par = document.createElement('div');
+        par.className = 'person';
+
+        node.appendChild(par);
+
+        const img = document.createElement('img');
+        img.src = person.par.urlFotoLocal;
+        img.alt = person.par.nome;
+
+        const info = document.createElement('div');
+        info.innerHTML = `<strong>${person.par.nome}</strong><br>${person.par.tipo}<br>${person.par.dataNascimento}`;
+
+        par.appendChild(img);
+        par.appendChild(info);
+
+      }
+
+      return node;
+    }
+
+    function createTree(person, container) {
+      const node = createNode(person);
+      container.appendChild(node);
+
+      if (person.dependentes && person.dependentes.length > 0) {
+        const childrenContainer = document.createElement('div');
+        childrenContainer.className = 'children';
+
+        person.dependentes.forEach(dependent => {
+          const childWrapper = document.createElement('div');
+          childWrapper.className = 'child-wrapper';
+
+          createTree(dependent, childWrapper);
+          childrenContainer.appendChild(childWrapper);
+        });
+
+        const line = document.createElement('div');
+        line.className = 'line';
+        line.appendChild(document.createElement('div')).className = 'connector';
+        container.appendChild(line);
+
+        container.appendChild(childrenContainer);
+      }
+    }
+
+    async function loadFamilyData() {
+      try {
+        const response = await fetch('familia.json');
+        if (!response.ok) {
+          throw new Error(`Erro ao carregar o arquivo: ${response.status}`);
+        }
+        const data = await response.json();
+        const organogramaContainer = document.getElementById('organograma');
+        createTree(data, organogramaContainer);
+      } catch (error) {
+        console.error('Erro ao carregar os dados da família:', error);
+      }
+    };
+
+    document.addEventListener('DOMContentLoaded', () => {
+      loadFamilyData();
+      setTimeout(() => window.scrollTo(2300 , 0), 1000);
+    });
+  </script>
+</body>
+</html>

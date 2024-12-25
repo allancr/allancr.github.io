@@ -1,5 +1,5 @@
-{"completo": false, "ativo": true, "sexo": "M", "tipo": "PATRIARCA", "nome": "Vô Hélio", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/vovô.jpeg",
-  "par": {"completo": false, "ativo": true, "sexo": "F", "tipo": "MATRIARCA", "nome": "Vó Fiica", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/vovó.jpeg"}, "dependentes": [  
+{"completo": true, "ativo": true, "sexo": "M", "tipo": "PATRIARCA", "nome": "Hélio Fernandes de Oliveira", "dataNascimento": "09/08/1926", "urlFotoLocal": "img/vovô.jpeg",
+  "par": {"completo": true, "ativo": true, "sexo": "F", "tipo": "MATRIARCA", "nome": "Maria Fernandes de Oliveira", "dataNascimento": "21/09/1932", "urlFotoLocal": "img/vovó.jpeg"}, "dependentes": [  
   {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Maria Inês de Oliveira Ramalho", "dataNascimento": "28/10/1955", "urlFotoLocal": "img/Maria Inês de Oliveira Ramalho.jpeg", 
     "par": {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO", "nome": "Carlos Ramalho Soares", "dataNascimento": "01/07/1958", "urlFotoLocal": "img/Carlos Ramalho Soares.jpeg"}, "dependentes": [
     {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Allan Carlos Ramalho", "dataNascimento": "03/08/1985", "urlFotoLocal": "img/Allan_Carlos_Ramalho_-_03-08-1985.jpeg", 
@@ -29,15 +29,15 @@
   {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO", "nome": "José Salvarino de Oliveira", "dataNascimento": "05/06/1957", "urlFotoLocal": "img/José Salvarino de Oliveira.jpeg", "dependentes": [
     {"completo": false, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Netinho", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/Netinho.jpeg",
       "par": {"completo": false, "ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Gê", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/Gê.jpeg"}, "dependentes": [
-      {"completo": false, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Rayssa", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/Rayssa.jpeg"},
-      {"completo": false, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Murilo", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/Murilo.jpeg"}
+      {"completo": false, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Rayssa Oliveira", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/Rayssa.jpeg"},
+      {"completo": false, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Murilo Batistela", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/Murilo.jpeg"}
     ]},
       {"completo": true, "ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Paulo Faremont Goncalves de Oliveira", "dataNascimento": "29/06/1981", "urlFotoLocal": "img/Paulo Faremont Goncalves de Oliveira.jpeg", 
       "par": {"completo": true, "ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Leidiane Barbosa Calaça", "dataNascimento": "12/07/1989", "urlFotoLocal": "img/Leidiane Barbosa Calaça.jpeg"}, "dependentes": [
       {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Emilly Gonçalves de Lima", "dataNascimento": "03/03/2008", "urlFotoLocal": "img/Emilly Gonçalves de Lima.jpeg"},
       {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Maria Luiza Goncalves Calaça", "dataNascimento": "20/01/2017", "urlFotoLocal": "img/Maria Luiza Goncalves Calaça.jpeg"}
     ]},
-    {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Fábio Salvarino Gonçalves de Oliveira", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/Fábio Salvarino Gonçalves de Oliveira.jpeg"},
+    {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Fábio Salvarino Gonçalves de Oliveira", "dataNascimento": "17/07/1980", "urlFotoLocal": "img/Fábio Salvarino Gonçalves de Oliveira.jpeg"},
     {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Sávio Salvarino Teles de Oliveira", "dataNascimento": "10/10/1986", "urlFotoLocal": "img/Sávio Salvarino Teles de Oliveira.jpeg",
       "par": {"completo": true, "ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Silvana Pereira de Souza", "dataNascimento": "08/08/1987", "urlFotoLocal": "img/Silvana Pereira de Souza.jpeg"}, "dependentes": [
       {"completo": true, "ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Davi Teles de Souza", "dataNascimento": "19/01/2019", "urlFotoLocal": "img/Davi Teles de Souza.jpeg"},
@@ -56,7 +56,7 @@
       "par": {"completo": true, "ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Thayse Rosa de Castro", "dataNascimento": "22/01/1986", "urlFotoLocal": "img/Thayse Rosa de Castro.jpeg"}, "dependentes": [
     ]}
   ]},
-  {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO", "nome": "Carlito", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/Carlito.jpeg", "dependentes": [
+  {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO", "nome": "Francisco Carlos de Oliveira", "dataNascimento": "15/07/1960", "urlFotoLocal": "img/Carlito.jpeg", "dependentes": [
     {"completo": true, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Giselle Martins de Oliveira", "dataNascimento": "22/05/1986", "urlFotoLocal": "img/Giselle Martins de Oliveira.jpeg", 
       "par": {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Paulo Henrique da Silva", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/Paulo Henrique da Silva.jpeg"}, "dependentes": [
       {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Débora Martins da Silva", "dataNascimento": "28/10/2011", "urlFotoLocal": "img/Débora Martins da Silva.jpeg"},
@@ -64,7 +64,7 @@
     ]},
     {"completo": true, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Camilla Martins de Oliveira", "dataNascimento": "08/01/1991", "urlFotoLocal": "img/Camilla Martins de Oliveira.jpeg", 
       "par": {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Diogo Fellippe Fernandes Teixeira", "dataNascimento": "10/02/1990", "urlFotoLocal": "img/Diogo Fellippe Fernandes Teixeira.jpeg"}, "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Catarina", "dataNascimento": "27/01/2020", "urlFotoLocal": "img/Catarina.jpeg"}
+      {"completo": true, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Catarina Martins Teixeira", "dataNascimento": "27/01/2020", "urlFotoLocal": "img/Catarina.jpeg"}
     ]}
   ]},
   {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO", "nome": "Hélio Fernandes de Oliveira Junior", "dataNascimento": "18/07/1963", "urlFotoLocal": "img/Hélio Fernandes de Oliveira Junior.jpeg", "dependentes": [
@@ -81,5 +81,5 @@
       {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Valentina Fernandes Kosak", "dataNascimento": "11/02/2016", "urlFotoLocal": "img/Valentina Fernandes Kosak.jpeg"}
     ]}
   ]},
-  {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO", "nome": "Paulinho", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}
+  {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO", "nome": "Paulo Lucas", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}
 ]}

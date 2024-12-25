@@ -62,9 +62,9 @@
       {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Débora Martins da Silva", "dataNascimento": "28/10/2011", "urlFotoLocal": "img/Débora Martins da Silva.jpeg"},
       {"completo": true, "ativo": true, "sexo": "F", "tipo": "BISNETA", "nome": "Alice Martins da Silva", "dataNascimento": "06/08/2016", "urlFotoLocal": "img/Alice Martins da Silva.jpeg"}
     ]},
-    {"completo": false, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Camila Martins de Oliveira", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png", 
-      "par": {"completo": false, "ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "???", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}, "dependentes": [
-      {"completo": false, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Catarina", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}
+    {"completo": true, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Camilla Martins de Oliveira", "dataNascimento": "08/01/1991", "urlFotoLocal": "img/Camilla Martins de Oliveira.jpeg", 
+      "par": {"completo": true, "ativo": true, "sexo": "M", "tipo": "GENRO-NETO", "nome": "Diogo Fellippe Fernandes Teixeira", "dataNascimento": "10/02/1990", "urlFotoLocal": "img/Diogo Fellippe Fernandes Teixeira.jpeg"}, "dependentes": [
+      {"completo": true, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Catarina", "dataNascimento": "27/01/2020", "urlFotoLocal": "img/Catarina.jpeg"}
     ]}
   ]},
   {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO", "nome": "Hélio Fernandes de Oliveira Junior", "dataNascimento": "18/07/1963", "urlFotoLocal": "img/Hélio Fernandes de Oliveira Junior.jpeg", "dependentes": [

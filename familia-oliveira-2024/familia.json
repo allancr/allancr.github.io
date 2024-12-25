@@ -15,7 +15,7 @@
     ]},
     {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Pollyana Karla Ramalho", "dataNascimento": "06/05/1989", "urlFotoLocal": "img/Pollyana Karla Ramalho.jpeg"}
   ]},
-  {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Paulo", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png", 
+  {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Paulo Henrique da Silva", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/Paulo Henrique da Silva.jpeg", 
     "par": {"completo": true, "ativo": true, "sexo": "M", "tipo": "COMPANHEIRO(A)", "nome": "Edna Maria Gomes Oliveira", "dataNascimento": "20/03/1955", "urlFotoLocal": "img/Edna Maria Gomes Oliveira.jpeg"}, "dependentes": [
     {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Keli Gomes de Oliveira", "dataNascimento": "22/02/1979", "urlFotoLocal": "img/Keli Gomes de Oliveira.jpeg", "dependentes": [
       {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Davi Gomes de Oliveira Tassi", "dataNascimento": "06/10/2009", "urlFotoLocal": "img/Davi Gomes de Oliveira Tassi.jpeg"},
@@ -27,10 +27,10 @@
     ]}
   ]},
   {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "José Salvarino de Oliveira", "dataNascimento": "05/06/1957", "urlFotoLocal": "img/José Salvarino de Oliveira.jpeg", "dependentes": [
-    {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Netinho", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png",
-      "par": {"completo": false, "ativo": true, "sexo": "F", "tipo": "COMPANHEIRO(A)", "nome": "Gê", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}, "dependentes": [
-      {"completo": false, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Rayssa", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"},
-      {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Murilo", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}
+    {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Netinho", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/Netinho.jpeg",
+      "par": {"completo": false, "ativo": true, "sexo": "F", "tipo": "COMPANHEIRO(A)", "nome": "Gê", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/Gê.jpeg"}, "dependentes": [
+      {"completo": false, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Rayssa", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/Rayssa.jpeg"},
+      {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Murilo", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/Murilo.jpeg"}
     ]},
       {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Paulo Faremont Goncalves de Oliveira", "dataNascimento": "29/06/1981", "urlFotoLocal": "img/Paulo Faremont Goncalves de Oliveira.jpeg", 
       "par": {"completo": true, "ativo": true, "sexo": "F", "tipo": "COMPANHEIRO(A)", "nome": "Leidiane Barbosa Calaça", "dataNascimento": "12/07/1989", "urlFotoLocal": "img/Leidiane Barbosa Calaça.jpeg"}, "dependentes": [
@@ -77,8 +77,8 @@
     ]},
     {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Thayane Lanucci Fernandes Kosak", "dataNascimento": "31/03/1987", "urlFotoLocal": "img/Thayane Lanucci Fernandes Kosak.jpeg", 
       "par": {"completo": true, "ativo": true, "sexo": "M", "tipo": "COMPANHEIRO(A)", "nome": "Malek Kosak Junior", "dataNascimento": "13/04/1986", "urlFotoLocal": "img/Malek Kosak Junior.jpeg"}, "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "M/F", "tipo": "FILHO(A)", "nome": "Vitor Malek Fernandes Kosak", "dataNascimento": "28/09/2012", "urlFotoLocal": "img/Vitor Malek Fernandes Kosak.jpeg"},
-      {"completo": true, "ativo": true, "sexo": "M/F", "tipo": "FILHO(A)", "nome": "Valentina Fernandes Kosak", "dataNascimento": "11/02/2016", "urlFotoLocal": "img/Valentina Fernandes Kosak.jpeg"}
+      {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Vitor Malek Fernandes Kosak", "dataNascimento": "28/09/2012", "urlFotoLocal": "img/Vitor Malek Fernandes Kosak.jpeg"},
+      {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Valentina Fernandes Kosak", "dataNascimento": "11/02/2016", "urlFotoLocal": "img/Valentina Fernandes Kosak.jpeg"}
     ]}
   ]}
 ]}

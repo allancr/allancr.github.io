@@ -26,24 +26,24 @@
         {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Sophia Gomes Cintra", "dataNascimento": "23/04/2019", "urlFotoLocal": "img/Sophia Gomes Cintra.jpeg"}
     ]}
   ]},
-  {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "José Salvarino de Oliveira", "dataNascimento": "05/06/1957", "urlFotoLocal": "img/José Salvarino de Oliveira.jpeg", "dependentes": [
+  {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "José Salvarino de Oliveira", "dataNascimento": "05/06/1957", "urlFotoLocal": "img/José Salvarino de Oliveira.jpeg", "dependentes": [
     {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Netinho", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png",
       "par": {"completo": false, "ativo": true, "sexo": "F", "tipo": "COMPANHEIRO(A)", "nome": "Gê", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}, "dependentes": [
       {"completo": false, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Rayssa", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"},
       {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Murilo", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}
     ]},
-      {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Paulo Faremont Goncalves de Oliveira", "dataNascimento": "29/06/1981", "urlFotoLocal": "img/Paulo Faremont Goncalves de Oliveira.jpeg", 
-      "par": {"completo": false, "ativo": true, "sexo": "F", "tipo": "COMPANHEIRO(A)", "nome": "Leidiane Barbosa Calaça", "dataNascimento": "12/07/1989", "urlFotoLocal": "img/Leidiane Barbosa Calaça.jpeg"}, "dependentes": [
-      {"completo": false, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Emilly Gonçalves de Lima", "dataNascimento": "03/03/2008", "urlFotoLocal": "img/Emilly Gonçalves de Lima.jpeg"},
-      {"completo": false, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Maria Luiza Goncalves Calaça", "dataNascimento": "20/01/2017", "urlFotoLocal": "img/Maria Luiza Goncalves Calaça.jpeg"}
+      {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Paulo Faremont Goncalves de Oliveira", "dataNascimento": "29/06/1981", "urlFotoLocal": "img/Paulo Faremont Goncalves de Oliveira.jpeg", 
+      "par": {"completo": true, "ativo": true, "sexo": "F", "tipo": "COMPANHEIRO(A)", "nome": "Leidiane Barbosa Calaça", "dataNascimento": "12/07/1989", "urlFotoLocal": "img/Leidiane Barbosa Calaça.jpeg"}, "dependentes": [
+      {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Emilly Gonçalves de Lima", "dataNascimento": "03/03/2008", "urlFotoLocal": "img/Emilly Gonçalves de Lima.jpeg"},
+      {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Maria Luiza Goncalves Calaça", "dataNascimento": "20/01/2017", "urlFotoLocal": "img/Maria Luiza Goncalves Calaça.jpeg"}
     ]},
-    {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Fábio Salvarino Gonçalves de Oliveira", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/Fábio Salvarino Gonçalves de Oliveira.jpeg"},
-    {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Sávio Salvarino Teles de Oliveira", "dataNascimento": "10/10/1986", "urlFotoLocal": "img/Sávio Salvarino Teles de Oliveira.jpeg",
-      "par": {"completo": false, "ativo": true, "sexo": "F", "tipo": "COMPANHEIRO(A)", "nome": "Silvana Pereira de Souza", "dataNascimento": "08/08/1987", "urlFotoLocal": "img/Silvana Pereira de Souza.jpeg"}, "dependentes": [
-      {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Davi Teles de Souza", "dataNascimento": "19/01/2019", "urlFotoLocal": "img/Davi Teles de Souza.jpeg"},
-      {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "João Vicente Teles de Souza", "dataNascimento": "02/07/2023", "urlFotoLocal": "img/João Vicente Teles de Souza.jpeg"}
+    {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Fábio Salvarino Gonçalves de Oliveira", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/Fábio Salvarino Gonçalves de Oliveira.jpeg"},
+    {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Sávio Salvarino Teles de Oliveira", "dataNascimento": "10/10/1986", "urlFotoLocal": "img/Sávio Salvarino Teles de Oliveira.jpeg",
+      "par": {"completo": true, "ativo": true, "sexo": "F", "tipo": "COMPANHEIRO(A)", "nome": "Silvana Pereira de Souza", "dataNascimento": "08/08/1987", "urlFotoLocal": "img/Silvana Pereira de Souza.jpeg"}, "dependentes": [
+      {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Davi Teles de Souza", "dataNascimento": "19/01/2019", "urlFotoLocal": "img/Davi Teles de Souza.jpeg"},
+      {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "João Vicente Teles de Souza", "dataNascimento": "02/07/2023", "urlFotoLocal": "img/João Vicente Teles de Souza.jpeg"}
     ]},
-    {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Vinicius Teles de Oliveira", "dataNascimento": "02/08/1998", "urlFotoLocal": "img/Vinicius Teles de Oliveira.jpeg"}
+    {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Vinicius Teles de Oliveira", "dataNascimento": "02/08/1998", "urlFotoLocal": "img/Vinicius Teles de Oliveira.jpeg"}
   ]},
   {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Eliane de Fátima Oliveira", "dataNascimento": "27/06/1959", "urlFotoLocal": "img/Eliane de Fátima Oliveira.jpeg", "dependentes": [
     {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Andreya de Fátima Bueno", "dataNascimento": "12/05/1981", "urlFotoLocal": "img/Andreya de Fátima Bueno.jpeg", 
@@ -58,16 +58,16 @@
   ]},
   {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Carlito", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/Carlito.jpeg", "dependentes": [
     {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Giselle Martins de Oliveira", "dataNascimento": "22/05/1986", "urlFotoLocal": "img/Giselle Martins de Oliveira.jpeg", 
-      "par": {"completo": true, "ativo": true, "sexo": "M", "tipo": "COMPANHEIRO(A)", "nome": "Paulo", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}, "dependentes": [
+      "par": {"completo": false, "ativo": true, "sexo": "M", "tipo": "COMPANHEIRO(A)", "nome": "Paulo", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}, "dependentes": [
       {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Débora Martins da Silva", "dataNascimento": "28/10/2011", "urlFotoLocal": "img/Débora Martins da Silva.jpeg"},
       {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Alice Martins da Silva", "dataNascimento": "06/08/2016", "urlFotoLocal": "img/Alice Martins da Silva.jpeg"}
     ]},
-    {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Camila Martins de Oliveira", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png", 
-      "par": {"completo": true, "ativo": true, "sexo": "M", "tipo": "COMPANHEIRO(A)", "nome": "???", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}, "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Catarina", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}
+    {"completo": false, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Camila Martins de Oliveira", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png", 
+      "par": {"completo": false, "ativo": true, "sexo": "M", "tipo": "COMPANHEIRO(A)", "nome": "???", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}, "dependentes": [
+      {"completo": false, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Catarina", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}
     ]}
   ]},
-  {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Hélio Fernandes de Oliveira Junior", "dataNascimento": "18/07/1963", "urlFotoLocal": "img/Hélio Fernandes de Oliveira Junior.jpeg", "dependentes": [
+  {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Hélio Fernandes de Oliveira Junior", "dataNascimento": "18/07/1963", "urlFotoLocal": "img/Hélio Fernandes de Oliveira Junior.jpeg", "dependentes": [
     {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Thais Cristina Fernandes Miranda", "dataNascimento": "27/06/1985", "urlFotoLocal": "img/Thais Cristina Fernandes Miranda.jpeg", 
       "par": {"completo": true, "ativo": true, "sexo": "M", "tipo": "COMPANHEIRO(A)", "nome": "Romário L. M. De Miranda", "dataNascimento": "03/12/1989", "urlFotoLocal": "img/Romário L. M. De Miranda.jpeg"}, "dependentes": [
       {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Giovanna Fernandes Miranda", "dataNascimento": "23/05/2012", "urlFotoLocal": "img/Giovanna Fernandes Miranda.jpeg"},

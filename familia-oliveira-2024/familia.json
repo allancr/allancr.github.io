@@ -1,5 +1,5 @@
-{"completo": false, "ativo": true, "sexo": "M", "tipo": "PATRIARCA", "nome": "Hélio", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png", "dependentes": [
-  {"completo": false, "ativo": true, "sexo": "F", "tipo": "MATRIARCA", "nome": "Fiica", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"},
+{"completo": false, "ativo": true, "sexo": "M", "tipo": "PATRIARCA", "nome": "Vô Hélio", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/vovô.jpeg",
+  "par": {"completo": false, "ativo": true, "sexo": "F", "tipo": "MATRIARCA", "nome": "Vó Fiica", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/vovó.jpeg"}, "dependentes": [  
   {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Maria Inês de Oliveira Ramalho", "dataNascimento": "28/10/1955", "urlFotoLocal": "img/Maria Inês de Oliveira Ramalho.jpeg", 
     "par": {"completo": true, "ativo": true, "sexo": "M", "tipo": "COMPANHEIRO(A)", "nome": "Carlos Ramalho Soares", "dataNascimento": "01/07/1958", "urlFotoLocal": "img/Carlos Ramalho Soares.jpeg"}, "dependentes": [
     {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Allan Carlos Ramalho", "dataNascimento": "03/08/1985", "urlFotoLocal": "img/Allan_Carlos_Ramalho_-_03-08-1985.jpeg", 
@@ -13,7 +13,7 @@
         {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Sarah Rocha de Sousa", "dataNascimento": "19/09/2014", "urlFotoLocal": "img/Sarah Rocha de Sousa.jpeg"},
         {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Raquel Ramalho Pinheiro", "dataNascimento": "05/10/2021", "urlFotoLocal": "img/Raquel Ramalho Pinheiro.jpeg"}
     ]},
-    {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Pollyana Karla Ramalho", "dataNascimento": "06/05/1989", "urlFotoLocal": "img/pessoa.png"}
+    {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Pollyana Karla Ramalho", "dataNascimento": "06/05/1989", "urlFotoLocal": "img/Pollyana Karla Ramalho.jpeg"}
   ]},
   {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Paulo", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png", 
     "par": {"completo": true, "ativo": true, "sexo": "M", "tipo": "COMPANHEIRO(A)", "nome": "Edna Maria Gomes Oliveira", "dataNascimento": "20/03/1955", "urlFotoLocal": "img/Edna Maria Gomes Oliveira.jpeg"}, "dependentes": [
@@ -26,18 +26,18 @@
         {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Sophia Gomes Cintra", "dataNascimento": "23/04/2019", "urlFotoLocal": "img/Sophia Gomes Cintra.jpeg"}
     ]}
   ]},
-  {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Zé", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png", "dependentes": [
+  {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "José Salvarino de Oliveira", "dataNascimento": "05/06/1957", "urlFotoLocal": "img/José Salvarino de Oliveira.jpeg", "dependentes": [
     {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Netinho", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png",
       "par": {"completo": false, "ativo": true, "sexo": "F", "tipo": "COMPANHEIRO(A)", "nome": "Gê", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}, "dependentes": [
       {"completo": false, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Rayssa", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"},
       {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Murilo", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}
     ]},
-      {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Paulo Faremont ", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png",
-      "par": {"completo": false, "ativo": true, "sexo": "F", "tipo": "COMPANHEIRO(A)", "nome": "Leidy Calaça", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}, "dependentes": [
-      {"completo": false, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "?nome?", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"},
-      {"completo": false, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "?nome?", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}
+      {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Paulo Faremont Goncalves de Oliveira", "dataNascimento": "29/06/1981", "urlFotoLocal": "img/Paulo Faremont Goncalves de Oliveira.jpeg", 
+      "par": {"completo": false, "ativo": true, "sexo": "F", "tipo": "COMPANHEIRO(A)", "nome": "Leidiane Barbosa Calaça", "dataNascimento": "12/07/1989", "urlFotoLocal": "img/Leidiane Barbosa Calaça.jpeg"}, "dependentes": [
+      {"completo": false, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Emilly Gonçalves de Lima", "dataNascimento": "03/03/2008", "urlFotoLocal": "img/Emilly Gonçalves de Lima.jpeg"},
+      {"completo": false, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Maria Luiza Goncalves Calaça", "dataNascimento": "20/01/2017", "urlFotoLocal": "img/Maria Luiza Goncalves Calaça.jpeg"}
     ]},
-    {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Fabinho", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"},
+    {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Fábio Salvarino Gonçalves de Oliveira", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/Fábio Salvarino Gonçalves de Oliveira.jpeg"},
     {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Sávio", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png",
       "par": {"completo": false, "ativo": true, "sexo": "F", "tipo": "COMPANHEIRO(A)", "nome": "Silvana", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}, "dependentes": [
       {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "?nome?", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"},
@@ -45,7 +45,6 @@
     ]},
     {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Vinicius", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}
   ]},
-  {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Carlito", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"},
   {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Eliane de Fátima Oliveira", "dataNascimento": "27/06/1959", "urlFotoLocal": "img/Eliane de Fátima Oliveira.jpeg", "dependentes": [
     {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Andreya de Fátima Bueno", "dataNascimento": "12/05/1981", "urlFotoLocal": "img/Andreya de Fátima Bueno.jpeg", 
       "par": {"completo": true, "ativo": true, "sexo": "M", "tipo": "COMPANHEIRO(A)", "nome": "Charlles Martins Pereira Bueno", "dataNascimento": "01/02/1989", "urlFotoLocal": "img/Charlles Martins Pereira Bueno.jpeg"}, "dependentes": [
@@ -57,5 +56,26 @@
       "par": {"completo": true, "ativo": true, "sexo": "F", "tipo": "COMPANHEIRO(A)", "nome": "Thayse Rosa de Castro", "dataNascimento": "22/01/1986", "urlFotoLocal": "img/Thayse Rosa de Castro.jpeg"}, "dependentes": [
     ]}
   ]},
-  {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Helinho", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}
+  {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Carlito", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"},
+  {"completo": false, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Hélio Fernandes de Oliveira Junior", "dataNascimento": "18/07/1963", "urlFotoLocal": "img/Hélio Fernandes de Oliveira Junior.jpeg", "dependentes": [
+    {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Thais Cristina Fernandes Miranda", "dataNascimento": "27/06/1985", "urlFotoLocal": "img/Thais Cristina Fernandes Miranda.jpeg", 
+      "par": {"completo": true, "ativo": true, "sexo": "M", "tipo": "COMPANHEIRO(A)", "nome": "Romário L. M. De Miranda", "dataNascimento": "03/12/1989", "urlFotoLocal": "img/Romário L. M. De Miranda.jpeg"}, "dependentes": [
+      {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Giovanna Fernandes Miranda", "dataNascimento": "23/05/2012", "urlFotoLocal": "img/Giovanna Fernandes Miranda.jpeg"},
+      {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Anna Clara Fernandes Miranda", "dataNascimento": "13/09/2013", "urlFotoLocal": "img/Anna Clara Fernandes Miranda.jpeg"},
+      {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "Carlos Eduardo Fernandes Miranda", "dataNascimento": "23/06/2015", "urlFotoLocal": "img/Carlos Eduardo Fernandes Miranda.jpeg"},
+      {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO(A)", "nome": "João Luccas Fernandes Miranda", "dataNascimento": "06/01/2020", "urlFotoLocal": "img/João Luccas Fernandes Miranda.jpeg"}
+    ]},
+    {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHO(A)", "nome": "Thayane Lanucci Fernandes Kosak", "dataNascimento": "31/03/1987", "urlFotoLocal": "img/Thayane Lanucci Fernandes Kosak.jpeg", 
+      "par": {"completo": true, "ativo": true, "sexo": "M", "tipo": "COMPANHEIRO(A)", "nome": "Malek Kosak Junior", "dataNascimento": "13/04/1986", "urlFotoLocal": "img/Malek Kosak Junior.jpeg"}, "dependentes": [
+      {"completo": true, "ativo": true, "sexo": "M/F", "tipo": "FILHO(A)", "nome": "Vitor Malek Fernandes Kosak", "dataNascimento": "28/09/2012", "urlFotoLocal": "img/Vitor Malek Fernandes Kosak.jpeg"},
+      {"completo": true, "ativo": true, "sexo": "M/F", "tipo": "FILHO(A)", "nome": "Valentina Fernandes Kosak", "dataNascimento": "11/02/2016", "urlFotoLocal": "img/Valentina Fernandes Kosak.jpeg"}
+    ]}
+    , {"completo": true, "ativo": true, "sexo": "M/F", "tipo": "FILHO(A)", "nome": "NOME", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png", 
+      "par": {"completo": true, "ativo": true, "sexo": "M/F", "tipo": "COMPANHEIRO(A)", "nome": "NOME", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}, "dependentes": [
+      {"completo": true, "ativo": true, "sexo": "M/F", "tipo": "FILHO(A)", "nome": "NOME", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"},
+      {"completo": true, "ativo": true, "sexo": "M/F", "tipo": "FILHO(A)", "nome": "NOME", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"},
+      {"completo": true, "ativo": true, "sexo": "M/F", "tipo": "FILHO(A)", "nome": "NOME", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"},
+      {"completo": true, "ativo": true, "sexo": "M/F", "tipo": "FILHO(A)", "nome": "NOME", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}
+    ]}
+  ]}
 ]}

@@ -80,10 +80,5 @@
       {"completo": true, "ativo": true, "sexo": "M/F", "tipo": "FILHO(A)", "nome": "Vitor Malek Fernandes Kosak", "dataNascimento": "28/09/2012", "urlFotoLocal": "img/Vitor Malek Fernandes Kosak.jpeg"},
       {"completo": true, "ativo": true, "sexo": "M/F", "tipo": "FILHO(A)", "nome": "Valentina Fernandes Kosak", "dataNascimento": "11/02/2016", "urlFotoLocal": "img/Valentina Fernandes Kosak.jpeg"}
     ]}
-    , {"completo": true, "ativo": true, "sexo": "M/F", "tipo": "FILHO(A)", "nome": "NOME", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png", 
-      "par": {"completo": true, "ativo": true, "sexo": "M/F", "tipo": "COMPANHEIRO(A)", "nome": "NOME", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}, "dependentes": [
-      {"completo": true, "ativo": true, "sexo": "M/F", "tipo": "FILHO(A)", "nome": "NOME", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"},
-      {"completo": true, "ativo": true, "sexo": "M/F", "tipo": "FILHO(A)", "nome": "NOME", "dataNascimento": "99/99/9999", "urlFotoLocal": "img/pessoa.png"}
-    ]}
   ]}
 ]}

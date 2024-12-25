@@ -536,7 +536,7 @@
 
         nodeContent +=`
           <div class="node ${nodeClassPar} ${typeClassPar} ${genderClassPar}">
-              ${photoUrl ? `<img src="${photoUrlPar}" alt="${item.par.nome}" onclick="openModal(${index})">` : ''}
+              ${photoUrlPar ? `<img src="${photoUrlPar}" alt="${item.par.nome}" onclick="openModal(${index+1})">` : ''}
               <div>
                   <small><i>${item.par.tipo}<i><br></small>
                   <strong>${item.par.nome}</strong><br>

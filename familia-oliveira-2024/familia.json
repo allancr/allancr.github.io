@@ -27,10 +27,10 @@
     ]}
   ]},
   {"completo": true, "ativo": true, "sexo": "M", "tipo": "FILHO", "nome": "José Salvarino de Oliveira", "dataNascimento": "05/06/1957", "urlFotoLocal": "img/José Salvarino de Oliveira.jpeg", "dependentes": [
-    {"completo": false, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Hélio Fernandes de Oliveira Neto", "dataNascimento": "07/04/1979", "urlFotoLocal": "img/Netinho.jpeg",
-      "par": {"completo": false, "ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Maria Geralda Batistela de Oliveira (Gê)", "dataNascimento": "21/06/1980", "urlFotoLocal": "img/Gê.jpeg"}, "dependentes": [
-      {"completo": false, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Rayssa Batistela de Oliveira", "dataNascimento": "21/03/2006", "urlFotoLocal": "img/Rayssa.jpeg"},
-      {"completo": false, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Murilo Batistela de Oliveira", "dataNascimento": "24/10/2008", "urlFotoLocal": "img/Murilo.jpeg"}
+    {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Hélio Fernandes de Oliveira Neto", "dataNascimento": "07/04/1979", "urlFotoLocal": "img/Netinho.jpeg",
+      "par": {"completo": true, "ativo": true, "sexo": "F", "tipo": "NORA-NETA", "nome": "Maria Geralda Batistela de Oliveira (Gê)", "dataNascimento": "21/06/1980", "urlFotoLocal": "img/Gê.jpeg"}, "dependentes": [
+      {"completo": true, "ativo": true, "sexo": "F", "tipo": "NETA", "nome": "Rayssa Batistela de Oliveira", "dataNascimento": "21/03/2006", "urlFotoLocal": "img/Rayssa.jpeg"},
+      {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Murilo Batistela de Oliveira", "dataNascimento": "24/10/2008", "urlFotoLocal": "img/Murilo.jpeg"}
     ]},
     {"completo": true, "ativo": true, "sexo": "M", "tipo": "NETO", "nome": "Fábio Salvarino Gonçalves de Oliveira", "dataNascimento": "17/07/1980", "urlFotoLocal": "img/Fábio Salvarino Gonçalves de Oliveira.jpeg"},
     {"completo": true, "ativo": true, "sexo": "M", "tipo": "BISNETO", "nome": "Paulo Faremont Goncalves de Oliveira", "dataNascimento": "29/06/1981", "urlFotoLocal": "img/Paulo Faremont Goncalves de Oliveira.jpeg", 

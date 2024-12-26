@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title id="titulo">Organograma da Família Machado 2024</title>
+  <title>Família</title>
   <link rel="icon" type="image/x-icon" href="img/favicon.png">
   <style>
     @media (max-width: 480px) {
@@ -23,7 +23,7 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      width: 12500px;
+      width: 9000px;
       background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/2053065-arvore-manga-amarela-isolada-sobre-fundo-branco-gratis-vetor.jpg');
     }
     body > center * {
@@ -88,9 +88,8 @@
 </head>
 <body>
   <center>
-    <h1 id="titulo">Família Machado</h1>
+    <h1 id="titulo">Família</h1>
     <h2>Árvore Genealógica</h2>
-    <h3>Dezembro de 2024</h3>
   </center>
 
   <div id="organograma" class="organograma"></div>
@@ -168,8 +167,13 @@
           throw new Error(`Erro ao carregar o arquivo: ${response.status}`);
         }
         const data = await response.json();
+
+        document.title = data.titulo;
+        document.getElementById('titulo').innerHTML = data.titulo;
+
+
         const organogramaContainer = document.getElementById('organograma');
-        createTree(data, organogramaContainer);
+        createTree(data.patriarca, organogramaContainer);
       } catch (error) {
         console.error('Erro ao carregar os dados da família:', error);
       }

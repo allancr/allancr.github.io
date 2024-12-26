@@ -691,21 +691,28 @@
 
       let drawIndex = 0;
       const totalImages = imageUrls.length;
+      let lastDrawIndex = -1;
+      const drawDuration = 9000;
+      const drawInterval = 100;
 
       const interval = setInterval(() => {
-        drawIndex = Math.floor(Math.random() * totalImages);
+        do {
+          drawIndex = Math.floor(Math.random() * totalImages);
+        } while (drawIndex === lastDrawIndex);
+
         modalImage.src = imageUrls[drawIndex];
         modalName.textContent = imageData[drawIndex]?.nome || 'Nome não disponível';
         modalDate.textContent = imageData[drawIndex]?.dataNascimento
           ? `Nascimento: ${imageData[drawIndex].dataNascimento}`
           : 'Data não disponível';
         modalTipo.textContent = imageData[drawIndex]?.tipo || 'Relação não disponível';
-      }, 100);
+      }, drawInterval);
 
       setTimeout(() => {
         clearInterval(interval);
+        lastDrawIndex = drawIndex;
         currentImageIndex = drawIndex;
-      }, 3000);
+      }, drawDuration);
     }
 
 

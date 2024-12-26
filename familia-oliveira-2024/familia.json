@@ -1,6 +1,7 @@
 {
   "titulo": "Família Fernandes Oliveira 2024"
   , "imagensFundo": [null, "img/fundo1.jpg", "img/fundo2.jpg", "img/fundo3.jpg", "img/fundo4.jpg", "img/fundo7.jpg", "img/fundo8.jpg", "img/fundo5.jpg", "img/fundo6.jpg"]
+  , "comGaleria": true
   , "patriarca": {"completo": true, "ativo": true, "sexo": "M", "tipo": "PATRIARCA", "nome": "Hélio Fernandes de Oliveira", "dataNascimento": "09/08/1926", "urlFotoLocal": "img/vovô.jpeg",
     "par": {"completo": true, "ativo": true, "sexo": "F", "tipo": "MATRIARCA", "nome": "Maria Fernandes de Oliveira", "dataNascimento": "21/09/1932", "urlFotoLocal": "img/vovó.jpeg"}, "dependentes": [  
     {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Maria Inês de Oliveira Ramalho", "dataNascimento": "28/10/1955", "urlFotoLocal": "img/Maria Inês de Oliveira Ramalho.jpeg", "doComp": true, 

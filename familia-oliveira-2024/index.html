@@ -376,7 +376,7 @@
     <button onclick="openOverlay()" title="Visão em organograma" alt="Visão em organograma">
       <img src="img/favicon.png" />      
     </button>
-    <button onclick="window.location.href = 'galeria.html'" title="Galeria" alt="Galeria de fotos">
+    <button id="lnkGaleria" onclick="window.location.href = 'galeria.html'" title="Galeria" alt="Galeria de fotos" style="display: none;">
       <img src="img/jc.webp" />      
     </button>
   </center>
@@ -621,9 +621,12 @@
         }
 
         const data = await response.json();
-        bgUrls = data?.imagensFundo || [null];
+
+        bgUrls = data?.imagensFundo || [null];        
         document.title = data.titulo;
         document.getElementById('titulo').innerHTML = data.titulo;
+        if (data.comGaleria) document.getElementById('lnkGaleria').style.display = 'inline';
+
         data.patriarca = enriquecerComStats(data.patriarca);
         buildTree(data.patriarca);
       } catch (error) {

@@ -8,7 +8,7 @@
   <meta property="og:image:type" content="image/jpeg">
   <meta property="og:image:width" content="700">
   <meta property="og:image:height" content="700">
-  <title>Família Fernandes Oliveira 2024</title>
+  <title>Família</title>
   <link rel="icon" type="image/x-icon" href="img/favicon.png">
   <style>
     body {
@@ -290,8 +290,8 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: rgba(0, 0, 0, 0.8); /* Fundo semitransparente */
-      display: none; /* Esconde por padrão */
+      background-color: rgba(0, 0, 0, 0.8);
+      display: none;
       justify-content: center;
       align-items: center;
       z-index: 1000;
@@ -337,6 +337,21 @@
       border: solid white 4px !important;
       border-radius: 50%;
     }
+
+    .stats {
+      display: none;
+      margin-top: 5px;
+    }
+
+    .node.expanded .stats {
+      display: block;
+    }
+
+    .toggle-stats {
+      cursor: pointer;
+      text-decoration: underline;
+      color: blue;
+    }
   </style>
 </head>
 <body>
@@ -355,7 +370,7 @@
   </div>
 
   <center>
-    <h1 id="titulo">Família Fernandes Oliveira 2024</h1>
+    <h1 id="titulo">Família</h1>
     <h2>Árvore Genealógica</h2>
     <h3>Dezembro de 2024</h3>
     <button onclick="openOverlay()" title="Visão em organograma" alt="Visão em organograma">
@@ -403,6 +418,7 @@
         });
     }
 
+    var bgUrls = [null];
     document.addEventListener('DOMContentLoaded', () => {
       const confirmOverlay = document.getElementById('confirmOverlay');
       const audioContainer = document.getElementById('audioContainer');
@@ -411,10 +427,9 @@
       const confirmNo = document.getElementById('confirmNo');
       const id = document.getElementById('titulo');
 
-      // Ação para o botão "Sim"
       confirmYes.addEventListener('click', () => {
-        confirmOverlay.style.display = 'none'; // Esconde o overlay
-        audioContainer.style.display = 'flex'; // Exibe o player de áudio
+        confirmOverlay.style.display = 'none';
+        audioContainer.style.display = 'flex';
         id.style['margin-top'] = '100px';
         audioElement.volume = 0.5;
         audioElement.play().catch(error => {
@@ -422,14 +437,12 @@
         });
       });
 
-      // Ação para o botão "Não"
       confirmNo.addEventListener('click', () => {
-        confirmOverlay.style.display = 'none'; // Esconde o overlay
-        audioContainer.style.display = 'none'; // Mantém o player escondido
+        confirmOverlay.style.display = 'none';
+        audioContainer.style.display = 'none';
       });
     });
 
-    const bgUrls = [null, 'img/fundo1.jpg', 'img/fundo2.jpg', 'img/fundo3.jpg', 'img/fundo4.jpg', 'img/fundo7.jpg', 'img/fundo8.jpg', 'img/fundo5.jpg', 'img/fundo6.jpg', ];
     let currentBgIndex = 0;
 
     const bgOriginal = {};
@@ -494,7 +507,7 @@
           case 'ArrowRight':
           case 'ArrowUp':
           case 'Enter':
-          case ' ': // Spacebar
+          case ' ':
             navigateImage(1);
             break;
           case 'ArrowLeft':
@@ -520,17 +533,23 @@
       });
 
       let nodeContent = `
-          <div class="node ${nodeClass} ${typeClass} ${genderClass}">
-              ${photoUrl ? `<img src="${photoUrl}" alt="${item.nome}" onclick="openModal(${index})">` : ''}
-              <div>
-                  <small><i>${item.tipo}<i><br></small>
-                  <strong>${item.nome}</strong><br>
-                  <small>${item.dataNascimento || '-'}</small>
-              </div>
-          </div>
-      `;
+        <div class="node ${nodeClass} ${typeClass} ${genderClass}">
+            ${photoUrl ? `<img src="${photoUrl}" alt="${item.nome}" onclick="openModal(${index})">` : ''}
+            <div>
+                <small><i>${item.tipo}<i><br></small>
+                <strong>${item.nome}</strong><br>
+                <small>${item.dataNascimento || '-'}</small>
+                ${item?.stats?.filhos || item?.stats?.filhas ? `<small class="toggle-stats" onclick="toggleStats(this)">⧾ Estatísticas</small>` : ''}
+                <small class="stats">
+                ${item?.stats?.filhos || item?.stats?.filhas ? `<div><b>Filhos:</b> <i>${item.stats.filhos + item.stats.filhas}</i></div>` : ''}
+                ${item?.stats?.netos || item.stats.netas ? `<div><b>Netos:</b> <i>${item.stats.netos + item.stats.netas}</i></div>` : ''}
+                ${item?.stats?.bisnetos || item.stats.bisnetas ? `<div><b>Bisnetos:</b> <i>${item.stats.bisnetos + item.stats.bisnetas}</i></div>` : ''}
+                </small>
+            </div>
+        </div>
+        `;
 
-      if (item.par) {
+      if (item?.par?.ativo) {
         const nodeClassPar = item.par.completo ? '' : 'incomplete';
         const typeClassPar = item.par.tipo === 'EX-COMPANHEIRO(A)' ? 'ex-companion' : (['FILHO', 'FILHA', 'NETO', 'NETA', 'BISNETO', 'BISNETA'].includes(item.par.tipo) ? 'da-familia' : '');
         const genderClassPar = item.par.sexo === 'M' ? 'male' : item.par.sexo === 'F' ? 'female' : '';
@@ -550,6 +569,12 @@
                   <small><i>${item.par.tipo}<i><br></small>
                   <strong>${item.par.nome}</strong><br>
                   <small>${item.par.dataNascimento || '-'}</small>
+                  ${item?.par?.stats?.filhos || item?.par?.stats?.filhas ? `<small class="toggle-stats" onclick="toggleStats(this)">⧾ Estatísticas</small>` : ''}
+                  <small class="stats">
+                  ${item?.par?.stats?.filhos || item?.par?.stats?.filhas ? `<div><b>Filhos:</b> <i>${item.par.stats.filhos + item.par.stats.filhas}</i></div>` : ''}
+                  ${item?.par?.stats?.netos || item.par?.stats.netas ? `<div><b>Netos:</b> <i>${item.par.stats.netos + item.par.stats.netas}</i></div>` : ''}
+                  ${item?.par?.stats?.bisnetos || item.par?.stats.bisnetas ? `<div><b>Bisnetos:</b> <i>${item.par.stats.bisnetos + item.par.stats.bisnetas}</i></div>` : ''}
+                  </small>
               </div>
           </div>
       `;
@@ -572,6 +597,16 @@
       return li;
     }
 
+    function toggleStats(element) {
+        const node = element.closest('.node');
+        node.classList.toggle('expanded');
+
+        if (node.classList.contains('expanded')) {
+            element.textContent = '⧿ Estatísticas';
+        } else {
+            element.textContent = '⧾ Estatísticas';
+        }
+    }
 
     function buildTree(data) {
       const treeContainer = document.getElementById('genealogyTree');
@@ -584,11 +619,66 @@
         if (!response.ok) {
           throw new Error(`Erro ao carregar o arquivo: ${response.status}`);
         }
+
         const data = await response.json();
-        buildTree(data);
+        bgUrls = data?.imagensFundo || [null];
+        document.title = data.titulo;
+        document.getElementById('titulo').innerHTML = data.titulo;
+        data.patriarca = enriquecerComStats(data.patriarca);
+        buildTree(data.patriarca);
       } catch (error) {
         console.error('Erro ao carregar os dados da família:', error);
       }
+    }
+
+    function enriquecerComStats(patriarca) {
+      function contarDependentes(pessoa, dependentes, nivel = 1) {
+        let stats = { geracao: nivel, filhos: 0, filhas: 0, netos: 0, netas: 0, bisnetos: 0, bisnetas: 0 };
+
+        if (dependentes && dependentes.length > 0) {
+          dependentes.forEach(dependente => {
+            if (dependente.ativo && (
+              ((['PATRIARCA', 'FILHO', 'FILHA'].includes(pessoa.tipo) || dependente.doComp) && ['FILHO', 'FILHA'].includes(dependente.tipo))
+              || (['MATRIARCA', 'GENRO', 'NORA'].includes(pessoa.tipo) && ['ENTEADO', 'ENTEADA'].includes(dependente.tipo))
+              )) {
+              if (dependente.sexo === 'M') {
+                if (nivel === 1) stats.filhos++;
+                if (nivel === 2) stats.netos++;
+                if (nivel === 3) stats.bisnetos++;
+              } else if (dependente.sexo === 'F') {
+                if (nivel === 1) stats.filhas++;
+                if (nivel === 2) stats.netas++;
+                if (nivel === 3) stats.bisnetas++;
+              }
+            }
+            const dependenteStats = contarDependentes(dependente, dependente.dependentes, nivel + 1);
+            for (const key in stats) {
+              stats[key] += dependenteStats[key];
+            }
+          });
+        }
+
+        return stats;
+      }
+
+      function processarPessoa(pessoa) {
+        if (!pessoa?.ativo) return;
+
+        pessoa.stats = contarDependentes(pessoa, pessoa.dependentes);
+
+        if (pessoa.par) {
+            pessoa.par.stats = contarDependentes(pessoa.par, pessoa.dependentes);
+        }
+        
+        if (pessoa.dependentes) {
+          pessoa.dependentes.forEach(dependente => {
+            processarPessoa(dependente);
+          });
+        }
+      }
+
+      processarPessoa(patriarca);
+      return patriarca;
     }
 
     function startDraw() {
@@ -612,8 +702,8 @@
 
       setTimeout(() => {
         clearInterval(interval);
-        currentImageIndex = drawIndex; // Atualizar o índice atual
-      }, 3000); // Duração da roleta (3 segundos)
+        currentImageIndex = drawIndex;
+      }, 3000);
     }
 
 

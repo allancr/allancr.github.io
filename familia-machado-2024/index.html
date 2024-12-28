@@ -50,17 +50,17 @@
 
     .tree-container > ul > li > ul > li:not(:only-child, :first-child)
     , div.tree-container > ul > li {
-      background-color: #db862e33;
+/*      background-color: #db862e50;*/
       border-radius: 5px;
-      padding: 15px;
+      padding: 0 15px;
     }
 
     div.tree-container > ul > li > ul > li:not(:only-child, :first-child):nth-child(odd) {
-      background-color: #ff000021;
+/*      background-color: #ff000050;*/
     }
 
     div.tree-container > ul > li {
-      background-color: #3988ff26;
+/*      background-color: #3988ff50;*/
     }
 
     ul.tree {
@@ -72,7 +72,7 @@
     }
 
     ul.tree li {
-      margin: 0 0 10px 30px;
+      margin: 0 0 0 30px;
       position: relative;
     }
 
@@ -535,7 +535,7 @@
         <div class="node ${nodeClass} ${typeClass} ${genderClass}">
             ${photoUrl ? `<img src="${photoUrl}" alt="${item.nome}" onclick="openModal(${index})">` : ''}
             <div>
-                <small><i>${item.tipo}<i><br></small>
+                <small><i>${item.tipo || item.titulo}<i><br></small>
                 <strong>${item.nome}</strong><br>
                 <small>${item.dataNascimento || '-'}</small>
                 ${item?.stats?.filhos || item?.stats?.filhas ? `<small class="toggle-stats" onclick="toggleStats(this)">⧾ Estatísticas</small>` : ''}
@@ -565,7 +565,7 @@
           <div class="node ${nodeClassPar} ${typeClassPar} ${genderClassPar}">
               ${photoUrlPar ? `<img src="${photoUrlPar}" alt="${item.par.nome}" onclick="openModal(${index+1})">` : ''}
               <div>
-                  <small><i>${item.par.tipo}<i><br></small>
+                  <small><i>${item.par.tipo || item.par.titulo}<i><br></small>
                   <strong>${item.par.nome}</strong><br>
                   <small>${item.par.dataNascimento || '-'}</small>
                   ${item?.par?.stats?.filhos || item?.par?.stats?.filhas ? `<small class="toggle-stats" onclick="toggleStats(this)">⧾ Estatísticas</small>` : ''}
@@ -635,7 +635,7 @@
 
     function enriquecerComStats(patriarca) {
       function contarDependentes(pessoa, dependentes, nivel = 1) {
-        let stats = { geracao: nivel, filhos: 0, filhas: 0, netos: 0, netas: 0, bisnetos: 0, bisnetas: 0 };
+        let stats = { filhos: 0, filhas: 0, netos: 0, netas: 0, bisnetos: 0, bisnetas: 0 };
 
         if (dependentes && dependentes.length > 0) {
           dependentes.forEach(dependente => {
@@ -669,16 +669,19 @@
         pessoa.stats = contarDependentes(pessoa, pessoa.dependentes);
 
         if (pessoa.par) {
-            pessoa.par.stats = contarDependentes(pessoa.par, pessoa.dependentes);
+          pessoa.par.geracao = pessoa.geracao;
+          pessoa.par.stats = contarDependentes(pessoa.par, pessoa.dependentes);
         }
         
         if (pessoa.dependentes) {
           pessoa.dependentes.forEach(dependente => {
+            dependente.geracao = pessoa.geracao + 1;
             processarPessoa(dependente);
           });
         }
       }
 
+      patriarca.geracao = 1;
       processarPessoa(patriarca);
       return patriarca;
     }
@@ -714,7 +717,6 @@
         currentImageIndex = drawIndex;
       }, drawDuration);
     }
-
 
     loadFamilyData();
 

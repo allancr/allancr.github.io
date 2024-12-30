@@ -475,7 +475,7 @@
       modalDate.textContent = imageData[index]?.dataNascimento
         ? `Nascimento: ${imageData[index].dataNascimento}`
         : 'Data não disponível';
-      modalTipo.textContent = imageData[index]?.tipo || 'Relação não disponível';
+      modalTipo.textContent = imageData[index]?.titulo || 'Relação não disponível';
 
       modal.style.display = 'flex';
     }
@@ -528,14 +528,15 @@
       imageData.push({
         nome: item.nome,
         dataNascimento: item.dataNascimento,
-        tipo: item.tipo
+        tipo: item.tipo,
+        titulo: item.titulo
       });
 
       let nodeContent = `
         <div class="node ${nodeClass} ${typeClass} ${genderClass}">
             ${photoUrl ? `<img src="${photoUrl}" alt="${item.nome}" onclick="openModal(${index})">` : ''}
             <div>
-                <small><i>${item.tipo || item.titulo}<i><br></small>
+                <small><i>${item.titulo}<i><br></small>
                 <strong>${item.nome}</strong><br>
                 <small>${item.dataNascimento || '-'}</small>
                 ${item?.stats?.filhos || item?.stats?.filhas ? `<small class="toggle-stats" onclick="toggleStats(this)">⧾ Estatísticas</small>` : ''}
@@ -558,14 +559,15 @@
         imageData.push({
           nome: item.par.nome,
           dataNascimento: item.par.dataNascimento,
-          tipo: item.par.tipo
+          tipo: item.par.tipo,
+          titulo: item.par.titulo
         });
 
         nodeContent +=`
           <div class="node ${nodeClassPar} ${typeClassPar} ${genderClassPar}">
               ${photoUrlPar ? `<img src="${photoUrlPar}" alt="${item.par.nome}" onclick="openModal(${index+1})">` : ''}
               <div>
-                  <small><i>${item.par.tipo || item.par.titulo}<i><br></small>
+                  <small><i>${item.par.titulo}<i><br></small>
                   <strong>${item.par.nome}</strong><br>
                   <small>${item.par.dataNascimento || '-'}</small>
                   ${item?.par?.stats?.filhos || item?.par?.stats?.filhas ? `<small class="toggle-stats" onclick="toggleStats(this)">⧾ Estatísticas</small>` : ''}
@@ -627,6 +629,7 @@
         if (data.comGaleria) document.getElementById('lnkGaleria').style.display = 'inline';
 
         data.patriarca = enriquecerComStats(data.patriarca);
+        setTimeout(() => {});
         buildTree(data.patriarca);
       } catch (error) {
         console.error('Erro ao carregar os dados da família:', error);
@@ -666,10 +669,13 @@
       function processarPessoa(pessoa) {
         if (!pessoa?.ativo) return;
 
+        configurarTitulo(pessoa);
+
         pessoa.stats = contarDependentes(pessoa, pessoa.dependentes);
 
         if (pessoa.par) {
           pessoa.par.geracao = pessoa.geracao;
+          configurarTitulo(pessoa.par);
           pessoa.par.stats = contarDependentes(pessoa.par, pessoa.dependentes);
         }
         
@@ -679,6 +685,24 @@
             processarPessoa(dependente);
           });
         }
+      }
+
+      function configurarTitulo(pessoa) {
+        switch (pessoa.geracao) {
+          case 3:
+            pessoa.titulo = ['NORA', 'GENRO', 'ENTEADO', 'ENTEADA'].includes(pessoa.tipo) ? `${pessoa.tipo}-NET` : 'NET';
+            break;
+          case 4:
+            pessoa.titulo = ['NORA', 'GENRO', 'ENTEADO', 'ENTEADA'].includes(pessoa.tipo) ? `${pessoa.tipo}-BISNET` : 'BISNET';
+            break;
+          case 5:
+            pessoa.titulo = ['NORA', 'GENRO', 'ENTEADO', 'ENTEADA'].includes(pessoa.tipo) ? `${pessoa.tipo}-TATARANET` : 'TATARANET';
+            break;
+          default:
+            
+            break;
+        }
+        pessoa.titulo = pessoa.titulo && pessoa.titulo + (pessoa.sexo === 'F' ? 'A' : 'O')  || pessoa.tipo;
       }
 
       patriarca.geracao = 1;
@@ -708,7 +732,7 @@
         modalDate.textContent = imageData[drawIndex]?.dataNascimento
           ? `Nascimento: ${imageData[drawIndex].dataNascimento}`
           : 'Data não disponível';
-        modalTipo.textContent = imageData[drawIndex]?.tipo || 'Relação não disponível';
+        modalTipo.textContent = imageData[drawIndex]?.titulo || 'Relação não disponível';
       }, drawInterval);
 
       setTimeout(() => {

@@ -1,7 +1,7 @@
 {
   "titulo": "Família Machado 2024"
   , "imagensFundo": [null, "img/fundo1.jpg", "img/fundo2.jpg", "img/fundo3.jpg", "img/fundo4.jpg", "img/fundo5.jpg", "img/fundo6.jpg"]
-  , "comGaleria": false
+  , "linkGaleria": "https://photos.app.goo.gl/Eb7uPBti1SNYsyZq6"
   , "patriarca": {"completo": true, "ativo": true, "sexo": "M", "tipo": "PATRIARCA", "nome": "Jovando Vieira Machado", "dataNascimento": "06/08/1930", "urlFotoLocal": "img/Jovando_Vieira_Machado_-_25-07-1930.png", 
     "par": {"completo": true, "ativo": true, "sexo": "F", "tipo": "MATRIARCA", "nome": "Teresinha Abadia Pereira Machado", "dataNascimento": "07/11/1938", "urlFotoLocal": "img/Terezinha_Abadia_Pereira_Machado_-_07-11-1938.png"}, "dependentes": [
     {"completo": true, "ativo": true, "sexo": "F", "tipo": "FILHA", "nome": "Maria Claret Machado e Silva", "dataNascimento": "06/11/1957", "urlFotoLocal": "img/Maria_Claret_Machado_e_Silva_-_06-11-1957.jpeg", "doComp": true, 
